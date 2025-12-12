@@ -83,8 +83,8 @@ python main.py
 ```
 
 Additional commands:
-- Skip scraping: `make skip_scrape` or `python main.py --skip-scraping`
-- Skip data push: `make skip_push` or `python main.py --skip-push`
+- Skip scraping: `make process_only` or `python main.py --skip-scraping`
+- Skip data push: `make scrape_only` or `python main.py --skip-push`
 - Run cleanup: `make cleanup` or `python cleanup.py`
 
 ## Project Structure

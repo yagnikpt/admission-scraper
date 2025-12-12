@@ -38,8 +38,11 @@ def extract_with_gemini(content, url):
     """
     prompt = f"Text Chunk:\n{content}\nSource URL: {url}"
 
+    if (not programs) or (not tags):
+        raise Exception("Programs or Tags not loaded from DB.")
+
     response = client.models.generate_content(
-        model="gemini-2.0-flash",
+        model="gemini-2.5-flash",
         contents=prompt,
         config={
             "system_instruction": base_prompt,
@@ -125,7 +128,9 @@ def extract_with_gemini(content, url):
         },
     )
 
-    response_text = response.candidates[0].content.parts[0].text
+    response_text = response.text
+    if response_text is None:
+        return {}
     result_json = json.loads(response_text)
     if "announcements" in result_json:
         for announcement in result_json["announcements"]:

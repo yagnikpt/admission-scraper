@@ -51,7 +51,7 @@ def main(cleanup, skip_scraping, skip_push):
             )
 
             for i, row in enumerate(result):
-                print("Processing group", i + 1, "of", len(result))
+                print("\nProcessing group", i + 1, "of", len(result))
                 if row["url"] in scraped_urls:
                     print(f"Skipping {row['url']}")
                     continue
@@ -66,7 +66,7 @@ def main(cleanup, skip_scraping, skip_push):
                 if not content_changed(row["url"], merged_content):
                     print(f"Skipping unchanged content for {row['url']}")
                     continue
-                process_page(row["url"], row["site"], row["items"])
+                process_page(row["url"], row["items"][0]["site"], row["items"])
                 print(f"Processed group {i + 1} - {row['url']}")
         except Exception as e:
             print(f"Error processing group: {e}")

@@ -1,5 +1,4 @@
 from sqlalchemy.orm import Session
-from sqlalchemy import insert
 from llm.gemini import extract_with_gemini
 from db.session import get_db
 from db.data import (
@@ -119,15 +118,14 @@ def process_page(url: str, site: str, items: list[dict[str, str]]):
                     )
                 )
             else:
-                scraped_info = db.scalar(
-                    insert(ScrapedPage).returning(ScrapedPage),
-                    ScrapedPage(
-                        url=url,
-                        site=site,
-                        last_scraped=datetime.now(ZoneInfo("Asia/Kolkata")),
-                        content_hash=content_hash,
-                    ),
+                scraped_info = ScrapedPage(
+                    url=url,
+                    site=site,
+                    last_scraped=datetime.now(ZoneInfo("Asia/Kolkata")),
+                    content_hash=content_hash,
                 )
+                db.add(scraped_info)
+                db.flush()
 
             if scraped_info:
                 anns = db.query(Announcement).filter(Announcement.url == url).all()

@@ -12,10 +12,10 @@ start:
 cleanup:
 	$(PYTHON) cleanup.py
 
-skip_scrape:
+process_only:
 	$(PYTHON) main.py --skip-scraping
 
-skip_push:
+scrape_only:
 	$(PYTHON) main.py --skip-push
 
 clean:
@@ -26,6 +26,6 @@ help:
 	@echo "  install   - install project dependencies"
 	@echo "  start     - start the main application"
 	@echo "  cleanup   - run data cleanup tasks"
-	@echo "  skip_scrape - run main application skipping scraping step"
-	@echo "  skip_push - run main application skipping data pushing step"
+	@echo "  process_only - run main application skipping scraping step"
+	@echo "  scrape_only - run main application skipping data pushing step"
 	@echo "  clean     - remove temporary files and caches"
