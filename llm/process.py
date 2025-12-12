@@ -1,5 +1,7 @@
+from sqlalchemy.orm import Session
+from sqlalchemy import insert
 from llm.gemini import extract_with_gemini
-from db.session import get_db, SessionLocal
+from db.session import get_db
 from db.data import (
     get_institute_from_website,
     get_all_tags,
@@ -117,14 +119,21 @@ def process_page(url: str, site: str, items: list[dict[str, str]]):
                     )
                 )
             else:
-                db.add(
+                scraped_info = db.scalar(
+                    insert(ScrapedPage).returning(ScrapedPage),
                     ScrapedPage(
                         url=url,
                         site=site,
                         last_scraped=datetime.now(ZoneInfo("Asia/Kolkata")),
                         content_hash=content_hash,
-                    )
+                    ),
                 )
+
+            if scraped_info:
+                anns = db.query(Announcement).filter(Announcement.url == url).all()
+                for ann in anns:
+                    ann.scraped_page_id = scraped_info.scraped_page_id
+
             db.commit()
         except Exception as e:
             db.rollback()
@@ -150,7 +159,7 @@ def process_single_item(url: str, site: str, item: dict[str, str]):
     while retry_count < retry_limit:
         db = get_fresh_db_session()
         try:
-            extract_and_store_data(db, url, item, site)
+            extract_and_store_data(db, url, item)
             return  # Success, exit the retry loop
         except OperationalError as e:
             logger.error(f"Database connection error: {e}")
@@ -191,7 +200,7 @@ def process_single_item(url: str, site: str, item: dict[str, str]):
     logger.error(f"Retry limit reached for {url}. Skipping...")
 
 
-def extract_and_store_data(db, url: str, item: dict[str, str], site: str):
+def extract_and_store_data(db: Session, url: str, item: dict[str, str]):
     extracted_data = extract_with_gemini(item["context"], url)
     if "announcements" in extracted_data:
         for announcement in extracted_data["announcements"]:

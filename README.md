@@ -56,11 +56,15 @@ The data scraping and processing follow these steps:
 ### Installation
 1. Clone the repository
 ```bash
-git clone https://github.com/yagnik-patel-47/sgh-backend.git
-cd admission_scraper
+git clone https://github.com/yagnik-patel-47/admission-scraper.git
+cd admission-scraper
 ```
 
-2. Install dependencies
+2. Install dependencies using uv (recommended)
+```bash
+uv sync
+```
+Or using pip:
 ```bash
 pip install -r requirements.txt
 ```
@@ -71,12 +75,17 @@ pip install -r requirements.txt
 
 Execute the main script to run the entire pipeline (spiders and processing):
 ```bash
+make start
+```
+Or directly:
+```bash
 python main.py
 ```
-This command will:
-- Run the `UniSpider`, outputting to `uni.jsonl`.
-- Run the `PagesSpider`, outputting to `pages.jsonl`.
-- Process the `pages.jsonl` file, check for changes, call the LLM for new/updated content, and update the database.
+
+Additional commands:
+- Skip scraping: `make skip_scrape` or `python main.py --skip-scraping`
+- Skip data push: `make skip_push` or `python main.py --skip-push`
+- Run cleanup: `make cleanup` or `python cleanup.py`
 
 ## Project Structure
 ```
@@ -98,6 +107,7 @@ admission_scraper/
 │   ├── process.py      # Core logic for processing scraped text with LLM and saving to DB
 │   └── utils.py        # Utility functions for LLM processing
 ├── pages.jsonl         # Default output file for raw scraped data from PagesSpider
+├── cleanup.py          # Script for data cleanup
 ├── requirements.txt    # Project dependencies
 ├── scrapy.cfg          # Scrapy configuration file
 └── README.md           # This documentation

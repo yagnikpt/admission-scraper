@@ -1,11 +1,13 @@
-from sqlalchemy import create_engine
-from sqlalchemy.orm import sessionmaker
-from dotenv import load_dotenv
 import os
+from typing import Generator
+
+from dotenv import load_dotenv
+from sqlalchemy import create_engine
+from sqlalchemy.orm import sessionmaker, Session
 
 load_dotenv()
 
-DATABASE_URL = os.getenv("DB_URL_PROD")
+DATABASE_URL = os.getenv("DB_URL")
 if not DATABASE_URL:
     raise ValueError("Database URL not found in environment variables.")
 
@@ -24,7 +26,7 @@ engine = create_engine(
 SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
 
 
-def get_db():
+def get_db() -> Generator[Session]:
     db = SessionLocal()
     try:
         yield db

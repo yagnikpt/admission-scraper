@@ -3,6 +3,8 @@ import re
 from difflib import SequenceMatcher
 from datetime import datetime
 from zoneinfo import ZoneInfo
+from dateutil import parser
+from dateutil.relativedelta import relativedelta
 
 
 def similarity(a, b):
@@ -156,7 +158,29 @@ def extract_context(
         }
         final_results.append(primary_entry)
 
-    return final_results
+    # Filter results based on date recency (keep only if not older than 1 month)
+    current_time = datetime.now(ZoneInfo("Asia/Kolkata"))
+    cutoff_date = current_time - relativedelta(months=1)
+    recent_results = []
+
+    for result in final_results:
+        try:
+            # Parse the date string
+            # Using dayfirst=True as it's common in the target region
+            parsed_date = parser.parse(result["match"], dayfirst=True, fuzzy=True)
+
+            # Make timezone aware if it's naive
+            if parsed_date.tzinfo is None:
+                parsed_date = parsed_date.replace(tzinfo=ZoneInfo("Asia/Kolkata"))
+
+            # Keep if the date is not older than 1 month (i.e., >= cutoff)
+            if parsed_date >= cutoff_date:
+                recent_results.append(result)
+        except (ValueError, TypeError, OverflowError):
+            # If parsing fails, keep the result to be safe
+            recent_results.append(result)
+
+    return recent_results
 
 
 def clean_body_content(body_content):
