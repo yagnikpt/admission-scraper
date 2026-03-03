@@ -72,7 +72,7 @@ DOWNLOAD_TIMEOUT = 15
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
-    # "admission_scraper.pipelines.SpiderSpecificOutputPipeline": 800,
+    "admission_scraper.pipelines.SpiderSpecificOutputPipeline": 800,
     # "admission_scraper.pipelines.DebugOutputPipeline": 400,
 }
 

@@ -1,21 +1,23 @@
-from sqlalchemy.orm import Session
-from llm.gemini import extract_with_gemini
-from db.session import get_db
-from db.data import (
-    get_institute_from_website,
-    get_all_tags,
-    get_all_programs,
-    get_all_scraped_pages,
-)
-from db.models import Announcement, AnnouncementProgram, ScrapedPage, AnnouncementTags
 import hashlib
+import logging
+import time
 from datetime import datetime
 from zoneinfo import ZoneInfo
-from sqlalchemy import update
-import time
+
 from google.genai.errors import APIError
-from sqlalchemy.exc import OperationalError, IntegrityError
-import logging
+from sqlalchemy import update
+from sqlalchemy.exc import IntegrityError, OperationalError
+from sqlalchemy.orm import Session
+
+from db.data import (
+    get_all_programs,
+    get_all_scraped_pages,
+    get_all_tags,
+    get_institute_from_website,
+)
+from db.models import Announcement, AnnouncementProgram, AnnouncementTags, ScrapedPage
+from db.session import get_db
+from llm import get_llm
 
 logging.basicConfig(
     level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s"
@@ -176,8 +178,11 @@ def process_single_item(url: str, site: str, item: dict[str, str]):
         except APIError as e:
             if e.code == 429:
                 retry_delay = 60
-                if hasattr(e.details, "retryDelay"):
-                    retry_delay = e.details.retryDelay
+                if e.details["error"]["details"][2]["retryDelay"]:
+                    retry_delay = (
+                        int(e.details["error"]["details"][2]["retryDelay"].rstrip("s"))
+                        + 1
+                    )
                 elif isinstance(e.details, dict) and "retryDelay" in e.details:
                     retry_delay = e.details["retryDelay"]
                 logger.info(
@@ -199,55 +204,55 @@ def process_single_item(url: str, site: str, item: dict[str, str]):
 
 
 def extract_and_store_data(db: Session, url: str, item: dict[str, str]):
-    extracted_data = extract_with_gemini(item["context"], url)
-    if "announcements" in extracted_data:
-        for announcement in extracted_data["announcements"]:
-            institute = get_institute_from_website(db, item["site"])
-            if institute:
-                programs = announcement.get("programs_courses", [])
-                tags = announcement.get("tags", [])
+    llm = get_llm()
+    extracted_data = llm.extract_announcements(item["context"], url)
+    for announcement in extracted_data.announcements:
+        institute = get_institute_from_website(db, item["site"])
+        if institute:
+            programs = announcement.programs_courses
+            tags = announcement.tags
 
-                announcement_data = {
-                    key: value
-                    for key, value in announcement.items()
-                    if key != "programs_courses" and key != "tags"
-                }
-                ann = Announcement(
-                    institution_id=institute.institution_id,
-                    state_id=institute.state_id,
-                    url=url,
-                    **announcement_data,
+            announcement_data = {
+                key: value
+                for key, value in announcement.model_dump().items()
+                if key != "programs_courses" and key != "tags"
+            }
+            ann = Announcement(
+                institution_id=institute.institution_id,
+                state_id=institute.state_id,
+                url=url,
+                **announcement_data,
+            )
+            db.add(ann)
+            db.flush()
+            announcement_id = ann.announcement_id
+
+            for program in programs:
+                program_instance = next(
+                    (x for x in db_programs if x.name == program), None
                 )
-                db.add(ann)
-                db.flush()
-                announcement_id = ann.announcement_id
-
-                for program in programs:
-                    program_instance = next(
-                        (x for x in db_programs if x.name == program), None
+                if program_instance:
+                    announcement_program = AnnouncementProgram(
+                        announcement_id=announcement_id,
+                        program_id=program_instance.program_id,
                     )
-                    if program_instance:
-                        announcement_program = AnnouncementProgram(
-                            announcement_id=announcement_id,
-                            program_id=program_instance.program_id,
-                        )
-                        db.add(announcement_program)
+                    db.add(announcement_program)
 
-                for tag in tags:
-                    tag_instance = next((x for x in db_tags if x.name == tag), None)
-                    if tag_instance:
-                        try:
-                            announcement_tags = AnnouncementTags(
-                                announcement_id=announcement_id,
-                                tag_id=tag_instance.tag_id,
-                            )
-                            db.add(announcement_tags)
-                        except IntegrityError:
-                            # Log and skip duplicate tags instead of failing
-                            db.rollback()
-                            logger.warning(
-                                f"Duplicate tag {tag} for announcement {announcement_id}"
-                            )
-                db.commit()
-            else:
-                logger.warning(f"No matching institute found for URL: {item['site']}")
+            for tag in tags:
+                tag_instance = next((x for x in db_tags if x.name == tag), None)
+                if tag_instance:
+                    try:
+                        announcement_tags = AnnouncementTags(
+                            announcement_id=announcement_id,
+                            tag_id=tag_instance.tag_id,
+                        )
+                        db.add(announcement_tags)
+                    except IntegrityError:
+                        # Log and skip duplicate tags instead of failing
+                        db.rollback()
+                        logger.warning(
+                            f"Duplicate tag {tag} for announcement {announcement_id}"
+                        )
+            db.commit()
+        else:
+            logger.warning(f"No matching institute found for URL: {item['site']}")

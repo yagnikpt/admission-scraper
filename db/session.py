@@ -1,13 +1,10 @@
-import os
 from typing import Generator
 
-from dotenv import load_dotenv
+from config import settings
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker, Session
 
-load_dotenv()
-
-DATABASE_URL = os.getenv("DB_URL")
+DATABASE_URL = settings.database_url
 if not DATABASE_URL:
     raise ValueError("Database URL not found in environment variables.")
 
