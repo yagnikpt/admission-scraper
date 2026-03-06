@@ -20,9 +20,11 @@ ResponseModel = make_announcement_model(programs, tags)
 class GeminiExtractor(BaseLLM[ResponseModel]):
     response_model = ResponseModel
 
-    def __init__(self, model: str = "gemini-2.5-flash"):
+    def __init__(self, model: str = "gemini-3-flash-preview"):
         self.client = genai.Client(
-            api_key=settings.gemini_api_key,
+            project=settings.google_cloud_project,
+            location=settings.google_cloud_location,
+            vertexai=True,
         )
         self.model = model
 
@@ -73,10 +75,14 @@ class GeminiExtractor(BaseLLM[ResponseModel]):
 
 if __name__ == "__main__":
     extractor = GeminiExtractor()
-    test_content = "Menu Admission - MBA Admission – MBA MBA Admission Process 2026 The list of shortlisted candidates for interview is available here ( ). Last date of uploading the documents is 23:59 PM on 28 February 2026. The call letters for personal interviews will be sent to the shortlisted candidates by email. Shortlisting Criteria for MBA & MBA (Telecom) 2026-2028 is available here ( ) The last date for submission of the application form for MBA and MBA (Telecom) (Batch 2026–2028) has been extended to 1 February 2026, up to 23:59 hrs. The last date for MBA and MBA (Telecom) Admission for Batch 2026-2028 is 26th January 2026 Eligibility The candidates having the following qualifications are eligible to apply for admission to the MBA programme Masters in Business Administration (MBA) A Bachelor’s Degree or equivalent awarded by"
-    test_url = "https://dms.iitd.ac.in/admission-mba"
-    res = extractor.extract_announcements(
-        test_content,
-        test_url,
-    )
-    print(res.model_dump_json())
+
+    for model in extractor.client.models.list():
+        print(model)
+
+    # test_content = "Menu Admission - MBA Admission – MBA MBA Admission Process 2026 The list of shortlisted candidates for interview is available here ( ). Last date of uploading the documents is 23:59 PM on 28 February 2026. The call letters for personal interviews will be sent to the shortlisted candidates by email. Shortlisting Criteria for MBA & MBA (Telecom) 2026-2028 is available here ( ) The last date for submission of the application form for MBA and MBA (Telecom) (Batch 2026–2028) has been extended to 1 February 2026, up to 23:59 hrs. The last date for MBA and MBA (Telecom) Admission for Batch 2026-2028 is 26th January 2026 Eligibility The candidates having the following qualifications are eligible to apply for admission to the MBA programme Masters in Business Administration (MBA) A Bachelor’s Degree or equivalent awarded by"
+    # test_url = "https://dms.iitd.ac.in/admission-mba"
+    # res = extractor.extract_announcements(
+    #     test_content,
+    #     test_url,
+    # )
+    # print(res.model_dump_json())

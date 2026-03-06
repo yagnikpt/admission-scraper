@@ -6,10 +6,11 @@ class Settings(BaseSettings):
 
     debug: bool = False
 
-    llm_provider: str = "groq"
+    llm_provider: str = "gemini"
 
     database_url: str = ""
-    gemini_api_key: str = ""
+    google_cloud_project: str = ""
+    google_cloud_location: str = ""
     groq_api_key: str = ""
 
 
