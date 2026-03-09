@@ -1,6 +1,6 @@
 import pandas as pd
 
-df = pd.read_csv("data\\iits.csv")
+df = pd.read_csv("./data/deemed_to_be.csv")
 df["url"] = df["url"].apply(
     lambda x: (
         "https://" + str(x).strip()
@@ -17,6 +17,6 @@ df["state"] = df[
 ].str.strip()  # Remove leading and trailing spaces from state names
 # Remove duplicate URLs
 df = df.drop_duplicates(subset=["url"], keep="first")
-df.to_csv("data\\iits.csv", index=False)
+df.to_csv("./data/deemed_to_be.csv", index=False)
 
 print("URLs updated.")

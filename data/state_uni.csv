@@ -1,0 +1,485 @@
+type,name_of_the_university,address,zip,state,status,url
+State,"Kaushalya"""" the Skill University","Mahatma Gandhi Labour Institute (MGLI), Drive-in Road, Memnagar, Ahmedabad",380052,Gujarat,2(f),https://kaushalyaskilluniversity.ac.in
+State,A.P.J. Abdul Kalam Technological University,"CET Campus, Alathara RdAmbady Nagar,Thiruvananthapuram",695016,Kerala,2(f),https://ktu.edu.in
+State,Acharaya N.G.Ranga Agricultural University,"Amaravathi Road,Lam, Guntur",522034,Andhra Pradesh,2(f),https://angrau.ac.in
+State,Acharya Nagarjuna University,"NH16,Nagarjuna Nagar,Guntur",522510,Andhra Pradesh,2(f) & 12(B),https://nagarjunauniversity.ac.in
+State,Acharya Narendra Deva Krishi Evam Prodyogik Vishwavidyalaya,"Kumarganj, FaizabadAyodhya",224229,Uttar Pradesh,2(f) & 12(B),https://www.nduat.org
+State,Adikavi Nannaya University,"Raja Raja Nagar, Rajamahendravaram,",533296,Andhra Pradesh,2(f) & 12(B),http://www.nannayauniversity.info
+State,Agriculture University,"Mandore, Jodhpur",342304,Rajasthan,2(f),https://www.aujodhpur.ac.in
+State,Agriculture University,"Borkhera, Post Box No. 20, GPO Nayapura, Kota",324001,Rajasthan,2(f),https://aukota.org
+State,Alagappa University,"Vallal Alagappar Valagam, KaraikudiKaraikudiSivaganga District",630003,Tamil Nadu,2(f) & 12(B),https://www.alagappauniversity.ac.in
+State,Aliah University,"IIA/27, New Town, KolkataNew Town, Kolkata",700160,West Bengal,2(f) & 12(B),http://www.aliah.ac.in
+State,Alipurduar University,"P. O. - Alipurduar Court,Dist. - Alipurduar",736122,West Bengal,2(f),https://www.ugc.gov.in/universitydetails/target=%22_blank%22
+State,Anand Agricultural University,"University Bhavan, Anand",388001,Gujarat,2(f),http://www.aau.in
+State,Andhra Kesari University,"Pernamitta, Ongole, Prakasam District",523225,Andhra Pradesh,2(f),http://andhrakesariuniversity.in
+State,Andhra Pradesh Fisheries University,"Vihsal Residency, Padmaja Nagar, Tadigadapa, Vijawada",521134,Andhra Pradesh,2(f),https://apfu.ap.gov.in
+State,Andhra University,"Waltair Junction,Visakhapatnam,",530003,Andhra Pradesh,2(f) & 12(B),https://www.andhrauniversity.edu.in
+State,Anna University,"Sardar Patel Road, Guindy, ChennaiGuindyChennai",600025,Tamil Nadu,2(f) & 12(B),http://www.annauniv.edu
+State,Annamalai University,"Annamalainagar,Cuddalore",608002,Tamil Nadu,2(f) & 12(B),http://www.annamalaiuniversity.ac.in
+State,Aryabhatta Knowledge University,"Chanakya National Law University Campus, Mithapur, Patna",800001,Bihar,2(f),http://akubihar.ac.in
+State,Assam Agricultural University,"Nowchaliah Gaon,Jorhat",785013,Assam,2(f) & 12(B),http://www.aau.ac.in
+State,Assam Rajiv Gandhi University of Co-operative Management,"Basic tiniali, gadaghar nagar,Joysagar, Dicial Dhulia Gaon,Sivasagar, Guwahati",785665,Assam,2(f),https://www.argucom.ac.in
+State,Assam Science & Technology University,"Tetelia Road, jalukbari, Guwahati",781013,Assam,2(f),http://www.astu.org.in
+State,Assam Skill University,"Mangaldoi, Dist. Darrang",784125,Assam,2(f),https://asu.ac.in
+State,Assam Veterinary and Fishery University,"Khanapara, Guwahati,",781022,Assam,2(f),http://www.vetbifg.ac.in
+State,Assam Women's University,"Jamuguri, Rowriah, Jorhat",785004,Assam,2(f),https://awu.ac.in
+State,Atal Bihari Bajpayee Vishwavidyalaya (Formerly Bilaspur Vishwavidyalaya),"In front of Koni Police StationBilaspur- Ratanpur Road, Koni, Bilaspur(CG)",495009,Chhattisgarh,2(f) & 12(B),https://www.bilaspuruniversity.ac.in
+State,Atal Bihari Vajpayee Hindi Vishwavidyalaya,"Mungalia Kot,Rajharsh Colony, Kolar MargBhopal",462038,Madhya Pradesh,2(f),http://www.abvhv.edu.in
+State,Atal Bihari Vajpayee Medical University,"9th Floor, Academic Block, Dr. Ram Manohar Lohia Institute of Medical Sciences, Vibhuti Khand, Lucknow",226210,Uttar Pradesh,2(f),https://abvmuup.edu.in
+State,Atal Medical and Research University(Formerly Himachal Pradesh University of Health Sciences),"SLBS Medical College & Hospital CampusNer Chowk, Distt- Mandi,Mandi",175008,Himachal Pradesh,2(f),https://amruhp.ac.in
+State,Awadesh Pratap Singh University,"Sirmour Road,Ananthpur,Rewa",486003,Madhya Pradesh,2(f) & 12(B),http://www.apsurewa.nic.in
+State,Ayush and Health Sciences University of Chhattisgarh,"Uparwara, Atal Nagar, Sector 40, Nava Raipur C.G.Raipur,",493661,Chhattisgarh,2(f),http://www.cghealthuniv.com
+State,Baba Amte Divyang University,"3rd Floor, Rajiv Gandhi Bhawan, Shiksha Sankul, J.L.N. Marg, Jaipur",303017,Rajasthan,2(f),https://amtedivyanguniversity.ac.in
+State,Baba Farid University of Health Sciences,"Sadiq Road, Faridkot",151203,Punjab,2(f) & 12(B),http://www.bfuhs.ac.in
+State,Baba Ghulam Shah Badshah University,"Baba Ghulam Shah Badshah University, Rajouri, J&K - 185234Road,Chinnai Himmat, Jammu",185234,Jammu and Kashmir,2(f) & 12(B),https://bgsbu.ac.in
+State,Babasaheb Bhimrao Ambedkar Bihar University,"Kalambagh Rd, Musahri, Muzaffarpur",842001,Bihar,2(f) & 12(B),http://www.brabu.net
+State,Bagalkot University,"Mudhol Road, Jamkhandi",587301,Karnataka,2(f),https://www.bgku.ac.in
+State,Banda University of Agriculture & Technology,"Near New Circuit House,Banda",210001,Uttar Pradesh,2(f),http://buat.edu.in
+State,Bangalore University,"Jnana Bharathi, Bangalore",560056,Karnataka,2(f) & 12(B),https://eng.bangaloreuniversity.ac.in
+State,Bankura University,"Main Campus, Bankura Block-II, P.O.-PurandarpurPO Bhagabandh,Dist. Bankura",722155,West Bengal,2(f) & 12(B),https://bankurauniv.ac.in
+State,Barkatullaah University,"Hoshangabad Road, Bhopal",462026,Madhya Pradesh,2(f) & 12(B),http://www.bubhopal.nic.in
+State,Bengaluru City University,"Rukmini Knowledge Park, kattigenahalli, Bengaluru",560064,Karnataka,2(f),https://bcu.ac.in
+State,Bengaluru Dr. B. R. Ambedkar School of Economics University,"JNANABHARTI MAIN ROAD, NAGARABHAVI BENGALURUNagarabhavi P.O, Bengaluru",560072,Karnataka,2(f),https://base.ac.in
+State,Bengaluru North University,"Devaraj Urs Extension, Tamaka Kolar, Karnataka",563103,Karnataka,2(f),https://eng.bnu.ac.in
+State,Berhampur University,"Berhampur, Bhanja Bihar, Dt. Ganjam",760007,Odisha,2(f) & 12(B),https://www.buodisha.edu.in
+State,Bhagat Phool Singh Mahila Vishwavidyalaya,"B.P.S. Mahila Vishwavidyalaya, Khanpur Kalan, Sonipat SonipatSonipat, Haryana",131305,Haryana,2(f) & 12(B),http://bpsmv.digitaluniversity.ac
+State,Bhakta Kavi Narsinh Mehta University,"Govt. Polytechnic College, Bilkha Road, Khadiya, Junagadh",362640,Gujarat,2(f) & 12(B),https://www.bknmu.edu.in
+State,Bharathiar University,"Bharathiar University, Marudhamalai Main Road, Coimbatore-641046PIN - 641 046.Tamil Nadu",641046,Tamil Nadu,2(f) & 12(B),http://www.b-u.ac.in
+State,Bharathidasan University,"Palkalaiperur,Tiruchirappalli",620024,Tamil Nadu,2(f) & 12(B),https://www.bdu.ac.in
+State,Bhatkhande Sanskriti Vishwavidyalaya,"Near, 1, Parivartan Chowk, Qaisar Bagh, Lucknow",226001,Uttar Pradesh,2(f),http://bhatkhandemusic.edu.in
+State,Bhattadev University,"Pathsala,Barpeta",781325,Assam,2(f),http://www.bhattadevuniversity.ac.in
+State,Bhupendra Narayan Mandal University,"Singheshwar Road, NH 106, Madhepura",852113,Bihar,2(f) & 12(B),http://bnmu.bih.nic.in
+State,Bidhan Chandra Krishi Vishwavidyalaya,"Mohanpur, Nadia, West BengalDistt. Nadia 741 252 (WB)",741252,West Bengal,2(f) & 12(B),http://www.bckv.edu.in
+State,Bihar Agricultural University,Sabour (BhagalPur),813210,Bihar,2(f),http://bausabour.ac.in
+State,Bihar Animal Sciences University,"Bihar Veterinary College Campus, Patna",800014,Bihar,2(f),https://www.basu.org.in
+State,Bihar Engineering University,"6th Floor, Examination Block, AKU Campus, Mithapur, Patna",800001,Bihar,2(f),http://beu-bih.ac.in/BEUP/Default.aspx
+State,Bihar Sports University,"Rajgir, Nalanda,",803116,Bihar,2(f),https://biharsports.org
+State,Bihar University of Health Sciences,"Mithapur, Patna",800001,Bihar,2(f),http://buhs.ac.in
+State,Biju Patnaik University of Technology,"Chhend Colony, Rourkela",769015,Odisha,2(f),https://www.bput.ac.in
+State,Bikaner Technical University,"RIICO Karni Industrial Area, Pugal Road, Bikaner",334004,Rajasthan,2(f),https://btu.ac.in
+State,Binod Bihari Mahto Koyalanchal University,Govt. Polytechnic RoadDhanbad,828130,Jharkhand,2(f),https://bbmku.ac.in
+State,Birangana Sati Sadhani Rajyik Vishwavidyalaya,Golghat,785621,Assam,2(f),http://bssrv.ac.in
+State,Birsa Agricultural University,"Kanke Patratu Rd,Ranchi",834006,Jharkhand,2(f) & 12(B),http://www.baujharkhand.org
+State,Birsa Munda Tribal University,"Vocational Training Centre (VTC), Vavdi Road,  Distt.- Narmada",393145,Gujarat,2(f),https://bmtu.ac.in
+State,Biswa Bangla Biswabidyalay,"Shibpur, P.O. - Bolpur, Dist. - Birbhum,",731204,West Bengal,2(f),https://www.biswabanglabiswabidyalay.org
+State,Bodoland University,"Debargaon, P.O. Rangalikhata,Kokrajhar",783370,Assam,2(f) & 12(B),https://buniv.edu.in
+State,Bongaigaon University,"Bongaigaon,",783380,Assam,2(f),https://www.bongaigaoncollege.ac.in
+State,Bundelkhand University,"Kanpur Road, Jhansi",284128,Uttar Pradesh,2(f) & 12(B),https://www.bujhansi.ac.in
+State,Burdwan University,"Burdwan Rajbati, Raiganj,Bardhaman",713104,West Bengal,2(f) & 12(B),https://www.buruniv.ac.in
+State,Calcutta University,"Calcutta University, College Square,Kolkata",700073,West Bengal,2(f) & 12(B),http://www.caluniv.ac.in
+State,Calicut University,Calicut University P.O.Malappuram DistrictCalicut,673635,Kerala,2(f) & 12(B),http://www.uoc.ac.in
+State,Captain Williamson Sangma State University,"West Garo Hills DistrictTura, Balalgre, P. O. Damalgre",794105,Meghalaya,2(f),https://www.ugc.gov.in/universitydetails/Null
+State,Chanakya National Law University,"Mithapur, Nyaya Nagar, Patna",800001,Bihar,2(f) & 12(B),http://www.cnlu.ac.in
+State,Chandra Shekhar Azad University of Agriculture & Technology,"Agricultural College Lane,Nawabganj,Kanpur",208002,Uttar Pradesh,2(f) & 12(B),http://www.csauk.ac.in
+State,Chaudhary Bansi Lal University,"Hansi Road,  Bhiwani",127021,Haryana,2(f) & 12(B),https://cblu.ac.in
+State,Chaudhary Charan Singh University,"Ramgarhi,Meerut",200005,Uttar Pradesh,2(f) & 12(B),https://www.ccsuniversity.ac.in
+State,Chaudhary Devi Lal University,"Barnala Road, Near Mini Sectt. SirsaHaryana -125 055",125055,Haryana,2(f) & 12(B),http://cdlu.digitaluniversity.ac
+State,Chaudhary Ranbir Singh University,"Chaudhary Ranbir Singh University, Rohtak Road, Jind",126102,Haryana,2(f) & 12(B),http://www.crsujind.org
+State,Chaudhary Sarwan Kumar Himachal Pradesh Krishi Vishvavidyalaya,"District Kangra Himachal PradeshTehsil, Palampur,Dist.-Kangra",176062,Himachal Pradesh,2(f) & 12(B),http://hillagric.ac.in:1003/cskhpau
+State,Chhatrapati Shahu Ji Maharaj University,"Kalyanpur, Kanpur",208024,Uttar Pradesh,2(f) & 12(B),http://csjmu.ac.in
+State,Chhattisgarh Kamdhenu Vishwavidyalaya,"Dau Shri Vasudev Chandrakar Kamdhenu Vishwavidyala, Anjora, Durg",491001,Chhattisgarh,2(f),http://cgkv.ac.in
+State,Chhattisgarh Swami Vivekanad Technical Universty,"North Park Avenue , Sector-8Bhilai, DurgChatisgarh",490009,Chhattisgarh,2(f) & 12(B),http://www.csvtu.ac.in
+State,Children's University,"Subhash Chandra Bose Shikshan Sankul, Sector-20, Gandhinagar",382021,Gujarat,2(f) & 12(B),https://www.cugujarat.ac.in
+State,Choudhary Charan Singh Haryana Agricultural Univeersity,Directorate of Human resource Management,125004,Haryana,2(f) & 12(B),http://www.hau.ac.in
+State,Cluster University,"Silver Jubilee Government College Campus, Kurnool",518007,Andhra Pradesh,2(f),https://www.cuklap.ac.in
+State,Cluster University of Jammu,"Adjoining G.G.M. Science College,Canal Road,Jammu",180016,Jammu and Kashmir,2(f),https://clujammu.ac.in
+State,Cluster University of Srinagar,"Gogji-Bagh,Srinagar",190008,Jammu and Kashmir,2(f),https://www.cusrinagar.edu.in
+State,Cochin Unviersity of Science & Technology,"Cochin University of Science and technology, Kochi, Ernakulam, Kerala State",682022,Kerala,2(f) & 12(B),https://www.cusat.ac.in
+State,COEP Technological University,"Wellesley Road,Shivajinagar,Pune",411005,Maharashtra,2(f),https://www.coeptech.ac.in
+State,Cooch Behar Panchanan Barma University,"COOCH BEHAR PANCHANAN BARMA UNIVERSITY, Panchanan Nagar, Vivekananda Street, Cooch Behar - 736101, West Bengal, IndiaCooch Behar",736101,West Bengal,2(f),http://cbpbu.ac.in
+State,Cotton University,"PANBAZAR,Guwahati",781001,Assam,2(f) & 12(B),https://cottonuniversity.ac.in
+State,Dada Lakhmi Chand State University of Performing and Visual Arts (SUPVA),"Sector-6, Near Rajiv Gandhi Stadium, Rohtak",124001,Haryana,2(f),https://dlcsupva.ac.in
+State,Damodaram Sanjivayya National Law University,"Sabbavaram, Pedawaltair, Visakhapatnam",531035,Andhra Pradesh,2(f) & 12(B),http://dsnlu.ac.in
+State,Davangere University,"Davangere University, Shivagangotri, DavangereDavangere Karnataka-577002",577007,Karnataka,2(f) & 12(B),http://www.davangereuniversity.ac.in
+State,Deen Bandhu Chhotu Ram University of Sciences & Technology,"50th K.M. Stone, N.H. 1, Murthal (Sonepat) Haryana, India",131039,Haryana,2(f) & 12(B),http://www.dcrusm.ac.in
+State,Deen Dayal Upadhyay Gorakhpur University,"Civil Lines, GorakhpurPIN - 273 009. (U.P.)",273009,Uttar Pradesh,2(f) & 12(B),http://www.ddugu.edu.in
+State,Delhi Pharmaceutical Sciences & Research University,"M.B. Road, Sector - III, Pushp Vihar",110017,Delhi,2(f),https://dpsru.edu.in
+State,Delhi Skill and Entrepreneurship University,"Integrated Institute of Technology Complex, Sector-9, Dwarka",110007,Delhi,2(f),https://dseu.ac.in
+State,Delhi Technological University,"Shahbad Daultapur, Bawana Road, Rohini",110042,Delhi,2(f) & 12(B),http://www.dtu.ac.in
+State,Devi Ahilya Vishwavidyalaya,"R.N.Tagore Marg,Indore",452 001,Madhya Pradesh,2(f) & 12(B),http://www.dauniv.ac.in
+State,Dhanamanjuri University,"Imphal, Manipur",795001,Manipur,2(f),https://www.ugc.gov.in/universitydetails/www.dmu.ac.in
+State,Dharanidhar University,Keonjhar,758001,Odisha,2(f),https://dduniversity.ac.in
+State,Dharmashastra National Law University,"BRBRAITT Campus South Civil Lines ,Ridge Road Jabalpur Ridge Road,Civil Lines, Jabalpur",482001,Madhya Pradesh,2(f),https://www.mpdnlu.ac.in
+State,Dharmsinh Desai University,"P.Box No. 35 College Road, Nadiad",387001,Gujarat,2(f) & 12(B),https://www.ddu.ac.in
+State,Diamond Harbour Women's University,"Sarisha, Diamond Harbour Road, South 24 Parganas, West BengalDiamond Harbour Road, District: South 24 paraganas,",743368,West Bengal,2(f) & 12(B),http://www.dhwu.ac.in
+State,Dibrugarh University,"Rajabheta,Dibrugarh",786004,Assam,2(f) & 12(B),http://www.dibru.ac.in
+State,Doon University,"Campus Office388/2, Indira NagarDehradun",248001,Uttarakhand,2(f) & 12(B),http://www.gov.ua.nic.in/doonuniversity
+State,Dr Y. S. R. Architecture & Fine Arts University,"Chinnamachupalli, Chenur, Rayalapanthulapalle",516162,Andhra Pradesh,2(f),https://www.ysrafu.ac.in
+State,Dr. A.P.J. Abdul Kalam Technical University,"Jankipuram ExtensionJankipuram Extension Yojna,Lucknow",226031,Uttar Pradesh,2(f) & 12(B),https://aktu.ac.in
+State,Dr. Abdul Haq Urdu University,"Pandipadu Village, Gooty Rd, Kurnool",518002,Andhra Pradesh,2(f),https://ahuuk.ac.in
+State,Dr. B. R. Ambedkar University,"Ambedkar University Road,Etcherla,Dist. Srikakulam",532410,Andhra Pradesh,2(f) & 12(B),http://www.brau.edu.in
+State,Dr. B. R. Ambedkar University of Social Sciences,"Dr. Ambedkar Nagar, Mhow-453441Dist-Indore, MP",453441,Madhya Pradesh,2(f) & 12(B),https://brauss.in
+State,Dr. B.R. Ambedkar National Law University,"Dr. B.R. Ambedkar National Law University, Plot No. 5, Rajiv Gandhi Education City (RGEC), National Capital Region, P.O. Rai, Sonipat, HaryanaSonipat,",131029,Haryana,2(f),http://dbranlu.ac.in
+State,Dr. B.R. Ambedkar University,"Paliwal Park,Agra",282 004,Uttar Pradesh,2(f) & 12(B),https://dbrau.ac.in
+State,Dr. B.R. Ambedkar University,"Lothian Road, Kashmere Gate",110006,Delhi,2(f) & 12(B),http://www.aud.ac.in
+State,Dr. B.R.Ambedkar Open University,"Prof. G. Ram Reddy Marg, Road No. 46, Jubilee Hills, HyderabadHyderabad - 500 033.",500033,Telangana,2(f) & 12(B),https://www.braou.ac.in
+State,Dr. Babasaheb Ambedkar Marathwada University,"University Campus, Near Soneri Mahal, Jaisingpura, Aurangabad",431004,Maharashtra,2(f) & 12(B),http://www.bamu.net
+State,Dr. Babasaheb Ambedkar Open University,"Jyotirmay' Parisar, Dr Babasaheb Ambedkar Open University Marg,Sarkhej Gandhinagar Highway, Chharodi, Ahmedabad",382481,Gujarat,2(f) & 12(B),http://www.baou.edu.in
+State,Dr. Babasaheb AmbedkarTechnological University,"Dr. Babasaheb Ambedkar Technological University LonereVidyavihar, A/P Lonere, Tal. Mangaon, Dist. Raigad, Maharashtra, 402013Lonere-402103, Dt-Raigad.",402103,Maharashtra,2(f) & 12(B),http://www.dbatu.ac.in
+State,Dr. Bhimrao Ambedkar Law University,"J.L.N Marg, Jaipur",302015,Rajasthan,2(f),https://www.alujaipur.ac.in
+State,Dr. Homi Bhabha State University,"15, Madam Cams Road, Fort, Mumbai15 Madame Cama Road,Mumbai",400032,Maharashtra,2(f),https://www.hbsu.ac.in
+State,Dr. N.T.R. University of Health Sciences,"near Ramavarappadu,Vijayawada",520008,Andhra Pradesh,2(f),https://drntruhs.in
+State,Dr. Punjabrao Deshmukh Krishi Vidyapeeth,"Krishi Nagar Post Office, AKOLA, MaharashtraAkola - 444 104.",444104,Maharashtra,2(f) & 12(B),http://www.pdkv.mah.nic.in
+State,Dr. Rajendra Prasad National Law University,"Gaddopur, Phaphamau, Prayagraj",211013,Uttar Pradesh,2(f),https://www.rpnlup.ac.in
+State,Dr. Ram Manohar Lohia Awadh University,"Allahabad Road Faizabad, Ayodhya",224001,Uttar Pradesh,2(f) & 12(B),http://www.rmlau.ac.in
+State,Dr. Ram Manohar Lohia Institute of Medical Sciences,"Vibhuti Khand,Gomti Nagar,Lucknow",226010,Uttar Pradesh,2(f),https://www.drrmlims.ac.in
+State,Dr. Shakuntala Misra National Rehabilitation University,"5th Floor,Administrative BuildingMohaan Road, Lucknow",226017,Uttar Pradesh,2(f) & 12(B),https://dsmru.up.nic.in
+State,Dr. Y.S.Parmar University of Horticulture & Forestry,Nauni Solan (HP),173230,Himachal Pradesh,2(f) & 12(B),http://www.yspuniversity.ac.in
+State,Dr. Y.S.R. Horticultural University,"Venkataramannagudem, West Godavari District",534101,Andhra Pradesh,2(f),https://drysrhu.ap.gov.in
+State,Dravidian University,"Srinivasavanam, Kuppam,Dist : Chitoor",517426,Andhra Pradesh,2(f) & 12(B),http://www.dravidianuniversity.ac.in
+State,Fakir Mohan University,"Vyas Vihar, Nuapadhi, Balasore",756020,Odisha,2(f) & 12(B),https://fmuniversity.nic.in
+State,G.B.Pant University of Agriculture & Technology,PantnagarUdham Singh Nagar-263 145Uttarakhand,263145,Uttarakhand,2(f) & 12(B),http://www.gbpuat.ac.in
+State,Gangadhar Meher University,"Amruta Vihar, Sambalpur",768004,Odisha,2(f) & 12(B),http://www.gmuniversity.ac.in
+State,Gauhati University,"Gopinath Bordoloi Nagar,Guwahati -781014  KAMRUP , AssamGuwahati",781014,Assam,2(f) & 12(B),http://www.gauhati.ac.in
+State,Gautam Buddha University,"Greater Noida, Dist: Gautam Budh -Nagar,",201 308,Uttar Pradesh,2(f) & 12(B),https://www.gbu.ac.in
+State,Goa University,Taleigao Plateau,403206,Goa,2(f) & 12(B),http://www.unigoa.ac.in
+State,Gondwana University,"M.I.D.C. Road ComplexGodchiroli, Maharashtra",422 605,Maharashtra,2(f) & 12(B),"https://www.ugc.gov.in/universitydetails/www.gondwana.digitaluniversity.org,"
+State,Govind Guru Tribal University,"Collector choraha, Subhash Nagar, Banswara",327001,Rajasthan,2(f),https://www.ggtu.ac.in
+State,Gujarat Ayurveda University,"Gujarat Ayurved University, Opp. B Division Police Station, Guru Dwara Road, Jamnagar-361008Jamnagar-361 008",361008,Gujarat,2(f) & 12(B),http://www.ayurveduniversity.edu.in
+State,Gujarat Biotechnology University,"C/o Gujarat State Biotechnology Mission,Block 11, 9th Floor, Udyog Bhawan,Gandhinagar",382011,Gujarat,2(f),https://gbu.gujarat.gov.in/Announcements.php
+State,Gujarat National Law University,"ATTALIKA AVENUE, KNOWLEDGE CORRIDOR, KOBA, SUB P.O. KOBA, GANDHINAGAR, GUJARATKoba (Sub P.O)Gandhinagar,",382426,Gujarat,2(f) & 12(B),http://www.gnlu.ac.in
+State,Gujarat Technological University,"Nr.Vishwakarma Government Engineering College Nr.Visat Three Roads, Visat - Gandhinagar Highway Chandkheda, Ahmedabad Nr.Visat Three Roads, Visat - Gandhinagar HighwayChandkheda, Ahmedabad",382424,Gujarat,2(f) & 12(B),http://www.gtu.ac.in
+State,Gujarat University,"P.B.No.4010, Navrangpura,Ahmedabad",380 009,Gujarat,2(f) & 12(B),https://www.gujaratuniversity.ac.in
+State,Gujarat University of Transplantation Sciences,"IKDRC-ITS Premises, Civil Hospital - Medicity Campus, Asarwa, Ahmedabad – 380 016, Gujarat, India. Civil Hospital Campus,Asarwa, Ahmedabad",380016,Gujarat,2(f),http://www.guts.education
+State,Gulbarga University,"GULBARGA UNIVERSITY, KALBURGI, KARNATKAPIN - 585 106, KARNATAKA",585106,Karnataka,2(f) & 12(B),https://gug.ac.in
+State,Guru Angad Dev Veterinary & Animal Sciences University,"Ferozepur Road, Ludhiana",141004,Punjab,2(f) & 12(B),http://www.gadvasu.in
+State,Guru Gobind Singh Indraprastha Vishwavidyalaya,"Sector-16C, Dwarka,  New Delhi",110078,Delhi,2(f) & 12(B),http://www.ipu.ac.in
+State,Guru Jambeshwar University of Science and Technology,"Hisar-Delhi Bypass Rd, Hisar, Haryana",125001,Haryana,2(f) & 12(B),https://www.gjust.ac.in
+State,Guru Jambheshwar University,"Hardadpur, Moradabad,",244001,Uttar Pradesh,2(f),https://www.ugc.gov.in/universitydetails/NULL
+State,Guru Nanak Dev University,"G.T Road Amritsar, Amritsar",143005,Punjab,2(f) & 12(B),https://www.gndu.ac.in
+State,Guru Ravidas Ayurved University,"Una Rd, Hoshiarpur",146001,Punjab,2(f),https://graupunjab.org
+State,Gurucharan University,"College Road, Silchar, Cachar",788004,Assam,2(f),https://gurucharancollege.ac.in
+State,Gurugram University,"Gurugram University, Sec-51, Mayfield Garden, Gurugram Haryana Gurugram, Haryana Sector-51,Gurugram",122018,Haryana,2(f),http://gurugramuniversity.ac.in
+State,Harcourt Butler Technical University,"Nawabganj, Kanpur",208002,Uttar Pradesh,2(f) & 12(B),https://hbtu.ac.in
+State,Harichand Guruchand University,North 24 parganas,743245,West Bengal,2(f),https://harichandguruchanduniversity.com
+State,Haridev Joshi University of Journalism and Mass Communication,"II Floor, Rajiv Gandhi Vidya Bhavan, Shiksha Sankul, JLN Marg, Jaipur",302015,Rajasthan,2(f),https://hju.ac.in
+State,Hemchand Yadav Vishwavidyalaya(Earlier known as Durg Vishwavidyalaya),"Raipur Naka,Durg",491001,Chhattisgarh,2(f),http://www.durguniversity.ac.in
+State,Hemchandracharya North Gujarat University,"Hemchandracharya North Gujarat University, Patan Patan- 384 265. (GUJARAT)",384265,Gujarat,2(f) & 12(B),http://www.ngu.ac.in
+State,Hidayatullah National Law University,"Nava Raipur Atal Nagar, RaipurChattisgarh-493661",492002,Chhattisgarh,2(f) & 12(B),http://www.hnlu.ac.in
+State,Himachal Pradesh National Law University,"Himachal Pradesh National Law University, Ghandal. Sub Tehsil Dhami, Shimla, Himachal Pradesh-171014Sub-Tehsil Dhami,Shimla",171014,Himachal Pradesh,2(f) & 12(B),https://www.hpnlu.ac.in
+State,Himachal Pradesh Technical University,"Government Polytechnic, Baru, Hamirpur",177001,Himachal Pradesh,2(f),https://www.himtu.ac.in
+State,Himachal Pradesh University,"Summer Hills, Shimla,",171005,Himachal Pradesh,2(f) & 12(B),https://hpuniv.ac.in
+State,Hindi University,"37/2 Bhairab Dutta Lane, Nandibagan, Salkia, Pilkhana More, Howrah",711106,West Bengal,2(f),https://www.hindiuniv.ac.in
+State,Hyderabad (SIND) National Collegiate University,"D. M. Harish Building, 47, Dr R G Thadani Marg,  Worli",400018,Maharashtra,2(f),https://www.hsncu.edu.in
+State,I.K. Gujaral Punjab Technical University,"Jalandhar - Kapurthala Highway, VPO - Ibban, Kapurthala",144603,Punjab,2(f),https://ptu.ac.in
+State,Indian Institute of Teacher Education,"Kh Road, Sector 15,   Nr. Mahatma Mandir, G-4, Sector-15, Gandhinagar",382016,Gujarat,2(f) & 12(B),https://www.iite.ac.in
+State,Indira Gandhi Delhi Technical University for Women,Kashmere Gate,110006,Delhi,2(f) & 12(B),http://www.igdtuw.ac.in
+State,Indira Gandhi Krishi Vishwavidyalaya,"Krishak Nagar, Raipur,",492012,Chhattisgarh,2(f) & 12(B),https://igkv.ac.in
+State,Indira Gandhi University,"Meerpur, Rewari,",122502,Haryana,2(f) & 12(B),https://www.igu.ac.in
+State,Indira Kala Sangeet Vishwavidyalaya,Khairagarh,491881,Chhattisgarh,2(f) & 12(B),http://www.iksv.ac.in
+State,Indraprastha Institute of Information Technology,"Near Govindpuri Metro Station, Okhala Industrial Estate Phase-III, New Delhi",110020,Delhi,2(f) & 12(B),http://www.iiitd.ac.in
+State,Institute of Infrastructure Technology Research and Management,"Near Khokhra Circle, Maninagar (East), Ahmedabad-380 026, Gujarat, IndiaManinagar (East), Ahmedabad, Gujarat",380026,Gujarat,2(f),http://iitram.ac.in
+State,International Institute of Information Technology,"Plot No.-7, Sector 24,Near Purkhoti, Muktangan,Naya Raipur",493661,Chhattisgarh,2(f),https://www.iiitnr.ac.in
+State,International Institute of Information Technology (IIIT),"Gothapatana, P.O-Malipada, Bhubaneswar",751029,Odisha,2(f),https://www.iiit-bh.ac.in
+State,Islamic University of Sciences & Technology University,"1, University Avenue,Awantipora,Pulwama",192 122,Jammu and Kashmir,2(f) & 12(B),http://www.islamicuniversity.edu.in
+State,"J. C. Bose University of Science & Technology, YMCA",FaridabadSector-6,121006,Haryana,2(f) & 12(B),https://www.jcboseust.ac.in
+State,Jadavpur University,"188, Raja S. C. Mallik Road, Jadavpur, KolkataKolkatta,PIN - 700 032.",700032,West Bengal,2(f) & 12(B),https://www.jadavpuruniversity.in
+State,Jagadguru Ramanandacharya Sanskrit University,"Bhankrota - Muhana Link Road, Madau, JaipurJaipur-302026",302026,Rajasthan,2(f) & 12(B),http://www.jrrsanskrituniversity.ac.in
+State,Jagadguru Rambhadracharya Divyang State University,Chitrakoot,210204,Uttar Pradesh,2(f),http://www.jrdu.ac.in
+State,Jagannath Barooah University,"Barpatra Ali, Jorhat,",785001,Assam,2(f),https://jbu.ac.in
+State,Jagat Guru Nanak Dev Punjab State Open University,"C/28 Lower Mall, Patiala",147001,Punjab,2(f),https://psou.ac.in
+State,Jai Narain Vyas University,"Residency Road, Jodhpur (Rajasthan)PIN - 342 001.(RAJASTHAN",342011,Rajasthan,2(f) & 12(B),http://www.jnvu.co.in
+State,Jai Prakash University,"Rahul Sankrityayan Nagar, Chapra",841302,Bihar,2(f) & 12(B),https://jpv.ac.in
+State,Jammu University,Baba Saheb Ambedkar Road Jammu Tawi (J&K)Jammu Tawi - 180 004.,180006,Jammu and Kashmir,2(f) & 12(B),http://www.jammuuniversity.ac.in
+State,Jananayak Chandrashekhar University,Ballia,277001,Uttar Pradesh,2(f),https://jncu.ac.in
+State,Jawaharlal Nehru Architecture and Fine Arts University,"Masab Tank, HyderabadMasab Tank,Hyderabad",500028,Telangana,2(f) & 12(B),http://jnafau.ac.in
+State,Jawaharlal Nehru Krishi Vishwavidyalaya,"Krishinagar, Jabalpur,",482004,Madhya Pradesh,2(f) & 12(B),http://www.jnkvv.nic.in
+State,Jawaharlal Nehru Technological University,KukatpallyHyderabad - 500 085.Andhra Pradesh,,Telangana,2(f) & 12(B),http://www.jntuh.ac.in
+State,Jawaharlal Nehru Technological University,"Gurajada, Vizianagram, Dwarapudi",535003,Andhra Pradesh,2(f),https://jntukucev.ac.in
+State,Jawaharlal Nehru Technological University (Anantapur),"JNTU Anantapur, Ananthapuramu, Andhra PradeshAndhra Pradesh -515002",515002,Andhra Pradesh,2(f) & 12(B),http://www.jntua.ac.in
+State,Jawaharlal Nehru Technological University (Kainada),"Pitapuram Road, JNTU Kakinada, Kainada, Dist. East Godavari",533003,Andhra Pradesh,2(f) & 12(B),http://www.jntuk.edu.in
+State,Jharkhand State Open University,"Kanke, Ranchi",834006,Jharkhand,2(f),https://jharkhanduniversities.nic.in/jsou/home
+State,Jiwaji University,GwaliorPIN - 474 001. (MP),,Madhya Pradesh,2(f) & 12(B),http://www.jiwaji.edu
+State,Junagarh Agricultural University,Junagarh,362 001,Gujarat,2(f),http://www.jau.in
+State,Kakatiya University,"Kakatiya University,Warangal, Vidyaranyapuri,PIN - 506 009.",,Telangana,2(f) & 12(B),http://www.kakatiya.ac.in
+State,Kalahandi University,"Manikya Vihar, Bhawanipatna, Dist.-Kalahandi",766001,Odisha,2(f),https://kalahandiuniversity.ac.in
+State,Kaloji Narayana Rao University of Health Sciences,"Kakatiya Medical College Campus, Rangampet, Warangal (U)",506007,Telangana,2(f),https://knruhs.telangana.gov.in
+State,Kalyani University,Kalyani,,West Bengal,2(f) & 12(B),http://www.klyuniv.ac.in
+State,Kamdhenu University,"B-1 Wing, 4th Floor, Karmayogi Bhavan, Sector 10A Gandhinagar GujaratSector 10 A, Block B,Podium Level, Gandhinagar",382410,Gujarat,2(f),https://www.kamdhenuuni.edu.in
+State,Kameshwar Singh Darbhanga Sanskrit Vishwavidyalaya,"Kameshwar Nagar, Darbhanga",846008,Bihar,2(f) & 12(B),http://www.ksdsu.edu.in
+State,Kannada University,"Vidyaranya, Hosapete Taluk, Bellary Dist., KARNATAKAHampi (Dt. Bellary) 583276",583276,Karnataka,2(f) & 12(B),http://www.kannadauniversity.org
+State,Kannur University,MangattuparambaDistt- Kannur,670 567,Kerala,2(f) & 12(B),http://www.kannuruiversity.ac.in
+State,Kanyashree University,"Krishnanagar,Nadia",,West Bengal,2(f),https://www.kanyashreeuniversity.in
+State,Karmaveer Bhaurao Patil University,"Powai Naka, Satara",415001,Maharashtra,2(f),https://www.unikbp.ac.in
+State,Karnatak  University,"Karnatak University,Pavate Nagar, Dharwad",580003,Karnataka,2(f) & 12(B),http://www.kud.ac.in
+State,Karnataka  State Law University,"Navanagar, Hubli-580025Karnataka",,Karnataka,2(f) & 12(B),https://kslu.karnataka.gov.in
+State,Karnataka  State Open University,ManasangangotriMysore-570006,,Karnataka,2(f) & 12(B),https://ksoumysuru.ac.in
+State,Karnataka Folklore University,"Gotagodi, Shiggavi Taluk, Haveri District,  Vijayanagar, Banglore",581205,Karnataka,2(f),https://www.janapadauniversity.ac.in
+State,Karnataka Samskrit University,"Sri Chamarajendra Sanskrit College campus,Pampa Mahakavi Road,ChamarajpetBangalore",580018,Karnataka,2(f) & 12(B),http://www.ksu.ac.in
+State,"Karnataka State Akkamahadevi Women University (Formerly """"Karnataka State Women's University)","Jnanashakthi Campus, Athani Road, Toravi, Vijayapura,",586108,Karnataka,2(f) & 12(B),http://www.kswu.ac.in
+State,"Karnataka Veterinary, Animal & Fisheries Science University","NandinagarPB No.6,Bidar-585401(Karnataka",585226,Karnataka,2(f),https://www.kvafsu.edu.in
+State,Kashmir University,"Hazratbal, SrinagarPIN - 190 006. (J & K)",190006,Jammu and Kashmir,2(f) & 12(B),https://www.uok.edu.in
+State,"Kaushal Vidya Entrepreneurship , Digital and Skill University","Opposite Women's College Science Block, Nagratoli, Ranchi",834001,Jharkhand,2(f),https://jhkaushalvedskill.university
+State,Kavayitri Bahinabai Chadhari North Maharashtra University,"UmavinagarP.B.No.80, Jalgaon",425001,Maharashtra,2(f) & 12(B),http://www.nmu.ac.in
+State,Kavi Kulguru Kalidas Sanskrit Vishwavidyalaya,"Administration Building, Mouda Road, Ramtek, Dist. Nagpur Ramtek-441106,Dist. NagpurMaharashtra",441106,Maharashtra,2(f) & 12(B),"http://www.sanskrituni.digitaluniversity.ac,"
+State,Kazi Nazrul University,"Nazrul Road, Kalla Bypass MorePO – Kalla, C. H., P. s. Asansol (North)Dist. Paschim Bardhman",713 304,West Bengal,2(f) & 12(B),http://www.knu.ac.in
+State,Keladi Shivappa Nayaka University of Agriculture and Horticultural Sciences,"Shivamogga, Iruvakki, Sagara Taluk, Shivamogga District",577412,Karnataka,2(f),https://uahs.edu.in/?lang=en
+State,Kerala Agricultural Unviersity,"Kerala Agricultural University KAU Main Campus KAU P.O., Vellanikkara, Thrissur, Kerala, 680656Thrissur - 680 654.",680656,Kerala,2(f) & 12(B),http://www.kau.edu
+State,Kerala University,Thiruvananthapuram - 695 0,,Kerala,2(f) & 12(B),http://www.keralauniversity.edu
+State,Kerala University of Digital Sciences Innovation and Technology,"Technology CampusKuracode, MangalapurammThonnakkal P.O., Thiruvananthapuram",695317,Kerala,2(f),https://duk.ac.in
+State,Kerala University of Fisheries & Ocean Studies,"Panangad P.O, Kochi Kochi",682506,Kerala,2(f) & 12(B),https://www.ugc.gov.in/universitydetails/www.kufos.ac.in
+State,Kerala University of Health Sciences,Trissur,680596,Kerala,2(f),http://www.kuhs.ac.in
+State,Kerala Veterinary & Animal Sciences University,"Kerala Veterinary and Animal Sciences University, Pookode, Wayanad, KeralaWayanad",673576,Kerala,2(f),https://www.kvasu.ac.in
+State,Khallikote Unitary University,"Sundar Nagar, Ganjam, Berhampur",760001,Odisha,2(f),https://kuu.ac.in
+State,Khangchendzonga State University (Formerly Sikkim State University),"Nar Bahadur Bhandari Government College Complex, PO Tadong, Gangtok, East Sikkim",737102,Sikkim,2(f),https://www.ksus.ac.in
+State,Khwaja Moinuddin Chishti Language University,"Sitapur - Hardoi Bypass Road,Near I.I.M.Lucknow",226013,Uttar Pradesh,2(f) & 12(B),https://kmclu.ac.in
+State,King Georges Medical University,"King George Medical University, Shahmeena Road Chowk, Lucknow,",226003,Uttar Pradesh,2(f) & 12(B),http://www.kgmcindia.edu
+State,Kodagu University,"Chikka Aluvara, Kushalnagar",571232,Karnataka,2(f),https://kuk.karnataka.gov.in/en
+State,Kokrajhar University,"Kokrajhar, BTR,",783370,Assam,2(f),https://kokrajharuniversity.ac.in
+State,Kolhan University,"NH-75, WEST SINGHBHUM, JHARKHANDWest Singhbhum, Jharkhand",833202,Jharkhand,2(f),https://www.ugc.gov.in/universitydetails/www.kalhanuniversity.in
+State,Konkan Krishi Vidyapeeth,"Dapoli, Tal: Dapoli, Dist. RatnagiriDistrict Ratnagiri",415712,Maharashtra,2(f) & 12(B),http://www.dbskkv.org
+State,Koppal University,"Government Engineering College, Talakala, Dist. Koppal",583231,Karnataka,2(f),https://universitysolutions.in/kop/index.php
+State,Krantiguru Shyamji Krishna Verma Kachchh University,"Mundra road bhuj kachchhBhuj-Kachchh, Gujarat",370001,Gujarat,2(f) & 12(B),http://kskvku.digitaluniversity.ac
+State,Krantisurya Tantya Bhil Vishwavidyalaya,"Khargone, Bistant Road, Khargone",451001,Madhya Pradesh,2(f),http://ktbuniv.ac.in
+State,Krantivir Tatya Tope Vishwavidyalaya,"Guna, Ladli Laxmi Path Jaganpura Chak, Guna",473001,Madhya Pradesh,2(f),https://kttv.edu.in
+State,Krishna Kanta Handiqui State Open University,"Resham Nagar,Khanapara, Kamrup(M),Guwahati",781022,Assam,2(f),http://www.kkhsou.in
+State,Krishna University,"Andhra JateeyaKalasala, Campus, RajupetaMachllipatanam",521001,Andhra Pradesh,2(f) & 12(B),http://www.kru.ac.in
+State,KSGH Music and Performing Arts University,"Jlb road, Ashoka Circle, Lakshmipura, Mysuru-04Near Ashoka CircleLadshmipuram, Mysore",570004,Karnataka,2(f),http://www.musicuniversity.ac.in
+State,Kumar Bhaskar Varma Sanskrit & Ancient Studies University,"NAMATI, HATI NAMATI, NALBARI, ASSAM-781337, INDIAP.O.- Hati NamatiDist-Nalbari,Assam",781337,Assam,2(f) & 12(B),http://www.kbvsasun.ac.in
+State,Kumaun University,"Sleepy Hallow,Mallital,Nainital",263001,Uttarakhand,2(f) & 12(B),http://www.kunainital.ac.in
+State,Kurukshetra University,KurukshetraPIN - 136 119  (HARYANA),136119,Haryana,2(f) & 12(B),http://www.kuk.ac.in
+State,Kushabhau Thakre Patrakarita Avam Jansanchar Vishwavidyalaya,"At: Kathadih, Po: Sunder Nagar, Raipur",492013,Chhattisgarh,2(f),http://www.ktujm.ac.in
+State,Kuvempu University,"Jnanasahyadri, Shankaraghatta, Shivamogga, KarnatakaPIN -577 451. KARNATAKA.",577451,Karnataka,2(f) & 12(B),http://www.kuvempu.ac.in/eng/index.php
+State,Lala Lajpat Rai University of Veterinary & Animal Sciences,CCSHAU Campus,125004,Haryana,2(f) & 12(B),https://www.luvas.edu.in
+State,Lalit Narayan Mithila University,Darbhanga,846008,Bihar,2(f) & 12(B),https://lnmu.ac.in
+State,Laxminarayan Innovation Technological (LIT) University,"LITU Campus, Amaravati Road, Nagpur",440033,Maharashtra,2(f),https://litu.edu.in
+State,M.B.M. University,"Ratanada, Jodhpur",342011,Rajasthan,2(f),https://www.mbm.ac.in
+State,M.P.Bhoj (open) University,"Kolar Road BhopalKolar Road,Bhopal",462016,Madhya Pradesh,2(f) & 12(B),http://www.bhojvirtualuniversity.com
+State,Maa Pateswari University,"Ghughulpur, Balrampur, UP",271201,Uttar Pradesh,2(f),https://mpublp.ac.in
+State,Maa Vindhyavasini University,"Visundarpur, Mirzapur, UP",231001,Uttar Pradesh,2(f),https://mvvu.ac.in
+State,Madan Mohan Malaviya University of Technology,Deoria Road Gorakhpur,273010,Uttar Pradesh,2(f) & 12(B),http://www.mmmut.ac.in
+State,Madhabdev University,"Narayanpur, PO: Dikrong, Lakhimpur, AssamNarayanpur,Lakhimpur",784164,Assam,2(f),https://madhabdevuniversity.ac.in
+State,Madhusudan Law University,"Station Road, Cuttack",750003,Odisha,2(f),https://mlu.ac.in
+State,Madhya Pradesh Medical Science University,"NSCB Medical College Campus, Bhedaghat Road, Jabalpur",482003,Madhya Pradesh,2(f),https://mpmsu.edu.in
+State,Madras University,ChepaukChennai,,Tamil Nadu,2(f) & 12(B),http://www.unom.ac.in
+State,Madurai Kamraj University,"Palkainagar,Madurai-625 021.(T.N.).",,Tamil Nadu,2(f) & 12(B),https://mkuniversity.ac.in
+State,Magadh University,Bodh Gaya,824234,Bihar,2(f) & 12(B),http://www.magadhuniversity.ac.in
+State,Maharahtra University of Health Sciences,"Vani Dindori Road, Mhasrul, NashikNashik-422 005",422004,Maharashtra,2(f),http://www.muhsnashik.com
+State,Maharaja Bir Bikram University,AgartalaTripura,,Tripura,2(f) & 12(B),https://mbbuniversity.ac.in
+State,Maharaja Chhatrasal Bundelkhand Vishwavidyalaya,"Police Lines Road, Panna Road, Chhatarpur",471001,Madhya Pradesh,2(f) & 12(B),https://mcbu.ac.in
+State,Maharaja Ganga Singh University,"NH-15, Jaisalmer Road, Bikaner",334004,Rajasthan,2(f) & 12(B),https://mgsubikaner.ac.in
+State,Maharaja Krishnakumarsinji Bhavnagar University,"S.V. Patel Campus, Gaurishanker Lake Road, Bhavnagar",364001,Gujarat,2(f) & 12(B),https://www.mkbhavuni.edu.in/mkbhavuniweb
+State,Maharaja Ranjit Singh Punjab Technical University,"Dabwali Rd, Lal Singh Nagar, Bathinda",151001,Punjab,2(f) & 12(B),https://mrsptu.ac.in
+State,Maharaja Sayajirao University of Baroda,"Head Office, Maharaja Fatehsinghrao Gaekwad Road,Fatehgunj,Vadodara",390002,Gujarat,2(f) & 12(B),https://www.msubaroda.ac.in
+State,Maharaja Sriram Chandra Bhanja Deo University(Earlier North Orissa University),"Sriram Chandra Vihar, Takatpur, Baripada, Bhuabaneswar",757003,Odisha,2(f) & 12(B),http://www.nou.nic.in
+State,Maharaja Suhel Dev State University,"Raidopur, Azamgarh",276001,Uttar Pradesh,2(f),https://msdsu.ac.in
+State,Maharaja Surajmal Brij University,"Chak Sakitara, Kumher, Bharatpur",321201,Rajasthan,2(f),https://msbrijuniversity.ac.in
+State,Maharana Partap Horticultural University,Karnal,132001,Haryana,2(f),https://www.mhu.ac.in
+State,Maharana Pratap University of Agriculture & Technology,"Maharana Pratap University of Agriculture & Technology, Udaipur 313001Udaipur-313001",313001,Rajasthan,2(f),http://www.mpuat.ac.in
+State,Maharani Cluster University,Palace Road Bangalore Bengaluru,560001,Karnataka,2(f),https://mcu.karnataka.gov.in/english
+State,Maharashtra Animal & Fishery Sciences University,"Futala Lake Road, NagpurSeminary Hills, Nagpur-440 006",440001,Maharashtra,2(f),http://www.mafsu.in
+State,"Maharashtra National Law University, Aurangabad","Paithan Road, Kanchanwadi, Aurangabad",431005,Maharashtra,2(f),https://www.mnlua.ac.in
+State,"Maharashtra National Law University, Mumbai","CETTM MTNL Building, Hiranandani Gardens, Powai, Mumbai",400076,Maharashtra,2(f),https://mnlumumbai.edu.in
+State,"Maharashtra National Law University, Nagpur","Training Institute(JOTI), Civil Lines,  C P Club Road, Nagpur",440001,Maharashtra,2(f) & 12(B),https://www.nlunagpur.ac.in
+State,Maharashtra State Skills University,"1st, Floor, Elphinstone Technical High School3, Mahapalika Marg, Metro ChowkMumbai",400001,Maharashtra,2(f),https://mssu.ac.in
+State,Maharishi Balmiki Sanskrit University,"Mundri,Kaithal",136027,Haryana,2(f),https://www.mvsu.ac.in/
+State,Maharshi Dayanand Saraswati University,Pushkar Bye PassAjmer,305001,Rajasthan,2(f) & 12(B),http://mdsuajmer.ac.in
+State,Maharshi Dayanand University,Rohtak,124001,Haryana,2(f) & 12(B),https://www.mdurohtak.ac.in
+State,Maharshi Panini Sanskrit Evam Vedic Vishwavidyalaya,"Dewas Road, Ujjain,  Madhya Pradesh",456010,Madhya Pradesh,2(f),http://http//mpsvvujjain.org
+State,Mahatam Gandhi Kashi Vidyapeeth,Varanasi-221 002 (U.P),,Uttar Pradesh,2(f) & 12(B),http://www.mgkvp.ac.in
+State,Mahatma Gandhi Chitrakoot Gramodaya Vishwavidyalaya,ChitrakootDistrict Satna,485334,Madhya Pradesh,2(f) & 12(B),https://gramodayachitrakoot.ac.in
+State,Mahatma Gandhi Rural Development and Panchayat Raj University,"Raitha Bhavana, General Cariappa Circle, Gadag, Karnataka- 582101Regional Office:- Grameenabhivruddhi Bhavan, Ananda Rao Circle,Bengaluru-560009",582101,Karnataka,2(f),https://ksrdpru.ac.in
+State,Mahatma Gandhi Udyanikee and Vanikee Vishwavidyalaya,Sankra-PatanDistrict- Durg,491111,Chhattisgarh,2(f),https://mguvv.ac.in
+State,Mahatma Gandhi University,"Mahishadal, Purba Medinipur",721628,West Bengal,2(f),https://www.mguwb.org.in
+State,Mahatma Gandhi University,"Post. Yellareddygudem Panagal, Nalgonda",508 254,Telangana,2(f) & 12(B),http://www.mguniversity.ac.in
+State,Mahatma Gandhi Unversity,"Kottayam,PIN - 686 560. (KERALA).",,Kerala,2(f) & 12(B),http://www.mgu.ac.in
+State,Mahatma Jyotiba Phule Rohilkhand University,"Doli Lal Agarwal Marg,Bareilly",,Uttar Pradesh,2(f) & 12(B),https://www.mjpru.ac.in
+State,Mahatma Phule Krishi Vidyapeeth,RahuriDt.Ahmednagar - 413 722.,,Maharashtra,2(f) & 12(B),http://www.mpkv.mah.nic.in
+State,Major Dhyanchand Sports University,"Salawa, Meerut, UP",250342,Uttar Pradesh,2(f),https://www.sportsuniup.com
+State,Majuli University of Culture,"Patharichuk N.C,Majuli",787054,Assam,2(f),https://www.muoc.ac.in
+State,Makhanlal Chaturvedi National University of Journalism & Communication,"B-38, Vikas Bhavan, Press Complex, MP Nagar, Zone-1Bhopal",462 011,Madhya Pradesh,2(f) & 12(B),http://www.mcu.ac.in
+State,Mandya University,"M.C. Road,Mandya",571401,Karnataka,2(f),https://www.mandyauniversity.ac.in
+State,Mangalore University,Mangalore University Mangalagangotri Karnataka State IndiaMangalore - 574 199.,574199,Karnataka,2(f) & 12(B),http://www.mangaloreuniversity.ac.in
+State,Manipur Technical University,"Takyelpat, Imphal, Manipur",795004,Manipur,2(f),http://www.mtu.ac.in
+State,Manipur University of Culture,"Palace Compound, Imphal East, Manipur",795001,Manipur,2(f),http://www.muc.ac.in
+State,Manonmaniam Sundarnar University,Tirunelvelli - 627 008.,,Tamil Nadu,2(f) & 12(B),https://www.msuniv.ac.in
+State,Marathwada Agricultural University,"Basmat Road, Parbhani",431402,Maharashtra,2(f) & 12(B),https://www.vnmkv.ac.in
+State,Maulana Abul Kalam Azad University of Technology,"BF-142, Sector-1, Salt Lake city,Sector-I, Kolkata",700064,West Bengal,2(f) & 12(B),https://makautwb.ac.in
+State,Maulana Mazharul Haque Arabic & Persian University,"3 Polo Road, Patna",800001,Bihar,2(f),http://mmhapu.bih.nic.in
+State,Mohanlal Sukhadia University,Udaipur,313 001,Rajasthan,2(f) & 12(B),http://www.mlsu.ac.in
+State,Mother Teresa Women's University,"Registrar, Mother Teresa Women's University, Attuvampatty, Kodaikanal.T.N. - 624 101.",624101,Tamil Nadu,2(f) & 12(B),https://www.motherteresawomenuniv.ac.in
+State,Mumbai University,"M.G. Road, Fort, Mumbai Mumbai - 400 032.",400032,Maharashtra,2(f) & 12(B),http://www.mu.ac.in
+State,Munger University,Munger,811201,Bihar,2(f),https://www.mungeruniversity.ac.in
+State,Mysore University,"Manasagangotri, Mysuru,  KarnatakaMysore - 570 005.",570006,Karnataka,2(f) & 12(B),https://www.uni-mysore.ac.in
+State,Nagaon University,"Old A.T. Road, Nagaon,",782001,Assam,2(f),https://www.nowgongcollege.edu.in
+State,Nalanda Open University,"Biscomum Bhawan, West, Gandhi Maidan,  Patna",800001,Bihar,2(f),"http://www.nalandaopenuniversity.com,"
+State,Nanaji Deshmukh Pashu Chikitsa Vigyan Vishwavidyalaya,"Adhartal, Jabalpur-482004, Madhya PradeshJabalpur",482004,Madhya Pradesh,2(f),http://www.ndvsu.org
+State,National Academy of Legal Studies & Research University,"Justice City, Shameerpet, Medchal District, Telangana State, India",500101,Telangana,2(f) & 12(B),http://nalsar.ac.in
+State,National Law Institute University,"Kerwa Dam Road, BhopalBarkeri KalanBhopal",462044,Madhya Pradesh,2(f) & 12(B),http://www.nliu.ac.in
+State,National law School of India University,"Nagarbhavi, BengaluruBangalore - 560 072.",560072,Karnataka,2(f) & 12(B),http://www.nls.ac.in
+State,National Law University,"NH-65, Nagour Road MandoreJodhpur",342304,Rajasthan,2(f) & 12(B),http://www.nlujodhpur.ac.in
+State,National Law University,"Kathajodi Campus, Sec – 13, Cuttack",753015,Odisha,2(f) & 12(B),http://www.nluo.ac.in
+State,National Law University,"Sector-14, Dwarka",110078,Delhi,2(f) & 12(B),http://nludelhi.ac.in
+State,National Law University and Judicial Academy,"Hajo Road, Amingaon, Kamrup (Rural), AssamBholanath Mandir Parh, UlubariGuwahati",781031,Assam,2(f) & 12(B),http://www.nluassam.ac.in
+State,National Law University Tripura,"Narsingarh,Tripura",799 009,Tripura,2(f),https://www.nlutripura.ac.in
+State,National University of Advanced Legal Studies (NUALS),"HMT Colony P.O., Kalamassery, KochiKochi-682017, Kerala",683503,Kerala,2(f) & 12(B),http://www.nuals.ac.in
+State,National University of Study & Research in Law,"P.O. Bukru, Kanke Pithoria Road, Kanke - Nagari, Kanke, BIT Mesra,Ranchi",834006,Jharkhand,2(f) & 12(B),https://nusrlranchi.ac.in
+State,Navsari Agriculture University,"Navsari Agricultural University, Eru Char Rasta, Dandi Road, Navsari – 396 450 (Gujarat) INDIA",396450,Gujarat,2(f),https://nau.in
+State,Netaji Subhas Open University,"DD-26, Salt Lake, Sector-1, Kolkata",700064,West Bengal,2(f) & 12(B),https://www.wbnsou.ac.in
+State,Netaji Subhas University of Technology,"Sector 3, Dwarka",110078,Delhi,2(f) & 12(B),https://www.nsut.ac.in
+State,Nilamber-Pitamber University,"Madininager, Palamu-822101Jharkhand",,Jharkhand,2(f),http://www.npu.ac.in
+State,Nizam's Institute of Medical Sciences,"Punjagutta, Hyderabad",500082,Telangana,2(f),http://www.nims.edu.in
+State,North Lakhimpur University,"P.O. KhelmatiLakhimpur,",787031,Assam,2(f),https://nlc.ac.in
+State,Nrupathunga University,"Nrupathunga Road, Bengaluru,",,Karnataka,2(f),http://www.nrupathungauniversityblr.ac.in/index.php
+State,Odia University,"Satyabdi, Puri",752014,Odisha,2(f),https://odiauniversity.ac.in
+State,Odisha State Open University,"G.M. University Campus, Budharaja, Sambalpur",768004,Odisha,2(f),https://www.osou.ac.in
+State,Odisha University Of Agriculture & Technology,"Surya Nagar, Bhubaneswar",751003,Odisha,2(f) & 12(B),https://ouat.ac.in
+State,Odisha University of Health Sciences,"Sishu Bhawan Square, Bhubaneswar",751009,Odisha,2(f),https://www.ouhs.ac.in
+State,Odisha University of Technology and Research,"Kalinga Nagar, Ghatikia, P.O. Mahalaxmi Vihar, Bhubaneswer",751003,Odisha,2(f),https://www.cet.edu.in
+State,Osmania University,"Administrative Building Osmania University Campus Hyderabad-500007, Telangana State, India.PIN - 500 007.",500007,Telangana,2(f) & 12(B),https://www.osmania.ac.in
+State,P. V. Narsimha Rao Telangana Veterinary University,"Administrative Office, Rajendranagar, Hyderabad",500030,Telangana,2(f),https://www.tsvu.nic.in
+State,Palamuru University,"Ayyappa Complex, Opp. Police Head Quarters, Mahabubnagar",509001,Telangana,2(f) & 12(B),http://www.palamuruuniversity.ac.in
+State,Pandit Deendayal Upadhyaya Shekhawati University,"Nawalgarh Rd, Katrathal, Sikar",332 001,Rajasthan,2(f),https://shekhauni.ac.in
+State,Pandit S N Shukla University,"Nawalpur, Shahdol, M.P.",484001,Madhya Pradesh,2(f) & 12(B),https://ptsnsuniversity.ac.in
+State,Pandit Sundarlal Sharma (Open) University,"Koni Birkona Road, Bilaspur, Chhattisgarh, Bilaspur-495001Chhattisgarh",495009,Chhattisgarh,2(f),http://www.pssou.ac.in
+State,Panjab University,Sector-14/25Chandigarh,160014,Chandigarh,2(f) & 12(B),http://www.puchd.ac.in
+State,Patliputra University,"Kankarbagh Road, Near Rajendra Nagar Terminal, Patna",800020,Bihar,2(f),http://www.ppup.ac.in
+State,Patna University,Patna,800005,Bihar,2(f) & 12(B),http://www.patnauniversity.ac.in
+State,Periyar University,"Periyar Palkalai Nagar,Salem-11Campus,  Salem- 636 011 (T.N.)",636011,Tamil Nadu,2(f) & 12(B),http://periyaruniversity.ac.in
+State,Potti Sreeramulu Telugu University,Lalitakala -KshetramHyderabad-500004,,Telangana,2(f) & 12(B),http://teluguuniversity.ac.in
+State,Presidency University,"86/1, College Street, KolkataKolkata",700073,West Bengal,2(f) & 12(B),http://www.presiuniv.ac.in
+State,Prof. Rajendra Singh (Rajju Bhaiya) University (Formerly Allahabad State University),"Prayagraj,Mirzapur Road, Naini,Prayagraj",211009,Uttar Pradesh,2(f),https://prsuniv.ac.in
+State,Professor Jayashankar Telangana State Agricultural University,"Administrative Office, Rajendranagar, Hyderabad",500030,Telangana,2(f) & 12(B),http://www.pjtsau.edu.in
+State,Pt. Bhagwat Dayal Sharma University of Health Sciences,Rohtak-124001Haryana,,Haryana,2(f) & 12(B),https://nan
+State,Pt. Ravishankar Shukla University,"Pt. Ravishankar Shukla University, Amanaka G. E. Road Raipur, C.G.Chattisgarh",492010,Chhattisgarh,2(f) & 12(B),http://www.prsu.ac.in
+State,Puducherry Technological University,"Pillaichavady, Puducherry",605014,Puducherry,2(f),https://www.ptuniv.edu.in
+State,Punjab Agriculture University,Ludhiana,141004,Punjab,2(f) & 12(B),https://www.pau.edu
+State,Punjabi University,"Rajpura road,  Patiala",147002,Punjab,2(f) & 12(B),http://www.punjabiuniversity.ac.in
+State,Punyashlok Ahilyadevi Holkar Solapur University,"Kegaon, Solapur-Pune National Highway, Solapur-413255, Maharashtra (India)Solapur Pune national HighwayKegaon,Solapur-413255 (Maharashtra)",413255,Maharashtra,2(f) & 12(B),http://su.digitaluniversity.ac
+State,Purnea University,Purnea,854301,Bihar,2(f),https://www.purneauniversity.ac.in
+State,Rabindra Bharati University,"56A, B.T. ROAD, KOLKATA - 700 050Kolkata - 700 050.",700050,West Bengal,2(f) & 12(B),http://www.rbu.ac.in
+State,Rabindranath Tagore University,"Hojai,Hojai district",782435,Assam,2(f),https://www.rtuassam.ac.in
+State,Raiganj University,"P.O. Raiganj,Dist. Uttar DinajpurWest Bengal",733134,West Bengal,2(f) & 12(B),http://raiganjuniversity.ac.in
+State,Raj Rishi Bhartrihari Matsya University,"abu Shobha Ram Govt. Arts College Campus, Alwar",301001,Rajasthan,2(f),https://www.rrbmuniv.ac.in
+State,Raja Mahendra Pratap Singh State University,"Palwal Road, Lodha, Aligarh",202140,Uttar Pradesh,2(f),https://rmpssu.ac.in
+State,Raja Mansingh Tomar Music & Arts University,"Mahadaji Chowk, Achaleshwar Marg, Gwalior",474009,Madhya Pradesh,2(f) & 12(B),http://rmtmusicandartsuniversity.com
+State,"Raja Shankar Shah University, Chhindwara","Library building of Government Autonomous Post Graduate College,Chhindwara,",480001,Madhya Pradesh,2(f),http://cuc.ac.in
+State,Rajasthan Technical University,"Rawat bhata RoadKota-324 010, Rajasthan",,Rajasthan,2(f),http://www.rtu.ac.in
+State,Rajasthan University,"J L N Marg, Jaipur",302004,Rajasthan,2(f) & 12(B),https://www.uniraj.ac.in
+State,Rajasthan University of Health Sciences,"Kumbha Marg, Pratap Nagar,Sector-18, Tonk Road,Sanganer, Jaipur",302033,Rajasthan,2(f) & 12(B),http://www.ruhsraj.org
+State,Rajasthan University of Veterinary & Animal Sciences,"Vijay Bhawan Palace Complex, Veterinary University Road, Bikaner",334001,Rajasthan,2(f) & 12(B),https://rajuvas.org
+State,Rajendra University,"Prajna Vihar, Balangir",767002,Odisha,2(f),https://rajendrauniversity.ac.in
+State,Rajiv Gandhi Prodoyogiki Vishwavidyalaya,Airport BypassGandhi NagarBhopal (M.P.),462036,Madhya Pradesh,2(f) & 12(B),http://www.rgtu.ac.in
+State,Rajiv Gandhi University of Health Science,JayanagarBangalore - 560 041.,,Karnataka,2(f),http://www.rguhs.ac.in
+State,Rajiv Gandhi University of Knowledge Technologies,"V. R. Mansions, Kunchanapalli, Guntur District",522501,Andhra Pradesh,2(f) & 12(B),https://www.rgukt.in
+State,Rajiv Gandhi University of Knowledge Technology,"RGUKT BASAR, MA:BASAR, DT:NIRMAL, TELANGANA, PIN 504107IIIT-H Campus, GachibowliHyderabad",504107,Telangana,2(f) & 12(B),http://www.rgukt.in
+State,Rama Devi Women's University,"Vidya Vihar, Bhoi Nagar, Bhubaneswar",751022,Odisha,2(f) & 12(B),https://rdwu.ac.in
+State,Ranchi University,"Ranchi,PIN - 834 008. (JHARKHAND)",,Jharkhand,2(f) & 12(B),http://www.ranchiuniversity.ac.in
+State,Rani Awantibai Lodhi Vishwavidyalaya,"Near Central School No-3, Rajghat Road, Sagar",470002,Madhya Pradesh,2(f),https://ralvv.mponline.gov.in
+State,Rani Channamma University,"Rani Channamma University, Vidyasangama Campus, Bhutaramanahatti, PB-NH 04,  Belagavi-Karnataka-IndiaP.B Highway,Belagavi",591156,Karnataka,2(f) & 12(B),https://www.ugc.gov.in/universitydetails/www.rcub.ac.in
+State,Rani Durgavati Vishwavidyalaya,Jabalpur - 482 001. (M.P),,Madhya Pradesh,2(f) & 12(B),http://www.rdunijbpin.org
+State,Rani Rashmoni Green University(formerly West Bengal Green University.),"At the premises of Singur General Degree College, Singur, Hooghly, West Bengal",712409,West Bengal,2(f),http://rrgu.org
+State,Rashtrasant Tukadoji Maharaj Nagpur University,"Chhatrapati Shivaji Maharaj Administrative Premises,Ravindranath Tagore Marg,Nagpur",440001,Maharashtra,2(f) & 12(B),https://nagpuruniversity.ac.in
+State,Ravenshaw University,Cuttack,753003,Odisha,2(f) & 12(B),https://ravenshawuniversity.ac.in
+State,Rayalaseema University,"Nandyala Road,Kurnool",518002,Andhra Pradesh,2(f) & 12(B),https://www.rayalaseemauniversity.ac.in
+State,Sambalpur University,"Jyoti Vihar, Burla, Sambalpur",768019,Odisha,2(f) & 12(B),https://www.suniv.ac.in
+State,Sampurnanand Sanskrit Vishwavidyalaya,Varanasi - 221 002. (UP),,Uttar Pradesh,2(f) & 12(B),https://www.ssvv.ac.in
+State,Sanchi University of Buddhist-Indic Studies,"2nd Floor, Institute of Good Governance & Policy AnalysisBhadbhada Square,Bhopal",462003,Madhya Pradesh,2(f) & 12(B),http://www.sanchiuniv.edu.in
+State,Sant Gadge Baba Amravati University,"Camp, ti,Amravati-444602(M.S.)",,Maharashtra,2(f) & 12(B),http://www.sgbau.ac.in
+State,Sant Gahira Guru Vishwavidyalaya (formerly Sarguja University),"Sant Gahira Guru VishwavidyalayaSarguja-Ambikapur- Darripara, Hospital Road Ambikapur Distt. Surguja",497001,Chhattisgarh,2(f),https://www.sggcg.in
+State,Sardar Beant Singh State University,"Pathankot Road, Bariar, Gurdaspur",143521,Punjab,2(f),http://www.sbssugsp.ac.in
+State,Sardar Krushinagar Dantiwada Agricultural University,"Sardarkrushinagar, District: Banaskantha",385506,Gujarat,2(f) & 12(B),http://www.sdau.edu.in
+State,Sardar Patel University,"Near Saheed Chowk, Nana Bazar, Vallabh Vidyanagar, Anand, GujaratAnand-388 120. (GUJARAT)",388120,Gujarat,2(f) & 12(B),http://www.spuvvn.edu
+State,"Sardar Patel University of Police, Security & Criminal Justice","Opp. Gramin Police line, Mathania Road, Daijar, Jodhpur",342304,Rajasthan,2(f),http://www.policeuniversity.ac.in
+State,Sardar Vallabh Bhai Patel University of Agriculture & Technology,"Modipuram, Meerut,  U.P-250110",,Uttar Pradesh,2(f),http://www.svbpmeerut.ac.in
+State,Satavahana University,"SATAVAHANA UNIVERSITY, MALKAPUR ROAD, KARIMNAGAR, TELANGANA STATEAndhra Pradesh-505001",505002,Telangana,2(f) & 12(B),http://www.satavahana.ac.in
+State,Saurashtra University,Kalavad RoadRajkot Gujarat,360 005,Gujarat,2(f) & 12(B),http://www.saurashtrauniversity.edu
+State,Savitribai Phule Pune University,"Ganeshkhind Road,  Pune, Maharashtra, India.Pune",411007,Maharashtra,2(f) & 12(B),http://www.unipune.ac.in
+State,Shaheed Bhagat Singh State University,"Moga Road, Firozpur",152001,Punjab,2(f),https://sbssu.ac.in
+State,Shaheed Mahendra Karma Vishvidyalaya,"Dharampura 2, Jagdalpur, Distt. Bastar, ChhattisgarhChhattisgarh -494005",494001,Chhattisgarh,2(f),http://www.bvvjdp.ac.in
+State,Shaheed Nandkumar Patel Vishwavidyalaya,"Garhumaria, Odisha Road,Raigarh",496001,Chhattisgarh,2(f),https://snpv.ac.in
+State,Sher-e-Kashmir University of Agricultural Science & Technology,"Shalimar, srinagar J and K Srinagar-190 001. (J&K)",190025,Jammu and Kashmir,2(f) & 12(B),http://www.skuastkashmir.ac.in
+State,Shivaji University,Vidyanagar KolhapurKolhapur - 416 004.,416004,Maharashtra,2(f) & 12(B),http://www.unishivaji.ac.in
+State,Shree Sankaracharaya University of Sanskrit,"P.B.No. 14, Kalady District,ErnakulamKalady",,Kerala,2(f) & 12(B),http://www.ssus.ac.in
+State,Shree Somnath Sanskrit University,Ta: VeravalDistrict Junagarh,,Gujarat,2(f) & 12(B),https://sssu.ac.in
+State,Shri Govind Guru University,"Government Polytechnic Campus, RTO Road, Gadukpur, Godhra, Dist. Panchmahal (Gujarat)-389001 Gadukpur,Godhra,Dist. Panchmahals",389001,Gujarat,2(f),https://sggu.ac.in
+State,Shri Jagannath Sanskrit Vishwavidyalaya,"Shikha Rd, Penthakata, Puri",752003,Odisha,2(f) & 12(B),http://www.sjsv.nic.in
+State,Shri Mata Vaishno Devi University,"SMVD University, Kakryal, Katra, J&KKatra,J&K",182320,Jammu and Kashmir,2(f) & 12(B),http://www.smvdu.net.in
+State,Sibsagar University,"P.O. Joysagar, Dist. Sivasagar",785665,Assam,2(f),https://sibsagaruniversity.ac.in
+State,Siddharth University,"Siddharth University Kapilvastu, Siddharth NagarSiddharth Nagar",272202,Uttar Pradesh,2(f),https://www.suksn.edu.in
+State,Sidho-Kanho-Birsha University,"Sidho-Kanho-Birsha University, Rachi Road, PO- Sainik School, Dist.- Purulia, PIN-723104, West BengalRanchi Road Campus,Near Sainik School,Purulia",723104,West Bengal,2(f) & 12(B),http://www.skbu.ac.in
+State,Sido Kanhu Murmu University,"Dighi Campus, Dumka - Pakur Road, Dumka Dumka,",814110,Jharkhand,2(f) & 12(B),http://skmu.ac.in
+State,Smt. Nathibai Damodar Thackersey Women's University,"1,Nathibai Thackersay Rd.Mumbai - 400 020.",,Maharashtra,2(f) & 12(B),http://www.sndt.ac.in
+State,Sports University of Haryana,"Near 20th Mile Stone (Biswa-Mile), NH-44, Rai, Sonipat",131029,Haryana,2(f),https://www.suoh.ac.in
+State,Sri Dev Suman Uttarakhand Vishwavidyalaya,"Badshahithaul, Tehri Garhwal",249 199,Uttarakhand,2(f),http://sdsuv.ac.in
+State,Sri Karan Narendra Agriculture University,"Jobner, District Jaipur",303329,Rajasthan,2(f),https://sknau.ac.in
+State,Sri Konda Laxman Telangana State Horticultural University,"Mulugu, Siddipet district, Hyderabad",502279,Telangana,2(f),http://skltshu.ac.in
+State,Sri krishnadevaraya University,"Sri Venkateswarpuram,Anantapuram",515003,Andhra Pradesh,2(f) & 12(B),http://skuniversity.ac.in
+State,Sri Padmavati Mahila Vishwavidyalayam,"Padmavathi Nagar, Tirupati,  Chittoor (Dist)",517502,Andhra Pradesh,2(f) & 12(B),http://www.spmvv.ac.in
+State,Sri Sri Aniruddhdeva Sports University,"DICC BUILDING, 2ND FLOOR, ChabuaNEAR DISTRICT LIBRARY, DISTT. DIBRUGARH, Dibrugarh",786003,Assam,2(f),http://www.sasu.ac.in
+State,Sri Venkateswara Institute of Medical Sciences,"Alipiri Road, Tirupati, Chittoor Dist",517507,Andhra Pradesh,2(f) & 12(B),https://svimstpt.ap.nic.in
+State,Sri Venkateswara University,Tirupati,517502,Andhra Pradesh,2(f) & 12(B),https://svuniversity.edu.in
+State,Sri Venkateswara Vedic University,"Alipiri-Chandragiri Bypass Road, Tirupati, Chittoor Dist",517502,Andhra Pradesh,2(f),http://www.svvedicuniversity.ac.in
+State,Sri Venkateswara Veterinary University,"Dr. YSR Bhavan, Tirupati",517502,Andhra Pradesh,2(f) & 12(B),https://www.svvu.edu.in
+State,Srimanta Sankaradeva University of Health Sciences,"Narakasur Hilltop, BhangagarhGuwahati",781032,Assam,2(f),http://ssuhs.in
+State,Swami Keshwanand Rajasthan Agricultural University,"Beechwal, Sriganganagar Road, Bikaner",334006,Rajasthan,2(f) & 12(B),http://www.raubikaner.org
+State,Swami Ramanand Teerth Marathwada University,"Vishnupuri, Nanded",431606,Maharashtra,2(f) & 12(B),http://www.srtmun.org
+State,Swarnim Gujarat Sports University,"Commerce College Campus, Opp Youth Hostel, Sector 15, Gandhinagar, Gujarat PTC Building Campus, Gandhinagar",382016,Gujarat,2(f),https://sgsu.gujarat.gov.in
+State,T.M. Bhagalpur University,Bhagalpur,,Bihar,2(f) & 12(B),http://www.tmbu.org
+State,Tamil Nadu Fisheries University,"Vettar River View Campus, NagapattinamNagapattinam",611002,Tamil Nadu,2(f) & 12(B),http://www.tnfu.org.in/university/wp
+State,Tamil Nadu Open University,"No. 577, Anna Salai,Saidapet,Chennai",600015,Tamil Nadu,2(f) & 12(B),https://www.tnou.ac.in
+State,Tamil Nadu Physical Education and Sports University,"Melakottaiyur, Sampat Maaligai, college Road, Chennai",600006,Tamil Nadu,2(f) & 12(B),https://www.tnpesu.org
+State,Tamil Nadu Teacher Education University,"Gangaiamman koil street, Karapakkam, Chennai,",600097,Tamil Nadu,2(f) & 12(B),http://tnteu.ac.in
+State,Tamil University,"Trichy Road, Thanjavur,PIN - 613 005. (T.N.)",,Tamil Nadu,2(f) & 12(B),https://www.tamiluniversity.ac.in
+State,Tamilnadu Agricultural University,"Lawley Road, Coimbatore 641003, Tamilnadu",641003,Tamil Nadu,2(f) & 12(B),http://www.tnau.ac.in
+State,Tamilnadu Dr. Ambedkar Law University,"Poompozhil,5.Dr.D.G.S. dinakaranSalai, Raja Annamalai Puram,Chennai-600028, (T.N.)",,Tamil Nadu,2(f) & 12(B),https://www.tndalu.ac.in
+State,Tamilnadu Dr. M.G.R.Medical University,"NO.69, ANNA SALAI, GUINDY, CHENNAI -600 032Chennai- 600 032.",600032,Tamil Nadu,2(f) & 12(B),https://www.tnmgrmu.ac.in
+State,Tamilnadu National Law University,"Navalur Kuttapattu,Srirangam Taluk,Tiruchirapalli",620 009,Tamil Nadu,2(f) & 12(B),https://tnnlu.ac.in
+State,Tamilnadu Veterinary & Animal Sciences University,"Tamil Nadu Veterinary and Animal Sciences University, Madhavaram Milk Colony, Chennai-51, Tamil Nadu",600051,Tamil Nadu,2(f) & 12(B),http://www.tanuvas.ac.in
+State,Telangana University,"Vil: Nadpally, Suddapally, Mdl: Dichpally, Dist.: NizamabadNizamabad- 503 322Andhra Pradesh",503322,Telangana,2(f) & 12(B),http://www.telanganauniversity.ac.in
+State,The Bengal Engineering & Science University,ShibpurHowrah,,West Bengal,2(f),http://www.becs.ac.in
+State,THe Dr. Sarvepalli Radhakrishnan Rajasthan Ayurved University,"Kadwad, Nagaur Highway Road, Jodhpur,",342037,Rajasthan,2(f),https://dsrrauexam.org
+State,The Maharaja Bhupinder Singh Punjab Sports University,"Mohindra Kothi, Near Fountain Chowk, Patiala",147001,Punjab,2(f),https://mbspsu.ac.in/en
+State,The National Law University of Meghalaya,"Mayurbhanj Complex, Nongthymmai, Shillong",793014,Meghalaya,2(f),https://www.nlumeg.ac.in
+State,The Rajasthan University of Veterinary and Animal Sciences (Jobner) Jaipur,"Jobner, Jaipur",302020,Rajasthan,2(f),https://rajuvas.ac.in
+State,The Rajiv Gandhi National University of Law,"Sidhuwal, Bhadson Road, Patiala",147006,Punjab,2(f) & 12(B),http://www.rgnul.ac.in
+State,The Sanskrit College and University,Bankim Chaterjee StreetKolkata,700073,West Bengal,2(f),https://www.sanskritcollegeanduniversity.org.in
+State,The Tamil Nadu Dr.J Jayalalithaa Music and Fine Arts University,Dr. D.G.S. Dinakaran SalaiChennai,600028,Tamil Nadu,2(f),https://tnjjmfau.in
+State,The West Bengal National University of Juridical Science,"Aranya Bhavan,10A LA Blk.,S.L City,Calcutta",,West Bengal,2(f) & 12(B),http://www.nujs.edu
+State,The West Bengal University of Health Sciences,"DD-36, Secotor-1 Salt LakeKolkata",700064,West Bengal,2(f) & 12(B),https://wbuhs.ac.in
+State,Thiruvalluvar University,"Serkkadu, VelloreVellore DistrictTamil Nadu",632 115,Tamil Nadu,2(f) & 12(B),https://www.tvu.edu.in
+State,Thunchath Ezhuthachan Malayalam University,"Vakad po, Vakad, Tirur, Malappuram DistrictVakkad PO,  Tirur,Malappuram",676502,Kerala,2(f) & 12(B),http://malayalamuniversity.edu.in/en
+State,Tumkur University,"Tumkur University B H Road, Tumkur, Karnataka, IndiaB.H. Road, Tumkur",572103,Karnataka,2(f) & 12(B),http://www.tumkuruniversity.ac.in
+State,U.P. Pandit Deen Dayal Upadhyaya Pashu Chikitsa Vigyan Vishwavidhyalaya Evam Go-Anusandhan Sansthan,"College of Veterinary Science and Animal Husbandry, DUVASU, MathuraUttar Pradesh",281001,Uttar Pradesh,2(f),http://www.upvetuniv.edu.in
+State,U.P. Rajarshi Tandon Open University,"Shantipuram (Sector-F), Phaphamau, Prayagraj, Uttar Pradesh.(Sector-F)PhaphamauAllahabad-211013",211013,Uttar Pradesh,2(f) & 12(B),http://www.uprtou.ac.in
+State,University of Agricultural Sciences Banglore,"GKVK -Campus,Bangalore",560 024,Karnataka,2(f) & 12(B),http://www.uasbangalore.edu.in
+State,University of Agricultural Sciences Dharwad,"University of Agricultural Sciences, Dharwad (Karnataka)Dharwad",580005,Karnataka,2(f) & 12(B),http://www.uasd.edu
+State,"University of Agricultural Sciences, Mandya","V. C. Farm, Mandya",571405,Karnataka,2(f),https://uasmandya.co.in
+State,University of Gour Banga,"Post Office - Mokdumpur, District - Malda,  West Bengal, Pin Code - 732103Distt. Malda",732103,West Bengal,2(f) & 12(B),http://www.ugb.ac.in
+State,University of Horticultural Sciences,"NEAR SEMIKERI CROSS, UDYANAGIRI, NAVANAGAR, BAGALKOTNear Seemikeri Cross,Bagalkot",587104,Karnataka,2(f),https://www.uhsbagalkot.edu.in
+State,University of Kota,"Swami Vivekananda Nagar, Kota",324005,Rajasthan,2(f) & 12(B),https://www.uok.ac.in
+State,University of Ladakh,"Melongthang, Leh-Ladakh near FRL, Leh",194101,Ladakh,2(f),https://uol.ac.in
+State,University of Lucknow,"Babuganj,Hasanganj,Lucknow",226007,Uttar Pradesh,2(f) & 12(B),http://www.lkouniv.ac.in
+State,University of North Bengal,"PO: North Bengal University, Dist: Darjeeling, West BengalPO North Bengal University,District Darjeeling",734013,West Bengal,2(f) & 12(B),http://www.nbu.ac.in
+State,University of Visvesvaraya College of Engineering,"K. R. Circle, Dr Ambedkar Veedhi, Bengaluru",560001,Karnataka,2(f),https://uvce.ac.in
+State,Utkal University,"Vani Vihar, Bhubaneshwar",751 004,Odisha,2(f) & 12(B),http://www.utkaluniversity.ac.in
+State,Utkal University of Culture,"SANSKRUTI VIHAR, MADANPUR, Bhubaneswar",752054,Odisha,2(f),http://www.uuc.ac.in
+State,Uttar Banga Krishi Vishwavidyalaya,"P.O. Pundibari, Dist. Coochbehar, PIN- 736165Cooch Behar, West Bengal-736165",736165,West Bengal,2(f),https://www.ubkv.ac.in
+State,Uttar Pradesh University of Medical Sciences,"Saifai,Etawah",206130,Uttar Pradesh,2(f),https://www.upums.ac.in
+State,Uttarakhand Ayurved University,"Railway Road, Harrawala, DehradunRajpur RoadDehradun",248001,Uttarakhand,2(f),http://www.uau.ac.in
+State,Uttarakhand Open University,"Teenpani Bypass, Rampur Road, HaldwaniPost Office:- Industrial EstateHaldwani (Nainital)",263139,Uttarakhand,2(f) & 12(B),http://www.uou.ac.in
+State,Uttarakhand Sanskrit University,"NH-58, BHEL More,  Haridwar-Delhi National Highway,P.O. BahadarabadHaridwar",249 402,Uttarakhand,2(f) & 12(B),https://www.usvv.ac.in
+State,Uttarakhand State Sports University,"Haldwani, Uttarakhand",263139,Uttarakhand,2(f),https://www.ugc.gov.in/universitydetails/NA
+State,Uttarakhand Technical University,"Uttarakhand Technical University,Suddhowal post office chandan wadi,dehradun Uttarkhandwala, Dehrdun",248007,Uttarakhand,2(f),http://www.uktech.ac.in
+State,Vardhman Mahaveer Open University,"Rawatbhata Road, KotaRAJASTHAN",324021,Rajasthan,2(f) & 12(B),http://www.vmou.ac.in
+State,Veer Bahadur Singh Purvanchal University,"Shahganj Road, JaunpurPIN-222002   (U.P.)",,Uttar Pradesh,2(f) & 12(B),http://www.vbspu.ac.in/index
+State,Veer Chandra Singh Garhwali Uttarakhand University of Horticulture & Forestry,"VCSG Uttarakhand University of Horticulture & Forestry, Bharsar, Pauri Garhwal , UttarakhandUttrakhand",246123,Uttarakhand,2(f),https://www.uuhf.ac.in
+State,Veer Kunwar Singh University,Ara,802301,Bihar,2(f) & 12(B),https://vksu.ac.in
+State,Veer Narmad South Gujarat University,"Udhna-Magdalla Road, Surat",395007,Gujarat,2(f) & 12(B),http://www.vnsgu.ac.in
+State,Veer Surendra Sai Institute of Medical Science and Research,"Ayuvihar, Burla, Sambalpur",768017,Odisha,2(f) & 12(B),http://www.vimsar.ac.in
+State,Veer Surendra Sai University of Technology,"Siddhi Vihar, Burla,  Dist. Sambalpur",768018,Odisha,2(f) & 12(B),http://www.vssut.ac.in
+State,Veeranari Chakali Ilamma Women's University,"Koti, Hyderabad",500095,Telangana,2(f),https://www.oucwkoti.ac.in
+State,Vesveswaraiah Technological University,"Jnana Sangama,Belgaum",590018,Karnataka,2(f) & 12(B),http://www.vtu.ac.in
+State,Vidya Sagar University,"PO. -Vidyasagar UniversityMidnapore-721102,Dist.-paschim Mediripur, (W.B.)",,West Bengal,2(f) & 12(B),http://www.vidyasagar.ac.in
+State,Vijayanagara Sri Krishnadevaraya University,"BallariVinayaka Nagar,Contonment,Bellary",583105,Karnataka,2(f) & 12(B),http://www.vskub.ac.in
+State,"Vikram Dev University, Jeypore","NH- 26, P.O. Jeypore, Dist. Koraput,",764001,Odisha,2(f),https://www.vikramdevuniversity.ac.in
+State,Vikram University,"Ujjain,",456 010,Madhya Pradesh,2(f) & 12(B),http://vikramuniv.ac.in
+State,Vikrama Simhapuri University,"kakutur,Venkatachalam (M.D.),Nellore",524324,Andhra Pradesh,2(f) & 12(B),https://vsu.ac.in
+State,Vinoba Bhave University,"Hazaribagh,PIN - 825 301. (JHARKHAND)Post Box No.-31",,Jharkhand,2(f) & 12(B),http://www.vbu.co.in
+State,Vishvakarma Skills University,"Jawahar Lal Nehru Marg, Mahesh Nagar Phatak, Tilak Nagar, Jaipur",302015,Rajasthan,2(f),https://vsuraj.ac.in
+State,West Bengal State University,"Berunanpukuria,Malikapur,Barasat, 24 Parganas(North),Kolkata - 700126Building 10knc, Kolkata-700124",700126,West Bengal,2(f) & 12(B),http://www.wbsubregistration.org
+State,West Bengal University of Animal and Fishery Sciences,"37 & 68, ksudiram Bose Sarani, Kolkata-700037",700037,West Bengal,2(f) & 12(B),http://wbuafscl.ac.in
+State,"West Bengal University of Teachers, Training, Education Planning and Administration","25/2 & 25/3, Ballygunge Circular RoadKolkata",700019,West Bengal,2(f),https://www.wbuttepa.ac.in
+State,Yashwant Rao Chavan Maharashtra Open University,"Dnyangangotri Near Gangapur Dam, Nashik,  Maharashtra(India)Gangapur Dam,Nasik-422222",422222,Maharashtra,2(f) & 12(B),https://www.ycmou.ac.in
+State,Yogi Vemana University,"Vemana Puram,Yogi Vemana University Rd,Ganganapalle",516005,Andhra Pradesh,2(f) & 12(B),https://yvu.edu.in
+State,Young India Skills University,"ESCI Campus, Gachibowli, Hyderabad",600032,Telangana,2(f),https://yisu.in

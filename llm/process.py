@@ -1,10 +1,8 @@
 import hashlib
 import logging
-import time
 from datetime import datetime
 from zoneinfo import ZoneInfo
 
-from google.genai.errors import APIError
 from sqlalchemy import update
 from sqlalchemy.exc import IntegrityError, OperationalError
 from sqlalchemy.orm import Session
@@ -57,18 +55,7 @@ def load_reference_data():
 load_reference_data()
 
 
-def get_fresh_db_session():
-    """Get a new database session with error handling"""
-    try:
-        return next(get_db())
-    except OperationalError as e:
-        logger.error(f"Database connection error: {e}")
-        # Force new connection
-        return next(get_db())
-
-
-def content_changed(url, content):
-    db = get_fresh_db_session()
+def content_changed(db: Session, url, content):
     try:
         record = db.query(ScrapedPage).filter(ScrapedPage.url == url).first()
         if not record:
@@ -82,14 +69,12 @@ def content_changed(url, content):
         db.close()
 
 
-def process_page(url: str, site: str, items: list[dict[str, str]]):
-    db = get_fresh_db_session()
-
+def process_page(db: Session, url: str, site: str, items: list[dict[str, str]]):
     try:
         # Get reference data if not already loaded
         global db_tags, db_programs
         if db_tags is None or db_programs is None:
-            db_tags, db_programs, _, _ = load_reference_data()
+            raise Exception("Reference data not loaded")
 
         scraped_info = db.query(ScrapedPage).filter(ScrapedPage.url == url).first()
 
@@ -101,7 +86,8 @@ def process_page(url: str, site: str, items: list[dict[str, str]]):
 
         # Process items with transaction per item
         for item in items:
-            process_single_item(url, site, item)
+            extract_and_store_data(db, url, item)
+            # process_single_item(url, site, item)
 
         # Update scraped page record in its own transaction
         try:
@@ -149,58 +135,6 @@ def process_page(url: str, site: str, items: list[dict[str, str]]):
     finally:
         if db:
             db.close()
-
-
-def process_single_item(url: str, site: str, item: dict[str, str]):
-    """Process a single item with its own database session and transaction"""
-    retry_limit = 3
-    retry_count = 0
-
-    while retry_count < retry_limit:
-        db = get_fresh_db_session()
-        try:
-            extract_and_store_data(db, url, item)
-            return  # Success, exit the retry loop
-        except OperationalError as e:
-            logger.error(f"Database connection error: {e}")
-            # Force reconnection on next iteration
-            retry_count += 1
-            if retry_count < retry_limit:
-                logger.info(
-                    f"Retrying database operation ({retry_count}/{retry_limit})"
-                )
-                time.sleep(2)  # Small delay before retry
-        except IntegrityError as e:
-            logger.warning(f"Data integrity error for {url}: {e}")
-            db.rollback()
-            # We don't need to retry integrity errors
-            return
-        except APIError as e:
-            if e.code == 429:
-                retry_delay = 60
-                if e.details["error"]["details"][2]["retryDelay"]:
-                    retry_delay = (
-                        int(e.details["error"]["details"][2]["retryDelay"].rstrip("s"))
-                        + 1
-                    )
-                elif isinstance(e.details, dict) and "retryDelay" in e.details:
-                    retry_delay = e.details["retryDelay"]
-                logger.info(
-                    f"Rate limit exceeded for {url}. Waiting for {retry_delay} seconds..."
-                )
-                time.sleep(retry_delay)
-                retry_count += 1
-            else:
-                logger.error(f"API error for {url}: {e}")
-                return
-        except Exception as e:
-            logger.error(f"Error processing item - {url}: {e}")
-            db.rollback()
-            return
-        finally:
-            db.close()
-
-    logger.error(f"Retry limit reached for {url}. Skipping...")
 
 
 def extract_and_store_data(db: Session, url: str, item: dict[str, str]):

@@ -3,12 +3,12 @@ import pandas as pd
 from scrapy.crawler import CrawlerProcess
 from scrapy.utils.project import get_project_settings
 
-from admission_scraper.spiders.pages import PagesSpider
-from admission_scraper.spiders.uni import UniSpider
+from cleanup import remove_data_older_than
 from db.data import get_all_scraped_pages
 from db.session import get_db
 from llm.process import content_changed, process_page
-from cleanup import remove_data_older_than
+from scraper.spiders.pages import PagesSpider
+from scraper.spiders.uni import UniSpider
 
 settings = get_project_settings()
 
@@ -30,9 +30,12 @@ def main(cleanup, skip_scraping, skip_push):
     if not skip_scraping:
         process = CrawlerProcess(settings)
 
-        deferred = process.crawl(UniSpider)
-        deferred.addCallback(lambda _: process.crawl(PagesSpider))
-        deferred = process.crawl(PagesSpider)
+        deferred = process.crawl(UniSpider, db=db)
+        deferred.addCallbacks(
+            lambda _: db.close() if skip_push else lambda _: None,
+            lambda _: process.crawl(PagesSpider),
+        )
+        # deferred = process.crawl(PagesSpider)
         process.start()
 
     if not skip_push:
@@ -63,10 +66,10 @@ def main(cleanup, skip_scraping, skip_push):
                         if item["context"] is not None
                     ]
                 )
-                if not content_changed(row["url"], merged_content):
+                if not content_changed(db, row["url"], merged_content):
                     print(f"Skipping unchanged content for {row['url']}")
                     continue
-                process_page(row["url"], row["items"][0]["site"], row["items"])
+                process_page(db, row["url"], row["items"][0]["site"], row["items"])
                 print(f"Processed group {i + 1} - {row['url']}")
         except Exception as e:
             print(f"Error processing group: {e}")

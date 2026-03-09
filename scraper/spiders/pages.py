@@ -1,15 +1,17 @@
-import scrapy
-import pandas as pd
+import io
+import os
+import random
 import re
-from admission_scraper.utils import (
+
+import pandas as pd
+import scrapy
+from bs4 import BeautifulSoup
+
+from scraper.utils import (
     remove_trailing_slash,
 )
-from admission_scraper.utils.page import clean_body_content, extract_context
-import random
-import os
-import io
-from admission_scraper.utils.pdf import extract_text_from_pdf_bytes
-from bs4 import BeautifulSoup
+from scraper.utils.page import clean_body_content, extract_context
+from scraper.utils.pdf import extract_text_from_pdf_bytes
 
 
 def getUrls() -> list[str]:

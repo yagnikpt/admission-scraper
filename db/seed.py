@@ -1,10 +1,12 @@
-from sqlalchemy.orm import Session
-from db.models import Institute, State, Program, Tag
-from db.session import get_db
-import pandas as pd
-from sqlalchemy.exc import SQLAlchemyError, IntegrityError
 import logging
-from db.utils import split_content, normalize_state_name, get_all_states
+
+import pandas as pd
+from sqlalchemy.exc import IntegrityError, SQLAlchemyError
+from sqlalchemy.orm import Session
+
+from db.models import Institute, Program, State, Tag
+from db.session import get_db
+from db.utils import get_all_states, normalize_state_name, split_content
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -14,9 +16,10 @@ def seed_institutes(db: Session):
     # Load sites data
     # Load data from multiple CSV files
     csv_files = [
-        "data/central_universities.csv",
-        # "data/state_universities.csv",
-        "data/iits.csv",
+        "data/central_uni.csv",
+        "data/state_uni.csv",
+        "data/private_uni.csv",
+        # "data/deemed_to_be.csv",
     ]
 
     # Combine all CSV files into a single DataFrame
@@ -84,7 +87,7 @@ def seed_institutes(db: Session):
         else:
             unmatched_states.add(state_name)
             logger.warning(
-                f"State '{state_name}' not found in states mapping for site: {site['uni_name']}"
+                f"State '{state_name}' not found in states mapping for site: {site['name_of_the_university']}"
             )
 
     if unmatched_states:
@@ -101,7 +104,7 @@ def seed_institutes(db: Session):
             sites = []
             for site in batch:
                 website = Institute(
-                    name=site["uni_name"],
+                    name=site["name_of_the_university"],
                     website=site["url"],
                     state_id=site["state_id"],
                 )

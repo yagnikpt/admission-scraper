@@ -1,8 +1,10 @@
 import io
-import requests
+
 import pdfplumber
 import pymupdf
+import pymupdf.layout
 import pymupdf4llm
+import requests
 
 
 def download_pdf(url):

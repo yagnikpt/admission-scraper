@@ -1,16 +1,9 @@
 import scrapy
 from scrapy.linkextractors.lxmlhtml import LxmlLinkExtractor
-from admission_scraper.utils import remove_trailing_slash
-from db.session import get_db
+from sqlalchemy.orm.session import Session
+
 from db.data import get_all_institutes
-
-
-def get_sites() -> list[str]:
-    all_institutes = get_all_institutes(next(get_db()))
-    if all_institutes is not None:
-        return [str(institute.website) for institute in all_institutes]
-    return []
-
+from scraper.utils import remove_trailing_slash
 
 admission_terms = [
     "admission",
@@ -37,9 +30,16 @@ class UniSpider(scrapy.Spider):
     def __init__(self, *args, **kwargs):
         super(UniSpider, self).__init__(*args, **kwargs)
         self.visited_urls = set()
+        self.db: Session = kwargs.pop("db", None)
+
+    def _get_sites(self) -> list[str]:
+        all_institutes = get_all_institutes(self.db)
+        if all_institutes is not None:
+            return [str(institute.website) for institute in all_institutes]
+        return []
 
     def start_requests(self):
-        urls = get_sites()
+        urls = self._get_sites()
         for url in urls:
             yield scrapy.Request(
                 url=url,

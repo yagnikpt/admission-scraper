@@ -91,7 +91,7 @@ Additional commands:
 ```
 admission_scraper/
 ├── main.py             # Main script to orchestrate spiders and processing
-├── admission_scraper/  # Scrapy project package dir
+├── scraper/  # Scrapy project package dir
 │   ├── spiders/
 │   │   ├── uni.py      # Spider to find relevant university pages
 │   │   └── pages.py    # Spider to extract text context from pages

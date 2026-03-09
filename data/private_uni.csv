@@ -1,0 +1,543 @@
+type,name_of_the_university,address,zip,state,status,url
+Private,A.K.S. University,"SherGanj, Satna",485001,Madhya Pradesh,2(f),https://www.aksuniversity.ac.in
+Private,A.P.G. (Alakh Prakash Goyal) Shimla University,"Shogi- Mehli Bypass Road, Shimla, H.P 171013",171009,Himachal Pradesh,2(f),http://agu.edu.in
+Private,AAFT University of Media and Arts,"Vill-Maath, Tehsil-Tilda, Dist-Raipur",493225,Chhattisgarh,2(f),https://aaft.edu.in
+Private,Abhilashi University,"Chailchowk (Chaichiot)Tehsil chachyot, distt. Mandi",175045,Himachal Pradesh,2(f),http://www.abhilashiuniversity.com
+Private,Abhyuday University,"Garam Magriya, Khandwa Road, Khargone",451001,Madhya Pradesh,2(f),https://abhyudayuniversity.com
+Private,Adamas University,"Barasat - Barrackpore Road, Barberia, PO Jagannathpur, PS Barasat, Kolkata",700126,West Bengal,2(f),https://adamasuniversity.ac.in
+Private,Adani University,"Shantigram Township, Near Vaishnodevi Circle, Ahmedabad",382421,Gujarat,2(f),https://www.adaniuni.ac.in
+Private,Adesh University,"NH-7, Barnala Road, Bhucho, BathindaBathinda",151101,Punjab,2(f),http://adeshuniversity.ac.in
+Private,Adichunchanagiri University,"Campus: NH-75, Tq- Nagamangala, Dist- Mandya, B.G. Nagara- 571448   Off-Campus: BGS Vijnatham South Campus, Nagaruru, Dasanapura, Bangalore North-562123",571448,Karnataka,2(f),https://www.acu.edu.in
+Private,Aditya University,"Aditya Nagar, ADB Road, Surampalem, Kakinada",533437,Andhra Pradesh,2(f),https://adityauniversity.in
+Private,Agrawan Heritage University,"Bamrauli Katara, Fatehabad Road, Agra",283125,Uttar Pradesh,2(f),https://www.ahu.ac.in
+Private,Ahmedabad University,"Ahmedabad University, Commerce Six Roads, Navrangpura, Ahmedabad, GujaratAhmedabad",380009,Gujarat,2(f) & 12(B),http://www.ahduni.edu.in
+Private,AIPH University,"APEX Building, Pahal, Bhubaneswar-Cuttack NH16On Bhubneshwar-Cuttack Road, NH-5Bhubneshwar",752101,Odisha,2(f),http://aiph.ac.in
+Private,AISECT University,"Matwari Chowk, HazaribagMatwari, Distt.- HazaribagHazaribagh",825301,Jharkhand,2(f),https://www.aisectuniversityjharkhand.ac.in
+Private,Ajeenkya D.Y. Patil University,"Charholi BudrukVia Lohegaon, Pune",412105,Maharashtra,2(f),https://adypu.edu.in
+Private,Akal University,Talwandi SaboDist. Bhathinda,151302,Punjab,2(f),https://www.ugc.gov.in/universitydetails/www.auts.ac.in
+Private,Al-Falah University,Faridabad,121004,Haryana,2(f),https://alfalahuniversity.edu.in
+Private,Al-Karim University,"Sirsa, Karim Bagh, Katihar",854106,Bihar,2(f),https://www.alkarimuniversity.edu.in
+Private,Alard University,"Alard Knowledge Park, Survey No. 47 and 50, Marunji, Near Rajiv Gandhi Park, IT Park, Hinjewadi, Pune",411057,Maharashtra,2(f),https://alarduniversity.edu.in
+Private,Alliance University,"Chikkahagada Cross, Chandapura-Anekal Main Road, Bangalore",562106,Karnataka,2(f),https://www.alliance.edu.in
+Private,Amaltas University,"Dewas, Dewas-Ujjain State Highway, Bangar, District-Dewas",455001,Madhya Pradesh,2(f),https://amaltasuniversity.in
+Private,Amity University,"NH 648 (Old 207), Beerasandra, Alurududdhanahalli Post, Devanahalli Taluk, Bengaluru Rural District,",562110,Karnataka,2(f),https://amity.edu/Bengaluru
+Private,Amity University,"Sector-82 Alpha, IT City, S. A. A Nagar, Mohali",140306,Punjab,2(f),https://www.amity.edu/mohali
+Private,AMITY University,"Plot No. 4, Gautam Buddha Nagar, Sector-125, Noida, Uttar Pradesh PIN 201313Gautam Budh Nagar",201313,Uttar Pradesh,2(f),http://amity.edu
+Private,AMITY University,"Panchgaon, Manesar, Gurgaon (Haryana)Panchgaon, ManesarDistt.Gurgaon",122413,Haryana,2(f),https://www.amity.edu/gurugram
+Private,Amity University,"SP-1, Kant Kalwar, RIICO Industrial Area, NH-11C, Jaipur, RajasthanAjmer Road, Jaipur",303002,Rajasthan,2(f),http://amity.edu/jaipur
+Private,Amity University,"Maharajpura, Gwalior Gwalior",474005,Madhya Pradesh,2(f),http://www.amity.edu
+Private,Amity University,"Mumbai-Pune Expressway,Bhatan,Post - Somathne,Panvel,Mumbai",410206,Maharashtra,2(f),http://www.amity.edu/mumbai
+Private,Amity University,"Vill.: Manth (Kharora) ; Tehsil: Tilda ; Dist.: Raipur ; ChhattisgarhTehsil- Tilda, Dist.- Raipur",493225,Chhattisgarh,2(f),https://amity.edu/raipur
+Private,Amity University,"Rajarhat,  New Town,  Dist. North 24 Parganas",700135,West Bengal,2(f),https://amity.edu/kolkata
+Private,Amity University,"Ranchi City Campus,Niwaranpur Adjoining Over Bridge, Main Road, Ranchi",834002,Jharkhand,2(f),http://www.amity.edu/ranchi
+Private,Amity University,"Rupaspur, Bailey Road, Patna",801503,Bihar,2(f),https://amity.edu/bihar/amity-patna.aspx
+Private,Amrapali University,"Shiksha Nagar, Village-Lamachaur, Kaladhungi Road,  Haldwani, Nanital",263139,Uttarakhand,2(f),https://amrapali.ac.in
+Private,Anant National University,Sanskardham CampusBhopal-Ghuma-Sanand RoadAhmedabad,380015,Gujarat,2(f),http://www.anu.edu.in
+Private,Anjaneya University,"Knowledge Village, Naradha, Raipur",493111,Chhattisgarh,2(f),https://anjaneyauniversity.ac.in
+Private,Annamacharya University,"New Boyanapalli, Rajampet Annamayya District,",516126,Andhra Pradesh,2(f),https://annamacharyauniversity.edu.in
+Private,Anurag University,"Venkatapur(V)Ghatkesar(M)Medchal-Malkajigiri (Dist.), Hyderabad",500088,Telangana,2(f),https://www.ugc.gov.in/universitydetails/Private_university_other?id=1076
+Private,Apeejay Stya University,"Sohna - Palwal Road, Sohna, Gurugram - 122103Gurgaon",122103,Haryana,2(f) & 12(B),http://university.apeejay.edu
+Private,Apex Professional University,"NH 52, 2nd Mile, Gumin Nagar",791102,Arunachal Pradesh,2(f),https://www.apexuniversity.edu.in
+Private,Apex university,"Jaipur, Rajasthan",303002,Rajasthan,2(f),https://www.apexuniversity.co.in
+Private,Arka Jain University,"Mohanpur, Gamharia , Dist- Seraikela KharsawanMohanpur,Gamharia, Dist. Seraikela Kharsawan",832108,Jharkhand,2(f),https://www.arkajainuniversity.ac.in
+Private,Arni University,"Karthgarh, Tehsil, Indore,  Distt. Kangra",176401,Himachal Pradesh,2(f),http://www.arni.in
+Private,Arunachal University of Studies,"NH-52, Knowledge City, Distt., Namsai",792103,Arunachal Pradesh,2(f),http://www.arunachaluniversity.ac.in
+Private,Arunodaya University,"Lekhi Village, Naharlagun, Itanagar, Distt. Papum Pare",791109,Arunachal Pradesh,2(f),http://www.arunodayauniversity.ac.in
+Private,Aryavart University,"National Highway-46,  Jharkheda, Tehsil-Shyampur, Sehore",466001,Madhya Pradesh,2(f),https://www.auindia.ac.in
+Private,ASBM University,"Shiksha Vihar,PO-Bhola, Chandaka,Dist-Khurdha, Bhubaneswar",754012,Odisha,2(f),https://www.asbm.ac.in
+Private,Ashoka University,"Plot No. 2, Rajiv Gandhi Education City,Kundli, NCR Sonepat",131028,Haryana,2(f) & 12(B),https://https//www.ashoka.edu.in
+Private,Asian International University,"Ghari, Awang Leikai,Dist- Imphal West",795140,Manipur,2(f),https://aiu.edu.in
+Private,Assam Don Bosco University,"Azara, Guwahati",781017,Assam,2(f) & 12(B),http://www.dbuniversity.ac.in
+Private,Assam Down Town University,"Sankar Madhab Path, Gandhinagar, Panikhaiti, Guwahati",781026,Assam,2(f) & 12(B),https://adtu.in
+Private,Atal Bihari Vajpayee Skill University,"Kazi Road, Vishal Gaon, Gangtok",737101,Sikkim,2(f),https://abvsu.ac.in
+Private,"Atharva University, Mumbai","S.N. 263, Plot No. 8-12, Malad-Marve Road, Charkop, Naka, Malad (West), Mumbai",400095,Maharashtra,2(f),https://atharvauniversity.org
+Private,ATLAS SKILLTECH UNIVERSITY,"TOwer 1, Equinox Business Park, O?Bandra-Kurla Complex (BKC),LBS Marg, Kurla West, Mumbai",400070,Maharashtra,2(f),https://www.atlasuniversity.edu.in
+Private,Atmiya University,"Yogidham Gurukul, Kalawad Road, RajkotKalawad Road Rajkot",360005,Gujarat,2(f),https://atmiyauni.ac.in
+Private,Atria University,"ASKB Campus1st Main Road, AGS Colony, Anandhnagar, Hebbal, Bangaluru",560024,Karnataka,2(f),https://www.atriauniversity.edu.in
+Private,Auniati University,"Kaliapani, Teok, Dist. Jorhat",785112,Assam,2(f),https://auniv.in
+Private,"AURO University, Surat","Earthspace, Hazira RoadOpposite ONGC, Surat, Gujarat.",394510,Gujarat,2(f),http://aurouniversity.edu.in
+Private,Avantika University,"Avantika University, Vishwanathpuram, Lekoda Village, Ujjian, MP, IndiaLekoda VillageUjjain",456006,Madhya Pradesh,2(f),http://www.avantikauniversity.edu.in
+Private,Azim Premji University,"Survey No 66,Burugunte Village,Bikkanahalli Main Rd,Sarjapura, Bengaluru",562125,Karnataka,2(f),https://azimpremjiuniversity.edu.in
+Private,Azim Premji University,"Bypass Road, Kanhasaiya, Tehsil-Huzur, Bhopal",462010,Madhya Pradesh,2(f),https://azimpremjiuniversity.edu.in/bhopal
+Private,Baba Mast Nath University,"ASTHAL BOHAR, ROHTAK Rohtak, Haryana.",124001,Haryana,2(f),http://bmu.ac.in
+Private,Babu Banarasi Das University,"55, Babu Banarasi Das Nagar, Lucknow",201206,Uttar Pradesh,2(f),https://bbdu.ac.in
+Private,Babu Dinesh Singh University,"Farathiya, Garhwa",822114,Jharkhand,2(f),https://bdsu.ac.in
+Private,Baddi University of Emerging Sciences & Technology,"Makhnumajra, BADDI, Distt. Solan",173205,Himachal Pradesh,2(f),http://baddiuniv.ac.in
+Private,Bahra University,Waknaghat Tehsil Kandaghat SolanTehsil-KandaghatDistt. Solan,173234,Himachal Pradesh,2(f),http://www.bahrauniversity.edu.in
+Private,Bareilly International University,"Rohilkhand Medical College Campus, Pilibhit Bypass Road,  Bareilly",243006,Uttar Pradesh,2(f),https://www.biu.edu.in
+Private,Bennett University,"Plot No.8-11,Tech Zone II, Greater NoidaTechZone II,Greater Noida",201310,Uttar Pradesh,2(f),https://www.bennett.edu.in
+Private,Bhabha University,"NH-12, Hoshangabad, Jatkhedi, Bhopal",462026,Madhya Pradesh,2(f),https://www.bhabhauniversity.edu.in
+Private,Bhagwan Mahavir University,"VIP Road, Vesu, SuratVesu, Surat",395007,Gujarat,2(f),https://www.bmusurat.ac.in
+Private,Bhagwant Global University,"Village & Post- Uttari Jhandi ChaurTehsil- Kotdwar, Distt.- Pauri Garhwal",246149,Uttarakhand,2(f),https://www.ugc.gov.in/universitydetails/Private_university_other?id=917
+Private,Bhagwant University,"Sikar Road, Ajmer,",305 004,Rajasthan,2(f),http://www.bhagwantuniversity.com
+Private,Bhaikaka University,"Gokal Nagar, Karamsad – 388325 Gujarat, India Karamsad",388325,Gujarat,2(f),http://www.bhaikakauniv.edu.in
+Private,Bharatiya Engineering Science and Technology Innovation University,"Gownivaripalli, Gorantla Mandal, Anantapur",515231,Andhra Pradesh,2(f),https://bestiu.edu.in
+Private,Bharti Vishwavidyalay,ChankhuriDurg,491001,Chhattisgarh,2(f),https://bhartiuniversity.org
+Private,Bhartiya Skill Development University,"Plot No. SI/INST/001,Social Infrastructure Zone, Mahindra World City, Off Ajmer Road, Jaipur",302037,Rajasthan,2(f),https://ruj-bsdu.in
+Private,Bhupal Nobles University,"Maharana Pratap Station RoadSevashram Circle,Udaipur",313001,Rajasthan,2(f),https://www.bnuniversity.ac.in
+Private,Bir Tikendrajit University,"South View, Canchipur,Imphal WestManipur",795003,Manipur,2(f),https://www.birtikendrajituniversity.ac.in
+Private,Birla Global University,"IDCO Plot-2, Institutional Area, Gothapatna, Bhubaneswar, OdishaInstitutional Area,VIII-Gothapatna,P.S-Chandaka,Bhubaneswar",751029,Odisha,2(f),http://www.bgu.ac.in
+Private,BML Munjal University,"67th Milestone, National Highway - 8 Sidhrawali, Gurugram, Haryana -123413NH-8, Village Sidhrawali, Gurugram",123413,Haryana,2(f),https://www.bmu.edu.in
+Private,Brainware University,"398, Ramkrishnapur Road,Barasat, KolkataNorth 4 Pgs., West Bengal",700125,West Bengal,2(f),http://brainwareuniversity.ac.in
+Private,"C. G. C University, Mohali","Landran-Sirhind Road, Jhanjeri, District: Sahibzada Ajit Nagar",140307,Punjab,2(f),https://www.cgcuniversity.in
+Private,C. U. Shah University,"Surendranagar- Ahmedabad HighwayNr. Kothariya Village, Wadhwan CitySurendranagar",363030,Gujarat,2(f),http://www.cushahuniversity.ac.in
+Private,C. V. Raman Global University,"Bidyanagar, Mahura, Janla, Bhubaneswar",752054,Odisha,2(f),https://cgu-odisha.ac.in
+Private,Capital University,"Ranchi-Patna Main Road,District-Koderma,",825410,Jharkhand,2(f),https://www.ugc.gov.in/universitydetails/Private_university_other?id=992
+Private,Capital University,"Police Station Road, Near Power Department, District: Jorethang",737128,Sikkim,2(f),https://www.capitaluniversitysikkim.com
+Private,Career Point University,"Career Point University Hamirpur,Campus : Bhoranj (Tikker - Kharwarian), Hamirpur, [H.P] - 176041  Contact : +91-1972-269702, +91-8261001325  Email : hp@cpuniverse.in",176041,Himachal Pradesh,2(f),http://www.cpuh.in
+Private,Career Point University,"Alniya, NH-52, Jhalawar Road, Kota, Rajasthan",325003,Rajasthan,2(f),http://www.cpur.in
+Private,Centurion  University  of Technolgy and Management,"AT: ALLURI NAGAR, PO: R.SITAPUR, VIA: UPPALADA, PARALAKHEMUNDI, GAJAPATI, ODISHAVia-Uppalada, ParalakhemundiNULL",761211,Odisha,2(f) & 12(B),https://cutm.ac.in
+Private,Centurion University of Technology and Management,"Tekkali Village, Nelimarla Mandal, Anandapuram Mandal, Visakhapatnam",535003,Andhra Pradesh,2(f),https://cutmap.ac.in
+Private,CEPT University (Formerly Centre for Environmental Planning and Technology University),"University Road, Navrangpura, Ahmedabad",380009,Gujarat,2(f),http://www.cept.ac.in
+Private,Chanakya University,"No.29, Haraluru, Devanhalli Taluk, (Near Bangalore International Airport), Bengaluru Rural",562129,Karnataka,2(f),https://chanakyauniversity.edu.in
+Private,Chandigarh University,"Lucknow-Kanpur Highway-27, Unnao,",209859,Uttar Pradesh,2(f),https://www.culko.in
+Private,Chandigarh University,"NH-95, Chandigarh Ludhiana Highway, Gharuan, Mohali, Punjab.Punjab",140413,Punjab,2(f) & 12(B),http://www.cuchd.in
+Private,Charotar University of Science & Technology,"Off Nadiad-Petlad Highway Road, Changa",388415,Gujarat,2(f),http://www.charusat.ac.in
+Private,Chhatrapati Shivaji Maharaj University,"Near Shedung toll plaza, Old Mumbai-Pune Highway, Panvel, Navi Mumbai, MaharashtraOld Mumbai pune highway,panvel, navi mumbai",410206,Maharashtra,2(f),http://www.csmu.ac.in
+Private,Chirayu University,"Bhopal-Indore Highway, Near Bairagarh, Bhainsakhedi",462030,Madhya Pradesh,2(f),https://www.cmchbhopal.com
+Private,Chitkara  University,"Chandigarh-Patiala National Highway, Village Jhansla, Tehsil Rajpura, District Patiala",140401,Punjab,2(f) & 12(B),http://www.chitkara.edu.in
+Private,Chitkara University,"HIMUDA Education HubPinjore-Barotiwala Highway (NH_21A)Solan,",174 103,Himachal Pradesh,2(f),http://www.chitkarauniversity.edu.in
+Private,CMJ University,"GS road,Jorabat, Right-bhoi district, meghalayaRi-Bhoi DistrictMeghalay",793101,Meghalaya,2(f),http://www.cmjumeghalaya.edu.in
+Private,CMR University,"#2, 3rd C Cross, 6th A Main, HEBR Layout, Kalyananagar, BangaloreIInd Block, HRBR Layout,Kalyan Nagar, Bangolare",560043,Karnataka,2(f),http://www.cmr.edu.in
+Private,COER University,"7KM. on Roorkee -Haridwar Road, Vardhmanpuram, Roorkee",247667,Uttarakhand,2(f),https://coeruniversity.in
+Private,CT University,"VPO-SIDHWAN KHURD, CHOWKI MANN, TEHSIL-JAGRAON, LUDHIANALudhiana",142024,Punjab,2(f),http://www.ctuniversity.in
+Private,D Y Patil International University,"Sector No. 29, Pradhikaran, Akurdi, PuneAkurdi,Pune",411044,Maharashtra,2(f),http://dypiu.ac.in
+Private,D. Y. Patil  Agriculture and Technical University,"Talsande, Kolhapur",416112,Maharashtra,2(f),https://dyp-atu.edu.in
+Private,D. Y. Patil University,"Sr No 124 & 126, Ambi, Tal-Maval, MIDC Road, Talegaon Dabhade,Pune",410507,Maharashtra,2(f),https://www.dypatiluniversitypune.edu.in
+Private,D.A.V University,"Village Sarmastpur, Jalandhar-Pathankot National Highway, JalandharSamastpur Village, Jalandhar, India",144012,Punjab,2(f),http://www.davuniversity.org
+Private,Darshan University,"Rajkot-Morbi Highway, Distt. Rajkot",363650,Gujarat,2(f),https://www.darshan.ac.in
+Private,Dayananda Sagar University,"Innovation Campus  ,  Hosur  Main Road , Kudlu Gate , BangaloreKumaraswamy Layout, BangloreKarnataka",560114,Karnataka,2(f),http://www.dsu.edu.in
+Private,DBS Global University,"122 MI, Behind Pharma City, Selaqui, Dehradun",248011,Uttarakhand,2(f),https://dgu.ac
+Private,DES Pune University,"Pune Mukunddas Lohia Academic Complex, BMCC, Shivaninagar, Taluka-Haveli, Pune",411004,Maharashtra,2(f),https://despu.edu.in
+Private,Desh Bhagat University,"Desh Bhagat University, Village Saunti, Tehsil Amloh, District Fatehgarh Sahib, Punjab 147203 Mandi Gobindgarh (Pb.)",147203,Punjab,2(f) & 12(B),http://www.deshbhagatuniversity.in
+Private,Dev Bhoomi Uttarakhand University,"Navgaon, ManduwalaDehradun",,Uttarakhand,2(f),https://www.ugc.gov.in/universitydetails/www.dbuu.ac.in
+Private,Dev Sanskriti Vishwavidyalaya,"Village Sankra Kumhari,District Durg",490042,Chhattisgarh,2(f),https://www.dsvv.ac.in
+Private,Dhanalakshmi Srinivasan University,SamayapuramTiruchirapalli,621112,Tamil Nadu,2(f),http://www.dsuniversity.ac.in
+Private,"Dhirubhai Ambani University (Formerly Dhirubhai Ambani Institute of Information and Communication Technology, Gandhinagar)","DAIICT, Near Indroda Circle, Gandhinagar",382007,Gujarat,2(f),https://www.daiict.ac.in
+Private,DIT University,"Mussoorie Diversion Road, Makkawala, P.O. Bhagwantpur, Dehradun, UttarakhandMakkawala, Dehradun",248 009,Uttarakhand,2(f),http://www.dituniversity.edu.in
+Private,Dnyan Prasad Global University (Formerly Dr. D.Y. Patil Dnyan Prasad),"Sant Tukaram Nagar, Pimpri Chinchwad, Survey Nos. 180/2/1 and 180/2/2, Taluka Haveli, Pune and also at Survey Nos 87/1, 88, 138/1A, 138/1B and 62/4/3, Tathwade, Pune",411018,Maharashtra,2(f),https://dypdpu.edu.in
+Private,Dr C V Raman University,"village & post CHHAIGAON MAKHAN,Dist-KhandwaPost-Chhaigaon MakhanKhandwa",450771,Madhya Pradesh,2(f),https://www.ugc.gov.in/universitydetails/Private_university_other?id=978
+Private,Dr C. V. Raman University,"Block-Bhagwanpur, NH-77, Distt.- Vaishali",844114,Bihar,2(f),https://www.cvrubihar.ac.in
+Private,Dr K N Modi University,"Area ph-II, Post Box No.01, Newai, Distt. Tonk",304021,Rajasthan,2(f) & 12(B),http://www.
+Private,Dr. A.P.J Abdul Kalam University,"Indore Dewas Bypass, Arandia, IndoreVillage- Arandia, Post- Jhalaria,Indore",452016,Madhya Pradesh,2(f),https://www.ugc.gov.in/universitydetails/www.aku.ac.in
+Private,Dr. C.V. Raman University,"Kargi Road Kota, Bilaspur, Distt. Bilaspur",495113,Chhattisgarh,2(f),http://www.cvru.ac.in
+Private,"Dr. K. N. Modi University, Modinagar, Ghaziabad, Uttar Pradesh","NCR Campus, Hapur Road, Modinagar, Ghaziabad",201204,Uttar Pradesh,2(f),https://dknmuncr.com
+Private,Dr. P. A. Inamdar University,"K. B. Hidayatullah Road, Azam Campus, Camp, Pune",411001,Maharashtra,2(f),https://drpaiu.edu.in
+Private,Dr. Preeti Global University,"Gram Dinara, Teh Karera,District-Shivpuri",473665,Madhya Pradesh,2(f),https://www.ugc.gov.in/universitydetails/Private_university_other?id=1198
+Private,Dr. Subhash University,"Dr. Subhash Road, Junagadh,",362001,Gujarat,2(f),https://www.ugc.gov.in/universitydetails/Private_university_other?id=1191
+Private,Dr. Vishwanath Karad MIT World Peace University,"S.no.-124, Paud Road,Kothrud,Pune",411038,Maharashtra,2(f),https://mitwpu.edu.in
+Private,DRIEMS University,"Kairapari, P.O. Kotsahi, Tehsil Tangi, District Cuttack, Odisha",754022,Odisha,2(f),https://driems.ac.in
+Private,Drs. Kiran & Pallavi Patel Global University (KPGU),"Krishna Edu Campus, Varnama, Vadodara",391243,Gujarat,2(f),https://kpgu.ac.in
+Private,Duke International University,"Unit no. 59, Near NH 710, Middle Kitam Ward, PW Milkhola Kitam GPU, Kitam, South Sikkim, District Namchi",737126,Sikkim,2(f),https://www.ugc.gov.in/universitydetails/Null
+Private,Durga Soren University,"Shivam Trust, Bompass Town, Deoghar",814114,Jharkhand,2(f),https://www.durgasorenuniversity.ac.in
+Private,EdTech Skills University,"Khageswar Road, Opposite Working Women's Hostel, Tinsukia",786125,Assam,2(f),https://edtech.edu.in
+Private,Eklavya University,"Ojaswini Nagar,Sagar Road,Damoh",,Madhya Pradesh,2(f),http://eklavyauniversity.ac.in
+Private,Era University,"SARFARAZGANJ, HARDOI ROAD, LUCKNOWHardoi RoadLucknow",226003,Uttar Pradesh,2(f),http://www.erauniversity.in
+Private,Eternal University,"Eternal Unviersity, Baru Sahib, District- Sirmour (H.P.)",173101,Himachal Pradesh,2(f),http://www.eternaluniversity.edu.i
+Private,Ethics University,"Village - Uregi, Pauri Garhwal,",246165,Uttarakhand,2(f),https://ethicsuniversityuk.com
+Private,F.S. University,"NH-19, Near Balaji Mandir, Shikohabad, Dist Firozabad,",283135,Uttar Pradesh,2(f),https://fsu.edu.in
+Private,Flame University,"GAT No. 1270Village LavaleTaluka Mulshi, Pune",411042,Maharashtra,2(f),https://www.flame.edu.in
+Private,Future University,"Bareilly-Lucknow Road, Near Faridpur, Bareilly",243503,Uttar Pradesh,2(f),https://www.futureuniversity.in
+Private,G L A University,"Campus: 17 Km Stone NH#2, Delhi Mathura Highway, Po-Chaumuhan, Mathura. Off-campus: Plot No. 15 A, Knowledge Park-2, Greater Noida, Gautam Buddha Nagar (UGC Approved)",281406,Uttar Pradesh,2(f) & 12(B),http://www.gla.ac.in
+Private,G. D. Goenka University,"G. D. Goenka Education City, Sohna, Gurugram Road, Delhi-NCR, Haryana-122103, IndiaSohna Gurgaon RoadSohna, Haryana",122103,Haryana,2(f),http://www.gdgoenkauniversity.com
+Private,"G. H. Raisoni International Skill Tech University, Pune","Gate No. 30, 42/1, 42/2, 43, 44, 47 and 49, Near Dwarka Milk, Opposite Pune Solapur Highway, Kedgaon, Daund, Pune",412207,Maharashtra,2(f),https://ghristu.edu.in
+Private,G. M. University,"Karur Village, Kasaba Hobli, Davanagere District",577006,Karnataka,2(f),https://www.gmu.ac.in
+Private,G. S. University,"NH-9, Pilkhuwa, Dist. Hapur",245304,Uttar Pradesh,2(f),https://gsuniversity.ac.in
+Private,G.H Raisoni University,"Dhoda Borgaon, Village Saikheda, Tah Sausar, Dist Chhindwara(M.P) Tah-Saunsar,Dist-Chhindwara",480334,Madhya Pradesh,2(f),https://www.ghru.edu.in
+Private,"G.H. Raisoni Skill Tech University, Nagpur","Plot No. 37-39/1, 39, Sharda Park,Off- Hingna-Wadi Link Road,Nagpur, Maharashtra",440016,Maharashtra,2(f),https://ghrstu.edu.in
+Private,G.H.Raisoni University,"Anjangaon Bari Road, Amravati MaharashtraBari Road,Amravat",444701,Maharashtra,2(f),https://ghru.edu.in/amravati
+Private,G.L.S. University,"GLS Campus, Opp. Law Garden, Ellisbridge, AhmedabadOpp. Law GardenEllisbridge, Ahmedabad",380006,Gujarat,2(f) & Category-II,https://www.glsuniversity.ac.in
+Private,Galgotias University,"PLOT NO 2, SECTOR 17 A, YAMUNA EXPRESSWAY GREATER NOIDA UTTAR PRDAESHYamuna Expressway Gautam Budh Nagar",203201,Uttar Pradesh,2(f) & 12(B),http://www.galgotiasuniversity.edu.in
+Private,"Gandhi Institute of Engineering and Technology University Odisha, Gunupur (GIET University)","Gunupur,Distt. Rayagada,Odisha",765022,Odisha,2(f),http://www.giet.edu
+Private,Gandhinagar University,"Village: Moti Bhoyan, Khatraj-Kalol Road, Gandhinagar",382721,Gujarat,2(f),https://www.gandhinagaruni.ac.in
+Private,Ganpat University,"Campus: Ganpat Vidyanagar, Mehsana, Goazaria Highway, District Mehsana, Off-Campus: Ganesh Meridian, Block-A, Opp. Kargil Petrol pump, Sola, S. G. Highway, Ahmedabad-380060",382711,Gujarat,2(f),http://www.ganpatuniversity.ac.in
+Private,Garden City University,"GCC House, #340, 5th Main,Indiranagar Double Road,,1st Stage, Indiranagar, Banglore",560038,Karnataka,2(f),https://www.gardencity.university
+Private,Geeta University,"NH-71A, NaulthaPanipat",132145,Haryana,2(f),https://www.geetauniversity.edu.in
+Private,Geetanjali University,"Geetanjali Medicity, Hiran Magri Extension,",313002,Rajasthan,2(f),http://geetanjaliuniversity.com
+Private,Girijananda Chowdhury University,"Hathkhowapara, Azara, Guwahati, District-Kamrup (Metro)",781017,Assam,2(f),https://gcuniversity.ac.in
+Private,GNA University,"Sri Hargobindgarh, Phagwara-Hoshiarpur Road,Phagwara,Distt. Kapurthala",144401,Punjab,2(f),https://www.gnauniversity.edu.in
+Private,Godavari Global University,"NH-16, Chaitanya Knowledge City, Rajamahendravaram",533296,Andhra Pradesh,2(f),https://ggu.edu.in
+Private,Gokul Global University,"GOKUL GLOBAL UNIVERSITY,NEAR SUJANPUR PATIA,OPPOSITE IOC DEPOT,STATE HIGHWAY-41,SIDDHPUR-384151Near G. R. S. L., Sujanpur PatiaSidhpur, Dist- Patan",384151,Gujarat,2(f),https://www.gokuluniversity.ac.in
+Private,Gopal Narayan Singh University,"Jamuhar, PO-Jamuhar, Dist-Rohtas",821305,Bihar,2(f),https://gnsu.ac.in
+Private,Graphic Era Hill University,"510, Society Area, Clement TownDehradun (Main campus at Dehradun, Second campus at Garhwal Region (Belkhet Gram, District Pauri Garwal) and Third campus at Bhimtal Area of District Nanital, Dehradun (Uttarakhand)",248002,Uttarakhand,2(f),http://www.gehu.ac.in
+Private,GSFC University,Vigyan BhavanPO FertilizernagarDist. Vadodara,391750,Gujarat,2(f),http://www.gsfcuni.edu.in
+Private,Gujarat Maritime University,"Sagar Bhavan, Ground Floor,Sector-10-A,Opp. Air Force Centre,CHH Road, Gandhinagar",382010,Gujarat,2(f),https://gmu.edu.in
+Private,Guru Kashi University,"Sardugah Road, Talwandi sabo, Bathinda",151302,Punjab,2(f) & Category-I,https://gurukashiuniversity.in
+Private,Guru Nanak University,"Ibrahimpatnam, Ranga Reddy District, Hyderabad",501506,Telangana,2(f),https://gnuindia.org
+Private,Gyanmanjari Innovative University,"Survey No. 30, Sidsar Road, Bhavnagar,",364060,Gujarat,2(f),https://gmiu.edu.in/gmiu/website
+Private,Gyanodaya University,Village- SuwakhedaDistrict-NeemuchMadhya Pradesh,458441,Madhya Pradesh,2(f),https://gyanodayauniversity.ac.in
+Private,Gyanveer University,"Village- Maa-Emliya, Ph-20, Block-Rahatgarh, Sagar",470115,Madhya Pradesh,2(f),http://www.gyanveeruniversity.edu.in
+Private,Haridwar University,"5th KM, Roorkee-Haridwar Canal Road, Village-Bajuheri, Roorkee",247667,Uttarakhand,2(f),https://huroorkee.ac.in
+Private,Himalayan University,"401, Takar Complex, Nahalagun",791110,Arunachal Pradesh,2(f),http://www.himalayanuniversity.com
+Private,Homoeopathy University,"Saipura, SanganerJaipur",302029,Rajasthan,2(f),https://www.homoeopathyuniversity.org
+Private,HRIT University,"8th Km Stone, Delhi-Meerut Road, HRIT Campus, Ghaziabad",201003,Uttar Pradesh,2(f),https://www.hrit.ac.in
+Private,I.E.C. (India Education Centre) University,"Baddi, SolanHimachal Pradesh",,Himachal Pradesh,2(f),https://www.iecuniversity.ac.in
+Private,I.E.S. University,IES Campus Ratibad Main RoadBhopal,462044,Madhya Pradesh,2(f),https://www.iesuniversity.ac.in
+Private,ICFAI University,"Khasra No. 505/1 Village Jamdoli, Agra Road Jaipur-302 031 RajasthanVillage: Jamdoli,Agra Road Jaipur",302031,Rajasthan,2(f),https://www.iujaipur.edu.in
+Private,ICFAI University,Plot no. 5 Atal Shiksha Kunj  Village kalujhanda P.o Mandhal tel Baddi Distt. Solan H.P,174103,Himachal Pradesh,2(f),https://www.iuhimachal.edu.in
+Private,ICFAI University,KUMHARI,490042,Chhattisgarh,2(f),https://www.iuraipur.edu.in
+Private,ICFAI University,"6th Mile,Sovima VillageKohima Road, Dimapur",797112,Nagaland,2(f),https://www.ugc.gov.in/universitydetails/www.iunagaland.edu.in
+Private,IFTM University,"Lodhipur Rajpur, Delhi Road, Moradabad (UP)Moradabad-244 102",244102,Uttar Pradesh,2(f),http://iftmuniversity.ac.in
+Private,IIHMR University,"1, Prabhu Dayal Marg, Near Sanganer Airport, JaipurNear Sanganer AirportJaipur",302029,Rajasthan,2(f),http://www.iihmr.edu.in
+Private,IILM University,"IILM University, 1, Knowledge Centre, Golf Course Road, Sector-53, Gurugram-Haryana-122003Golf course RoadSector-53, Gurugram",122003,Haryana,2(f),https://www.iilm.edu
+Private,IILM University,"Plot No. 16-18Knowledge park-II,Greater Noida",201308,Uttar Pradesh,2(f),https://iilm.ac.in
+Private,IIMT University,"""O"" Pocket, Ganga Nagar, Mawana Road, Meerut,         Off-campus: Greater Noida",245101,Uttar Pradesh,2(f) & 12(B),http://iimtu.com
+Private,IMS Unison University,"Makkawala Greens,Mussorie Diversion Road, Dehradun",248009,Uttarakhand,2(f),http://www.iuu.ac
+Private,India International University of Legal Education and Research,"Upasnagar, sancoale, Airport Road, South Goa",403710,Goa,2(f),https://www.iiuler.com
+Private,Indian Institute of Public Health,"Opposite Air-Force Headquarters GandhinagarNear Lekawada Bus Stop, Gandhinagar-Chiloda roadCRPF, P. O. Lekawada, Gandhinagar",382042,Gujarat,2(f),https://www.ugc.gov.in/universitydetails/www.iiphg.edu.in
+Private,Indira Gandhi Technological and Medical Science University,"Ziro, Lower Subansiri",791120,Arunachal Pradesh,2(f),http://www.igtamsu.ac.in.
+Private,Indira University,"Pune Headquarter at Indira Tapasya Campus, Survey No. 85/5A, New Pune - Mumbai Highway Tathwade, Taluka, Mulshi, Pune",411033,Maharashtra,2(f),https://indirauniversity.edu.in
+Private,Indrashil University,"ON Ahmedabad-Mahesana Highway, Take Left from Kalapi Hotel, Near Chhatral,Kadi,GIDC, Rajpur, Taluka:Kadi, Dist.-Mehsana",382715,Gujarat,2(f),http://indrashiluniversity.edu.in
+Private,Indus International Uniersity,V.P.O. BathuTehsil HaroliDistt. Una,174301,Himachal Pradesh,2(f),http://www.iiuedu.in
+Private,Indus University,"Vill. Rancharda, Via: Shilaj, AhmedabadRancharda, Via-ThaltejAhmedabad",382115,Gujarat,2(f),http://indusuni.ac.in
+Private,Institute of Advanced Research,"nstitute of Advanced Research, Koba Institutional Area, GandhinagarKoba,Gandhinagar",382426,Gujarat,2(f),https://www.iar.ac.in
+Private,Integral University,"Integral University, Dasauli, Kursi Road, LucknowLucknow",226026,Uttar Pradesh,2(f) & 12(B),https://www.ugc.gov.in/universitydetails/www.iul.ac.in
+Private,Invertis University,"Invertis Village, Bareily-LucknowNational Highway -24, Bareily, U.P.NULL",,Uttar Pradesh,2(f),http://www.invertis.org
+Private,ISBM University,"Vill-Nawapara (Kosmi) Block,Tehsil-Chhura,Dist-Gariyaband",493996,Chhattisgarh,2(f),https://isbmuniversity.edu.in
+Private,ITM (SLS) Baroda University,"VILLAGE PALDI, NEAR JAROD, VADODARA HALOL HIGHWAY TAL WAGHODIA, DIST: VADODARANear Jarod,Vododara-Halol Highwary, Vadodara",391510,Gujarat,2(f),https://www.itmbu.ac.in
+Private,ITM Skills University,"Plot 24 and 25, Institutional Area, Kharghar, Navi Mumbai",410210,Maharashtra,2(f),https://www.isu.ac.in
+Private,ITM University,"Uparwara, Teh.- AbhanpurNaya Raipur,  Distt. Raipur",493 661,Chhattisgarh,2(f),http://www.itmuniversity.org
+Private,ITM University,"Opp. Sithouli Rly. StationNH-75, Jhansi RoadGwalior",474001,Madhya Pradesh,2(f),https://www.ugc.gov.in/universitydetails/www.itmuniversity.ac.in
+Private,ITM Vocational University,"Plot 6512, Ajwa Nimeta Road, Raval, Taluka, Vagodia, District - Vadodara, Gujarat.Nimeta Road, Raaval TalukaWaghodia, Vadodara",391760,Gujarat,2(f),https://www.itm.ac.in
+Private,J. N. C. T professional University,"New Chouksey Nagar, Lambakheda, Berasia Road, Bhopal,",462038,Madhya Pradesh,2(f),https://www.jnctpu.edu.in
+Private,J.E.C.R.C  University,"Plot No.IS-2036 to 2039,Ramchandrapura Industrial Area,Vidhani,Sitapura Extn,JaipurRamchandrapura, Sitapura Industrial Area ExtnNear Mahatma Gandhi Hospital, Vidhani Village, Jaipur",303905,Rajasthan,2(f) & 12(B),http://jecrcuniversity.edu.in
+Private,J.G. University,"Uvarsad,Distt- Gandhinagar",,Gujarat,2(f),http://jguni.in
+Private,J.S. University,5KM MAINPURI ROAD SHIKOHABADFirozabadUttar pradesh,283135,Uttar Pradesh,2(f),https://www.ugc.gov.in/universitydetails/www.jsu.ac.in
+Private,Jagadguru Kripalu University,"At P.O. Banara, Via Mundali Colony, District Cuttuck",754006,Odisha,2(f),https://jku.edu.in
+Private,Jagan Nath University,"State Highway 22, Bahadurgarh-Jhajjar Road, Jhajjar",124507,Haryana,2(f),http://www.jagannathuniversityncr.ac.in
+Private,Jagannath University,"NH-12, Chaksu Byepass, Tonk Road, Teshil-Chaksu, Jaipur",303901,Rajasthan,2(f) & 12(B),http://www.jagannathuniversity.org
+Private,Jagran Lakecity University,"Gram Panchayat Mugaliya ChhapTehsil Huzur, Bhopal",462044,Madhya Pradesh,2(f),http://www.jlu.edu.in
+Private,Jai Minesh Adivasi University,"In front of IIIT, Ranpur, Kota,",325003,Rajasthan,2(f),https://www.jmau.ac.in
+Private,Jaipur National University,"Jaipur-Agra BypassNear New RTO office, JaipurJagatpura",302 017,Rajasthan,2(f),http://www.jnujaipur.ac.in
+Private,Jayoti Vidyapeet Women's University,"Vedaant Gyan Valley Village Jharna Mahila-Jobner Line RoadJabner, Jaipur-Ajmer Express Way, Jaipur",303007,Rajasthan,2(f) & 12(B),http://www.jvwomensuniv.com
+Private,Jaypee University,"Aligarh Road, Anoopshahr, District- Bulandshahr, Uttar Pradesh, IndiaDist. Bulandshahar",203390,Uttar Pradesh,2(f),http://www.jaypeeu.ac.in
+Private,Jaypee University of Engineering & Technology,"Raghogarh, Guna MPRaghogarhDistt, Guna",473226,Madhya Pradesh,2(f),http://www.juet.ac.in
+Private,Jaypee University of Information Technology,Distt. Solan,173234,Himachal Pradesh,2(f),http://www.juit.ac.in
+Private,Jeppiaar University,"Rajiv Gandhi Salai,Chennai",600119,Tamil Nadu,2(f),https://www.ugc.gov.in/universitydetails/Private_university_other?id=1137
+Private,Jharkhand Rai University,"Raja Ulatu, Namkum, Ranchi, JharkhandRatu RoadRanchi",834010,Jharkhand,2(f),http://www.jru.edu.in
+Private,Jigyasa University ( Formerly name Himgiri Zee University),"P.O. Sherpur,Chakrata Road,Dehradun",248197,Uttarakhand,2(f),https://www.hzu.edu.in
+Private,JIS University,"81, Nilgunj Road, Agarpara, KolkataDistrict North 24 Parganas",700109,West Bengal,2(f),https://www.jisuniversity.ac.in
+Private,JK Lakshmipat University,"Laliya Ka Vas P.O. Mahapura,Ajmer RoadJaipur",302026,Rajasthan,2(f),http://www.jklu.edu.in
+Private,Jodhpur National University,"Narnadi,Jhanwar Road,BoranadaJodhpur",342 001,Rajasthan,2(f),http://www.jodhpurnationaluniversity.com
+Private,Joy University,"Raja Nagar, Alanganeri, Vadakkangulam, Radhapuram Taluk, Tirunelveli District",627116,Tamil Nadu,2(f),https://joyuniversity.edu.in
+Private,JSPM University,"Gut No. 719/1 and 719/2, Wagholi, Taluka, Haveli, District Pune",4122017,Maharashtra,2(f),https://jspmuni.ac.in
+Private,JSS Science & Technology University,"JSS Science and Technology University, JSS Technical Institutions Campus, MysuruMysuru",570006,Karnataka,2(f),https://jssstuniv.in
+Private,"JSS University, Noida, Uttar Pradesh","C-20/1, Sector-62, Noida,  Gautam Budh Nagar",201301,Uttar Pradesh,2(f),https://jssuninoida.edu.in
+Private,K K University,"Berauti, Nepura, Biharsharif, Nalanda",803115,Bihar,2(f),https://www.kkuniversity.ac.in
+Private,K. K. Modi University,"Village Mehmara,Jalbandha(Rasmada) Road,Distt. - Durg",491001,Chhattisgarh,2(f),https://kkmu.edu.in
+Private,K. N. University,"Smt. K. N. Patel International School, Near KNPIS Circle, Vodafone Tower Lane, Gota, Ahmedabad",382481,Gujarat,2(f),https://knu.edu.in
+Private,K.M. (Krishna Mohan) University,"Pali Dungra, Sonkh Road, Mathura",281123,Uttar Pradesh,2(f),https://kmu.edu.in
+Private,K.R. Mangalam University,"Sohna Road,Gurugram",122103,Haryana,2(f),https://www.krmangalam.edu.in
+Private,Kadi  Sarva Vishwavidyalaya,"LDRPITR Campus, Near Kh 5 Circle, Sector 15, GandhinagarSector 15/23, Gandhinagar",382016,Gujarat,2(f),http://ksvuniversity.org.in
+Private,Kalinga University,"Kotni, Near Mantralaya, Naya Raipur (Chhattisgarh) IndiaThasil : Aarang,  Naya Raipur",492101,Chhattisgarh,2(f) & 12(B),https://www.kalingauniversity.ac.in
+Private,Karnavati University,"907/A, UvarsadGhandhinagar,",382422,Gujarat,2(f),http://www.karnavatiuniversity.com
+Private,Kaveri University,"Gowraram (V), Wargal (M), Siddipet District",502079,Telangana,2(f),https://kaveriuniversity.edu.in
+Private,Khaja Bandanawaz University,"Admin Block, Rauza-i Buzurg,Kalaburagi",585104,Karnataka,2(f),https://www.ugc.gov.in/universitydetails/Private_university_other?id=985
+Private,"Khalsa University, Amritsar","G.T. Road, Amritsar",143002,Punjab,2(f),https://www.khalsauniversity.ac.in
+Private,Khongnangthaba University,"Khurai Konsam leikai,Imphal East District",795010,Manipur,2(f),https://www.khongnangthabauniversity.org
+Private,Kishkinda University,"City Campus, Ballari Business College, Siruguppa Road, Ballari",583103,Karnataka,2(f),https://kishkindauniversity.edu.in
+Private,KLE Technological University,"B.V. Bhoomarddi College Campus,Vidyanagar,Hubballi",580031,Karnataka,2(f) & 12(B),http://kletech.ac.in
+Private,KREA University,"Appaiahpalem, Central Expressway, Sri City",517646,Andhra Pradesh,2(f),https://krea.edu.in
+Private,Krishnaguru Adhyatmik Visvavidyalaya,"Nasatra, Barpeta",781307,Assam,2(f),https://kav.org.in
+Private,Lakulish Yoga University,"Lotus View, Opp. Nirma University,S.G. Highway, Chharodi,Ahmedabad",382481,Gujarat,2(f),https://lyu.ac.in/governance
+Private,Lamrin Tech Skills University,"Chandigarh- Jalandhar NH 344A, 40 KM from Chandigarh and 5km from Ropar on Chandigarh-Ropar-Jalandhar National Highway District Shaheed Bhagat Singh Nagar",144533,Punjab,2(f),https://www.ltsu.ac.in
+Private,LNCT University,"JK Town Sarvadharam C sector, Kolar Road, Bhopal",462024,Madhya Pradesh,2(f),https://lnctu.ac.in
+Private,LNCT Vidhyapeeth University,"LANCT Campus, Village-Kanadiya, Kanadiya Road, Indore",452016,Madhya Pradesh,2(f),https://www.lnctvu.ac.in
+Private,Lok Jagruti Kendra University,"FP No. 74,100+113, TPS No. 86,(Sarkhej-okaf-Fatewadi, Makrba), Dist.  Ahmedabad",,Gujarat,2(f),http://www.ljku.edu.in
+Private,Lokbharti University for Rural Innovation,"At. Sanosara, Ta. SihorDist.- Bhavnagar",364230,Gujarat,2(f),https://www.ugc.gov.in/universitydetails/Private_university_other?id=1177
+Private,Lords University,"Alwar-Tijara-Delhi Highway,Chikani, Alwar",,Rajasthan,2(f),https://www.lordsuni.edu.in
+Private,Lovely Professional University,"Jalandhar-Delhi G.T. Road, Ludhiana, Phagwara, Distt. Kappurthala",144411,Punjab,2(f) & Category-I,http://www.lpu.in
+Private,M. K. University,"Hanumanpura, Matarvadi Patan",384265,Gujarat,2(f),https://mkuniversity.edu.in
+Private,M.S. Ramaiah University of Applied Sciences,"University House, Gnanagangothri Campus ,New BEL Road, M S R Nagar, Bangalore, Karnataka, INDIA - 560 054M S R Nagar, Bangalore",560054,Karnataka,2(f),http://www.msruas.ac.in
+Private,M.V.N. University,"74 KM Stone, NH-2, Delhi-Agra Highway, Palwal (Haryana) - 121105Delhi-Agra Highway, Palwal",121105,Haryana,2(f),http://mvn.edu.in
+Private,Madhav University,"Madhav Hills, Opp. Banas Bridge TollNH -14, Abu RoadDistrict - Sirohi",307 026,Rajasthan,2(f),http://madhavuniversity.edu.in
+Private,Madhyanchal Professional University,"Patel Group of Institutions Campus, Ratibad,Bhopal",462044,Madhya Pradesh,2(f),https://www.mpu.ac.in
+Private,Maganbhai Adenwala Mahagujarat University,"I.S. Ayurved Mahavidyalaya, College Road, Nadiad",387001,Gujarat,2(f),https://mamuni.edu.in
+Private,Mahakaushal University,"Anthakheda, Chargawan Road,Tilwara,Jabalpur",482003,Madhya Pradesh,2(f),https://mku.ac.in
+Private,Mahapurusha Srimanta Sankaradeva Viswavidyalaya,"Srimanta Sankaradeva Sangha Complex, Haladhar Bhuyan Path, Kalongpar, Nagaon",782001,Assam,2(f),https://www.mssv.ac.in
+Private,Maharaj Vinayak Global University,"Dhand,Amer,Jaipur",,Rajasthan,2(f),http://www.mvgu.ac.in
+Private,Maharaja Agrasen Himalayan Garhwal University,"Dhaid Gaon, Shiv NagarBlock PokhraDistt. Pauri Garhwal",246169,Uttarakhand,2(f),https://hgu.ac.in
+Private,Maharaja Agrasen University,"Atal Shiksha Kunj Village kalujhanda, Baddi Distt. Solannear Barotiwala, Tehsil-Baddi, Distt. Sonal",174103,Himachal Pradesh,2(f),https://www.ugc.gov.in/universitydetails/www.mau.ac.in
+Private,Maharashtra Institute of Technology University of Meghalaya(Formerly University of Technology & Management),"Present Office: Nongshiliang, Nongthymmai, SHilong, MeghalayaUpcoming Permanent Campus:  Mawkashiang, village-Umroh, Shillong.",793014,Meghalaya,2(f),https://mituniversityindia.edu.in
+Private,"Maharishi Arvind University, Jaipur","Mundiaramsar, Near Bindayaka Industrial Area,Jaipur",302012,Rajasthan,2(f),https://www.ugc.gov.in/universitydetails/Private_university_other?id=821
+Private,"Maharishi Mahesh Yogi Ramayan University, Ayodhya, Uttar Pradesh","Village - Majha Barhata, NH-27, PO-Ayodhya RS, Ayodhya",224123,Uttar Pradesh,2(f),https://mmyrv.edu.in
+Private,Maharishi Mahesh Yogi Vedic Vishwavidyalaya,"Village-Karaundi, Post Office-Mahner, Tehsil-Dheemarkheda, City-Dheemarkheda, District-Katni",483332,Madhya Pradesh,2(f),http://www.mmyvv.com
+Private,Maharishi Markandeshwar University,"Institutional Area, Village Sadopur, Ambala- Chandigarh Highway, Ambala",134007,Haryana,2(f),http://www.mmambala.org
+Private,Maharishi Markandeshwar University,"Village Laddo, Sultanpur Road, Post Office Kumarhatti, Distt. Solan-HPSolan NULL",173229,Himachal Pradesh,2(f),http://mmusolan.org
+Private,Maharishi University of Information Technology,"Maharishi Bal Vidya Mandir & University CampusSitapur Road, Post-DiburiaLucknow",226020,Uttar Pradesh,2(f),https://www.maharishiuniversity.ac.in
+Private,Maharishi University of Management and Technology,"Maharishi Road, Post Box No. - 10, Mangla, Bilaspur",495 001,Chhattisgarh,2(f),http://www.mumt.com
+Private,Mahatama Gandhi University,"13th Mile, G S RoadKanapara, Distt. Ri-Bhoi",793101,Meghalaya,2(f),https://www.ugc.gov.in/universitydetails/Private_university_other?id=582
+Private,"Mahatma Gandhi University (MGU), Sikkim","Village - Daramdin, Dist. - Soreng",737121,Sikkim,2(f),https://mgusikkim.com
+Private,Mahatma Gandhi University of Medical Sciences & Technology,"RIICO Institutional Area, Sitapur , Tonk Road, Jaipur-302 022 Rajasthan",,Rajasthan,2(f),https://www.ugc.gov.in/universitydetails/Private_university_other?id=626
+Private,Mahatma Jyoti Rao Phoole University,"SP-2 & 3, Kant Kalwar, RIICO Industrial Area, NH-8 Near Achrol, Jaipur",,Rajasthan,2(f),http://www.mjrpuniversity.com
+Private,Mahaveer University,"Pohali, Sardhana Road, Meerut",250341,Uttar Pradesh,2(f),https://mepedu.in
+Private,Mahayogi Gorakhnath University Gorakhpur,"Arogya Dham, Balapur Road,Sonbarsa,Distt-Gorakhpur",237007,Uttar Pradesh,2(f),https://mgug.ac.in
+Private,Mahindra University,"At Bahadurpally (V), Qudbullapur Mandal, Madchal Malkajgiri",500043,Telangana,2(f),https://www.mahindrauniversity.edu.in
+Private,Major S. D. Singh University,"Bhojpur,  Kanpur Road, Fatehgarh, Farrukhabad",209749,Uttar Pradesh,2(f),https://msds.ac.in/en
+Private,Malla Reddy University,"Maisammaguda,  Dhulapally, Post via Kompally, Medchal- Malkajgiri District",500014,Telangana,2(f),https://www.mallareddyuniversity.ac.in
+Private,Malwanchal University,"Index City,NH-59A,Nemawar Road,Near Khundel, District-Indore",452016,Madhya Pradesh,2(f),https://www.malwanchaluniversity.com
+Private,Management and Information Technology University,"Melli, Namchi,",737126,Sikkim,2(f),https://mituniversitysikkim.com
+Private,Manav Bharti University,"Village - Laddo, Post OfficeSultanpur, Tehsil & Distt, Solan",,Himachal Pradesh,2(f),http://www.manavbhartiuniversity.edu.in
+Private,Manav Rachna University,"Sector-43, Aravalli Hills, Delhi-Surajkund Road, FaridabadDelhi-Surajkund Road,Faridabad",121001,Haryana,2(f),http://mru.edu.in
+Private,Mandsaur University,"Mahow Neemuch bypass , Rewas Devda, Road, MandsaurSh-31,Mandsaur",458001,Madhya Pradesh,2(f),https://www.ugc.gov.in/universitydetails/mandsauruniversity.edu.in
+Private,Mangalayatan University,"Extended NCR, 33rd MilestoneMathura-Aligarh HighwayBeswan Aligarh",202 145,Uttar Pradesh,2(f),http://www.mangalayatan.in
+Private,Mangalayatan University,"NH-30, Mandla Road,Near Shrda Devi Mandir,Richai-Barela, Jabalpur",483001,Madhya Pradesh,2(f),https://www.ugc.gov.in/universitydetails/www.mangalayatan.ac.in
+Private,Manipal University,"Manipal University Jaipur ,  Dehmi Kalan, Off Jaipur-Ajmer Expressway, Jaipur, (Raj.) Rajasthan 303007.Jaipur-Ajmer ExpressJaipur",303007,Rajasthan,2(f),http://www.jaipur.manipal.edu
+Private,Manipur International University,"MIU Place,Ghari,Airport RoadImphal",795140,Manipur,2(f),https://www.ugc.gov.in/universitydetails/Private_university_other?id=1009
+Private,Mansarovar Global University,"Village Gadia and Ratnakhedi,Block-BilkisganjSehore",,Madhya Pradesh,2(f),https://www.ugc.gov.in/universitydetails/www.mguindia.com
+Private,Martin Luther Christian University,"Block 1, Dongktieh, Nongrah, Shillong, Meghalaya 793006Nongrah,Shillong, Meghalaya",793006,Meghalaya,2(f),http://www.mlcuniv.in
+Private,Marwadi University,"Rajkot- Morbi HIghway, Near Gauridad,RajkotRajkot",360003,Gujarat,2(f),https://www.marwadiuniversity.ac.in
+Private,Mata Gujri University,"Purabpali Roa, Kishangunj",855107,Bihar,2(f),https://www.matagujriuniversity.com
+Private,MATS University,"Aarang Kharora Highway, Aarang,District :  Raipur",493441,Chhattisgarh,2(f),http://www.matsuniversity.ac.in
+Private,Maulana Azad University,"Village - Bujhawar, Tehsil Luni, Jodhpur - 342802 (Raj.)Jodhpur",342802,Rajasthan,2(f),http://www.mauj.ac.in
+Private,Maya Devi University,"NH-72, Near Hotel The Competent Palace, Central Hope Town Selaqui, Chakrata Road, Dehradun",248011,Uttarakhand,2(f),https://maya.edu.in
+Private,"Medhavi Skills University, Sikkim","Singtam Campus TopakhaniLower Chisopani, Singtam Bazar, SingtamDist.- East Sikkim",737134,Sikkim,2(f),https://www.msu.edu.in
+Private,Medi-Caps University,"A B Road, Pigdamber, Rau, IndorePigdamber, RauIndore",453331,Madhya Pradesh,2(f),http://www.medicaps.ac.in
+Private,Mewar University,"NH - 79 Gangrar,Chittorgarh",,Rajasthan,2(f) & 12(B),http://www.mewaruniversity.org
+Private,MGM University,"MGM CampusN-6, CIDCO,Aurangabad",431003,Maharashtra,2(f),https://mgmu.ac.in
+Private,Mind Power University,"Village- Bohrakoon Road, Bhimtal, Nanital",263136,Uttarakhand,2(f),https://www.mindpoweruniversity.in
+Private,MIT Art Design and Technology University,"Rajbaug, Pune Solapur Highway, next to HadapsarNext to Hadapsar, Loni Kalbhor, Pune",412201,Maharashtra,2(f),http://www.mituniversity.edu.in
+Private,"MIT Vishwaprayag University, Solapur","Village Kegaon, Solapur-Pune Highway, Taluka North Solapur, District Solapur",413255,Maharashtra,2(f),https://www.mitvpu.ac.in
+Private,MNR University,"MNR Nagar, Fasalwadi, Sangareddy, Gr. Hyderabad",502294,Telangana,2(f),https://mnrindia.org
+Private,Mody University of Science & Technology,LaxmangarhDistrict - SikarRajasthan,332311,Rajasthan,2(f) & 12(B),http://www.modyuniversity.ac.in
+Private,Mohammad Ali Jauhar University,"Jauhar Nagar Sigan Khera Rampur (U.P)Block Saidnagar, Distt. Rampur",244927,Uttar Pradesh,2(f),http://www.jauharuniversity.edu.in
+Private,Mohan Babu University,"Sree Sainath Nagar, Tirupati",517102,Andhra Pradesh,2(f),https://www.mbu.asia
+Private,Monad University,"Monad University Campus. N.H. 9, Delhi Hapur Road, Village & Post Kastla, Kasmabad, Pilkhuwa, Distt. Hapur",245101,Uttar Pradesh,2(f),https://www.monad.edu.in
+Private,Monark University,"At & Post Vahelal, Naroda-Dahegam Road, Ahmedabad",382330,Gujarat,2(f),https://monarkuni.ac.in
+Private,Motherhood University,"Village- Karondipost - BhagwanpurRoorkee, Distt. Hardwar",,Uttarakhand,2(f),https://www.ugc.gov.in/universitydetails/www.motherhooduniversity.edu.in
+Private,Navrachana University,"Vasna Bhayli Road, Vadodara -391 410 Gujarat, IndiaVadodaraGujarat",391410,Gujarat,2(f),https://www.nuv.ac.in
+Private,Nayanta University,"Interim Campus, at Survey No. 58 and 59/4, Paud Road, Bavdhan, Khurd, Pune",411021,Maharashtra,2(f),https://nayanta.org
+Private,Netaji Subhas University,"Pokhari, PO-Bhilai Pahari,PS-MGM, Dist- East Singhbhum,Jamshedpur",831012,Jharkhand,2(f),https://nsuniv.ac.in
+Private,NICMAR University,"Building NO./Plot NO. 25/1NIA Post Office, BalewadiTaluka Haveli, District Pune",411045,Maharashtra,2(f),https://nicmar.ac.in
+Private,NICMAR University of Construction Studies,"Survey No. 371-384, 389 and 390 of Jaggamguda Shamirpet, P.O. - Aliabad, Medchal-Malkajgiri District, Hyderabad",500101,Telangana,2(f),https://www.nicmar.ac.in
+Private,NIILM University,"NH-65 AMBALA ROAD,KAITHALAmbala Road, Kaithal",136027,Haryana,2(f),https://www.ugc.gov.in/universitydetails/www.niilmuniversity.in
+Private,NIIT University,"NH-08, DELHI-JAIPUR HIGHWAY, NEEMRANA DIST. ALWAR RAJASTHANNeemrana,Distt. Alwar",301705,Rajasthan,2(f),http://www.niituniversity.in
+Private,NIMS University,"NH-11 C, Jaipur- Delhi Highway, Jaipur, Rajasthan(NH-11C), Jaipur",303121,Rajasthan,2(f),http://www.nimsuniversity.org
+Private,Nirma University,"Nirma University, S. G. Highway, Ahmedabad, GujaratVillage - ChharodiAhmedabad",382481,Gujarat,2(f),http://www.nirmauni.ac.in
+Private,Nirwan University,"NH-21, Village Jhar,Near Bassi, Main Agra Road,Jaipur",303705,Rajasthan,2(f),https://www.nirwanuniversity.ac.in
+Private,NIST University,"Institute Park, Pallur Hills, Distt.- Ganjam",761008,Odisha,2(f),https://www.nist.edu
+Private,NMV University,"Muthuramalingapuram VillageAruppukottai Taluk, Virudhunagar",626105,Tamil Nadu,2(f),https://nmvuniversity.edu.in
+Private,Noble University,"Noble Group of Institutions, Parth Vatika, Bhesan Road, Ta. & Distt., Junagadh",362310,Gujarat,2(f),https://nobleuniversity.ac.in
+Private,Noida International University,"Plot 1, Sector-17 A, Greater Noida,Gautam Budh Nagar",203201,Uttar Pradesh,2(f),http://niu.edu.in
+Private,North East Adventist University,"Khliehtyrshi, P.O. Thadlaskein, West Jaintia Hills District",793151,Meghalaya,2(f),https://www.ugc.gov.in/universitydetails/Private_university_other?id=1112
+Private,North East Christian University,"Anchor Complex, East BlockBurma Camp, Post Box-109Dimapur",797112,Nagaland,2(f),https://www.ugc.gov.in/universitydetails/Private_university_other?id=1094
+Private,North East Frontier Technical University,"Sibu-Puyi, Aalo (PO), West Siang (Distt.)",791001,Arunachal Pradesh,2(f),https://www.neftu.edu.in
+Private,O.P. Jindal University,"OP Jindal Knoledge Park, Punjipathra, RaigarhGharghoda Road Punjipathra, Raigarh",496109,Chhattisgarh,2(f),http://www.opju.ac.in
+Private,Om Sterling Global University,"NH-52, Hisar-Chandigarh Road, V.P.O. Juglan, HisarHisar-Chandigarh Road,Hisar",125001,Haryana,2(f),https://www.osgu.ac.in
+Private,OPJS University,VPO – Rawatsar KunjlaNear Sankhu Fort Jhunjhunu Road,Rajgarh (Sadulpur) Churu,Rajasthan,2(f),http://www.opjsuniversity.edu.in
+Private,Oriental University,"Opp. Rewati Range Gate No. 1, Post Shri Aurobindo, Jakhya, IndorePost Aurobindo, Sanwer Road, Jakhya, Indore",453555,Madhya Pradesh,2(f),http://www.orientaluniversity.in
+Private,P. P. Savani University,"NH 8, GETCO, Near BiltechVillage: Dhamdod, Kosamba,Ta.: Mangrol, Dist.: Surat",394125,Gujarat,2(f),https://www.ppsu.ac.in
+Private,P.K. University,"Village - Thanra, Teh - Karera,NH-27,District - Shivpuri",473665,Madhya Pradesh,2(f),http://pkuniversity.edu.in
+Private,Pacific Academy of Higher Education  & Research (PAHER),"Airport Road, Pratap Nagar ExtensionDebari, UdaipurNULL",313 001,Rajasthan,2(f),https://www.ugc.gov.in/universitydetails/NULL
+Private,Pacific Medical University,"Bhilo ka Bedla, ByepassNH - 27, Udiapur",,Rajasthan,2(f),https://www.ugc.gov.in/universitydetails/Private_university_other?id=743
+Private,Pandit Deendayal Energy University (Formerly Pandit Deendayal Petroleum University),"Knowledge Corridor, Raisan Village, Gandhinagar",382007,Gujarat,2(f) & Category-I,http://www.pdpu.ac.in
+Private,Parul University,"P.O.Limda, Tal - Waghodia, Dist. Vadodara",391760,Gujarat,2(f) & Category-I,http://www.paruluniversity.ac.in
+Private,PDM University,"Post Box No.-15, Sector-3A,Sarai Aurangabad, BahadurgarhHaryana",124507,Haryana,2(f),https://www.pdm.ac.in
+Private,People's University,"People's Campus, Bhanpur, Bhopal(M.P)",462037,Madhya Pradesh,2(f),https://www.ugc.gov.in/universitydetails/www.peoplesuniversity.edu.in
+Private,PES University,"100 Feet Ring Road, BSK III Stage, Bangalore",560085,Karnataka,2(f) & Category-II,http://www.pes.edu
+Private,Phonics University,"Village Imli Khera Dharampur, 12 Mile Stone, Bhagwanpur, Roorkee",247667,Uttarakhand,2(f),https://phonicsuniversity.com
+Private,Pimpri Chinchwad University,"Gut No-44, 46, 48, 49 and 50, Sate Taluka Maval, District-Pune",412206,Maharashtra,2(f),https://pcu.edu.in
+Private,Plaksha University,"Punjab, Block B, Sector-101, Alpha, IT CIty, SAS NagarMohali",140306,Punjab,2(f),https://plaksha.edu.in/
+Private,Plastindia International University,"Dungra, GIDC,Vapi, Dist-Valsad",396195,Gujarat,2(f),http://www.plastindia.edu.in
+Private,Poornima University,"IS-2027-31, P.O-Vidhani Vatika, Ramchandrapura, Sitapura Extension, JaipurJaipur, Rajasthan",303905,Rajasthan,2(f) & 12(B),https://www.poornima.edu.in
+Private,Pragjyotishpur University,"Hajongbari, P.O. - Chandrapur, Kamrup, Metropolitan District, Guwahati",781050,Assam,2(f),https://pju.edu.in
+Private,Pratap University,"Pratap University, Sunderpura (Chandwaji), Delhi-Mumbai Highway, Jaipur, Rajasthan-303104",303104,Rajasthan,2(f),http://www.pratap.edu.in
+Private,Presidency  University,"Itgalpur, Rajanakunte,Yelahanka,Bengaluru,560064RajanakunteBangaluru",560064,Karnataka,2(f),http://presidencyuniversity.in
+Private,Prestige University,"Gram Ringnodia, Indore-Ujjain, Indore",453551,Madhya Pradesh,2(f),https://prestigeuniversity.edu.in
+Private,Quantum University,"22km Milestone, Roorkee-Dehradun highway (NH-73), Roorkee",247167,Uttarakhand,2(f),https://quantumuniversity.edu.in
+Private,R.N.B. Global University,RNB Global City Ganganagar RoadBikaner,334601,Rajasthan,2(f),https://www.rnbglobal.edu.in
+Private,Rabindranath Tagore University (formerly known as AISECT University),"Chiklod Road, Near Bangrasia Chouraha Bhopal",462047,Madhya Pradesh,2(f),https://www.rntu.ac.in
+Private,Radha Govind University,"Radha Govind Nagar, Lalki GhatiLalki Ghati, Ramgarh-",829122,Jharkhand,2(f),https://rguniversity.org
+Private,Raffles University,"Japanese Zone, NH-48, Neemrana, Alwar, RajasthanDistrict : Alwar, Neemrana",301705,Rajasthan,2(f),https://www.rafflesuniversity.edu.in
+Private,Rai Technology University,"11th Mile Gallu, Doddaballapur – Nelamangala Road, Mallohalli Village, Kadanur(Post), Madure(Hobli), Doddaballapur Taluk, Bangalore SH-74, Off Highway 207,Doddaballapur Taluk, Bangalore",561204,Karnataka,2(f),https://raitechuniversity.in
+Private,Rai University,"Saroda, Dholka Taluka, Ahmedabad, GujaratAhmedabad, Gujarat",382260,Gujarat,2(f),http://www.raiuniversity.edu
+Private,Rajju Shroff Rofel University (RSRU),"Survey No. 78-79, ROFEL Campus, Namdha-Vapi, Valsad",396191,Gujarat,2(f),http://rsru.edu.in
+Private,Ram Krishna Dharmarth Foundation (RKDF) University,"604, 5th Floor, Gopal Marketing ComplexNear Argora ChoukRanchi",834004,Jharkhand,2(f),https://www.rkdfuniversity.org
+Private,Rama University,"NH-91, Rama City, Mandhana, Kanpur, Uttar Pradesh Mandhana, Kanpur",209217,Uttar Pradesh,2(f),http://ramauniversity.ac.in
+Private,Ramchandra Chandravansi University,"Nawadihkala, PO & PS BishrampurPalamu",822132,Jharkhand,2(f),https://www.ugc.gov.in/universitydetails/Private_university_other?id=1010
+Private,Ramdeobaba University,"Ramdeo Tekadi, Katol Road, Nagpur",440013,Maharashtra,2(f),https://www.rbunagpur.in
+Private,Ras Bihari Bose Subharti university,"Subhartipuram Kotda Santaur, Aamwala Road, P.O.- Chandanwadi, Nanda ki Chowki, Prem Nagar, Dehradun",248007,Uttarakhand,2(f),https://rbbsu.edu.in
+Private,"Rayat Bahra Professional University, Hoshiarpur","V. P. O: Bohan, Chandigarh Road, Tehsil and District: Hoshiarpur",146101,Punjab,2(f),https://rayatbahrahsp.com
+Private,Rayat Bahra University,"VPO - Sahauran, Tehsil - KhararDisst. - MohaliPunjab",140104,Punjab,2(f),http://www.rayatbahrauniversity.edu.in
+Private,Renaissance University,"Gram Revti, Behind Aurobindo Hospital, Sanwer-Road, Indore (MP)51/1/1 Gram Reoti, Sanwer Road,Behind Aurobindo Hospital, Indore",452015,Madhya Pradesh,2(f),http://renaissance.ac.in
+Private,Reva University,"Rukmani knowledge park,KattigenahalliYelahanka,Bangalore",560064,Karnataka,2(f),https://www.reva.edu.in
+Private,RIMT University,"Opposite Floating Restaurant,Sirhind Side, Mandi Gobindgarh",147301,Punjab,2(f),http://www.rimt.ac.in
+Private,Rishihood University,"NH-44 (GT Road),Near Bahalgarh Chowk,Delhi NCR, Sonipat",131021,Haryana,2(f),https://www.ugc.gov.in/universitydetails/www.rishihood.edu.in
+Private,RK University,"RK University, Bhavnagar Highway, Kasturbadham, Rajkot - 360020, Gujarat, India.Rajkot",360020,Gujarat,2(f),http://www.rku.ac.in
+Private,RKDF University,"Airport By Pass Road, Gandhi Nagar, Bhopal, Madhya PradeshGandhi NagarBhopal",462033,Madhya Pradesh,2(f),https://www.ugc.gov.in/universitydetails/www.rkdf.ac.in
+Private,Rungta International Skills University,"Bhilai, Rungta Educational Campus, Kohaka Road, Kurud, Bhilai Tehsil & District- Durg",492004,Chhattisgarh,2(f),https://rungta.ac.in
+Private,RV University,"RVU Administrative BuildingRV Vidyaniketan Post8th Mile, Mysuru Road, Bengaluru",560059,Karnataka,2(f),https://rvu.edu.in
+Private,S. K. S. International University,"21st Milestone, NH-2, Tehsil Chatta, Mathura",281406,Uttar Pradesh,2(f),https://sksinternationaluniversity.ac.in
+Private,S.R. University,"Ananthasagar(V),Hasanparthy(M),Warangal",506371,Telangana,2(f),https://www.ugc.gov.in/universitydetails/Private_university_other?id=1079
+Private,Sabarmati University (formerly Calorx Teachers' University),"Greenwood, Nr, Vaishnodevi CircleSardar patel Ring Road, OganjPO. Chandlodia, Ahmedabad",382481,Gujarat,2(f),https://www.sabarmatiuniversity.edu.in
+Private,Sage University,"KAILOD KARTAL RAU BYPASS INDOREIndore-Dewas Bypass Road,Rau, Indore",452020,Madhya Pradesh,2(f),http://sageuniversity.in
+Private,Sai Nath University,"Jirawar, Chandway- Kuchhu Road,P.O. - OrmanjhiDist. - Ranchi",835219,Jharkhand,2(f),http://www.sainathuniversity.com
+Private,Sai Tirupati University,"Ambua RoadVillage Umarda, GirwaUdaipur",313015,Rajasthan,2(f),https://www.saitirupatiuniversity.ac.in
+Private,Sai University,"One Hub Chennai, Paiyanur Old Mahabalipuram Road, Chennai",603104,Tamil Nadu,2(f),https://saiuniversity.edu.in
+Private,SAM Global University,"Agariya Chopda,Bilkhiriya,Bhopal",,Madhya Pradesh,2(f),https://www.samglobaluniversity.ac.in
+Private,Sandip University,"Trimbak RoadMahiravani, Nashik, Maharashtra",422213,Maharashtra,2(f) & 12(B),https://www.ugc.gov.in/universitydetails/www.sandipuniversity.edu.in
+Private,Sandip University,"Neelam Vidya Vihar, Vill-Sijoul, Dist.-Madhubani",847235,Bihar,2(f),https://www.sandipuniversity.edu.in/sijoul/index.php
+Private,Sangam University,"NH.79, Bhilwara Chittor By PassChittor Road, Bhilwara, Rajasthan",311001,Rajasthan,2(f),http://sangamuniversity.ac.in
+Private,Sanjay Ghodawat University,"A/p. Atigre, Tal. Hatkangala, Dist. KolhapurDist-Kolhapur",416118,Maharashtra,2(f),http://www.sanjayghodawatuniversity.ac.in
+Private,Sanjeev Agrawal Global Educational University,"Katara Extension,Sahara Bypass Road,Bhopal",,Madhya Pradesh,2(f),https://www.ugc.gov.in/universitydetails/Private_university_other?id=1073
+Private,Sanjivani University,"Gat No. 24 and 25, Kopargaon, Taluka Kopargaon, District-Ahmednagar",423601,Maharashtra,2(f),https://sanjivani.edu.in
+Private,Sankalchand Patel University,"Sankalchand Patel Vidyadham Ambaji-Gandhinagar State Highway, Visnagar-384315. Dist: Mehsana, Gujarat (INDIA)Visnagar-384315Gujarat",384315,Gujarat,2(f),http://www.spu.ac.in
+Private,Sanskaram University,"Village-Kheri Taluka, Patauda, District-Jhajjar",124108,Haryana,2(f),https://sanskaramuniversity.in
+Private,Sanskriti University,"28 KM STONE MATHURA DELHI HIGHWAY CHHATA MATHURA UPMathura-Delhi Highway,Chhata, Mathura",281401,Uttar Pradesh,2(f),http://www.sanskriti.edu.in
+Private,Sant Baba Bhag Singh University,"Village Khiala, PO Padhiana, Diatt Jalandhar, PunjabPO-PadhianaDist-Jalandhar",144030,Punjab,2(f),http://www.sbbsuniversity.ac.in
+Private,Sapthagiri NPS University,"14/5, Chikkasandra, Hesaraghatta main road, Bengaluru",550057,Karnataka,2(f),https://snpsu.edu.in
+Private,Sardar Bhagwan Singh University,"Balawala, Dehradun, UttrakhandDehradunUttarakhand",248001,Uttarakhand,2(f),https://sbsuniversity.edu.in
+Private,Sardar Patel University,"SARDAR PATEL KNOWLEDGE CITY, DONGARIYA (WARASEONI ROAD), POST-CHILLOD, TAHSIL-LALBURRA, DISTRICT-BALAGHAT(M.P.)Waraseoni Road, DongariyaBalaghat",481331,Madhya Pradesh,2(f),http://spubgt.ac.in
+Private,Sardar Vallabhbhai Global University,"Chimanbhai Patel Institute Campus, Opp, Karnavati Club, Ahmedabad",380015,Gujarat,2(f),https://svgu.ac.in
+Private,Sarla Birla University,"Birla Knowledge cityRanchi-purulia Highway, Ranchi",835103,Jharkhand,2(f),https://sbu.ac.in
+Private,Saroj International University,"12th Km Stone, Chand Sarai Gosaiganj, Lucknow",226022,Uttar Pradesh,2(f),https://sarojuniversity.edu.in
+Private,Sarvajanik University,"M.T.B. College Campus, Opposite Chowpati Athwalines, Surat",395001,Gujarat,2(f),https://sarvajanikuniversity.ac.in
+Private,Sarvepalli Radhakrishnan University,"NH-12, Hoshangabad RoadJatkhedi,Bhopal",,Madhya Pradesh,2(f),http://www.srku.edu.in
+Private,Saveetha Amaravati University,"3rd Floor, Vaishnavi ComplexOpp. Executive ClubVijayawada",520008,Andhra Pradesh,2(f),"http://sauniv.in/,"
+Private,Scope Global Skills University,"Scope Campus, NH-12,Bhaironpur, Near Misrod, Hoshangabad Road, Bhopal",462026,Madhya Pradesh,2(f),https://sgsuniversity.ac.in
+Private,SDGI Global University,"NH-9, Delhi-Hapur Road, Ghaziabad, Delhi-NCR",201015,Uttar Pradesh,2(f),https://www.sgu.edu.in
+Private,Seacom Skills University,"Village-Kendradanga,PO - Sattore,PS - Panrui, Dist - Birbhum",731236,West Bengal,2(f),http://www.seacomskillsuniversity.org/seacomweb/index.php
+Private,Sharda University,"Plot32,34, Knowledge Park III, Greater NoidaGrerater Noida",201306,Uttar Pradesh,2(f),http://www.sharda.ac.in
+Private,Sharda University Agra,"18 Km. Stone on Agra-Delhi Highway (NH-19), Keetham, Agra",282007,Uttar Pradesh,2(f),https://www.agra.sharda.ac.in
+Private,Sharnbasva University,"Kalaburgi,  Gulbarga,",585103,Karnataka,2(f),https://www.sharnbasvauniversity.edu.in
+Private,Shiv Nadar University,Rajiv Gandhi Salai(OMR)Kalavakkam,603110,Tamil Nadu,2(f),https://www.snuchennai.edu.in
+Private,Shobhit University,"Adarsh Vijendra Institutional area  Gangoh, Saharanpur (U.P.)Babu Vijendra MargGangoh, Distt.- Saharanpur",247341,Uttar Pradesh,2(f),http://www.sug.ac.in
+Private,Shoolini University of Biotechnology and Management Sciences,"Village - Bajhol, PO - Sultanpur, District - Solan",173229,Himachal Pradesh,2(f) & Category-I,http://www.shooliniuniversity.com
+Private,Shree Guru Gobind Singh Tricentenary University,"Budhera, Gurugram - Badli Road, Gurugram (Haryana)Distt., Gurgaon, Haryana - 122 505",122505,Haryana,2(f) & 12(B),https://sgtuniversity.ac.in
+Private,Shree Om University,"NH-58, 1 km Ahead of Patanjali, Near Crystal World, Panchayanpur, Post Office-Daulatpur, Roorkee, Haridwar",247667,Uttarakhand,2(f),https://shreeomuniversity.org
+Private,Shreyarth University,"C/o Gujarat Samachar Bhavan,Khanpur,Ahmedabad",380001,Gujarat,2(f),https://shreyarthuni.ac.in
+Private,Shri Davara University,"NH-30, Davara Educational Campus, Naya Raipur",493661,Chhattisgarh,2(f),https://shridavarauniversity.com
+Private,Shri Dharmasthala Manjunatheshwara University,"Manjushree Nagar , Sattur ,Dharwad- 09SDM College of Medical Sciences & Hospital CampusSattur, Dharwad",580009,Karnataka,2(f),https://sdmuniversity.edu.in
+Private,Shri Guru Ram Rai University,"Patel Nagar, Dehradun,  Off-Campus: Shyamlal Bagicha, Padampur, Kotdwar, Pauri Garhwal",248001,Uttarakhand,2(f),https://www.sgrru.ac.in
+Private,Shri Jagdish Prasad Jhabarmal Tibrewala University,"Shri Jagdishprasad Jhabarmal Tibrewala University, Vidyanagri, Jhunjhunu Bisau Road, Chudela, District - Jhunjhunu, Rajasthan -333001Chudela, Distt.,-Jhunjhunu",333001,Rajasthan,2(f),http://jjtu.ac.in
+Private,Shri Kallaji Vedic Vishvavidyalaya,"Kamdhaj Nagar,Nimbahera,Chittorgarh",,Rajasthan,2(f),https://www.ugc.gov.in/universitydetails/Private_university_other?id=1045
+Private,Shri Khushal Das University,"7 STG,  Suratgarh road, Hanumangarh Jn., Pilibangan",335801,Rajasthan,2(f),https://www.skduniversity.com
+Private,Shri Krishna University,"NH-86Villege Chauka Sagar Road Chhatarpur M.P.Village Chowka,Sagar Road, Chhatarpur",471001,Madhya Pradesh,2(f),http://www.skuindia.com
+Private,"Shri Ramasamy Memorial University, Sikkim","SRM University Sikkim, 5th Mile, Tadong, Gangtok, East Sikkim Tadong, RanipoolP.O. Gangtok",737102,Sikkim,2(f),http://www.srmus.ac.in
+Private,Shri Ramswaroop Memorial University,"Vill.-Hadauri, Post-Tindola, Lucknow-Deva Road, BarabankiLucknow-Deva Road,Barabanki,",225003,Uttar Pradesh,2(f),http://www.srmu.ac.in
+Private,Shri Rawatpura Sarkar University,"Near Shadani Darbar, Vill-Dhaneli,Post Office- Mana, Dhamtari Road,Raipur",,Chhattisgarh,2(f) & 12(B),http://www.sruraipur.ac.in
+Private,Shri Shankaracharya Professional University,"Village Junwani, BhilaiDistt.- Durg",490020,Chhattisgarh,2(f),https://www.shrishankaracharyauniversity.com
+Private,Shri Vaishnav Vidyapeeth Vishwavidyalaya,"Ujjain Road, Indore (MP)IndoreMadhya Pradesh",453111,Madhya Pradesh,2(f),http://www.svvv.edu.in
+Private,Shri Venkateshwara University,"NH-24, Rajabpur, Gajraula, Amroha, Uttar PradeshGajraula,Distt:- Amroha,",244236,Uttar Pradesh,2(f),https://www.svu.edu.in
+Private,Shridhar University,"Pilani-Chirawa Road, Pilani",333 031,Rajasthan,2(f),https://www.ugc.gov.in/universitydetails/www.shridharuniversity.ac.in
+Private,Shubham University,"Semra Saiyad,Tehsil-HuzurDist.- Bhopal",462010,Madhya Pradesh,2(f),https://www.ugc.gov.in/universitydetails/Private_university_other?id=1196
+Private,Shyam University,"Dehla-Didwana, Tehsil Lalsot, Distt. Dausa, RajasthanLalsot,Distt- Dausa",303511,Rajasthan,2(f),https://shyamuniversity.in
+Private,Sigma University,"Bakrol, Ajwa-Nimeta Road, Waghodiya, Vadodara",390019,Gujarat,2(f),https://sigmauniversity.ac.in
+Private,Sikkim Alpine University (Formerly EIILM University),"Kamrang,Namchi,Dist.- South Sikkim",737126,Sikkim,2(f),https://sikkimalpineuniversity.edu.in
+Private,Sikkim Global Technical University,"Link Road, Bhutia Basti, District Namchi, Opp. to Reliance",737126,Sikkim,2(f),https://www.sikkimglobaltechnicaluniversity.co.in
+Private,Sikkim International University,"P.O. SribadamP.S. Kaluk, West SikkimSikkim-737121",737121,Sikkim,2(f),https://www.ugc.gov.in/universitydetails/Private_university_other?id=1168
+Private,Sikkim Manipal University,"5th Mile Tadong, GangtokEast Sikkim",737102,Sikkim,2(f),http://www.smu.edu.in
+Private,Sikkim Medical Science University,"Jorethang Road, Near Petrol Pump, Namchi",737126,Sikkim,2(f),https://smsu.edu.in
+Private,Sikkim Organic Agriculture University,"Pragati Chaowk, District - Soreng",737121,Sikkim,2(f),https://soauniversity.in
+Private,Sikkim Professional University (Formerly Vinayaka Missions Sikkim University),"NH 31-A Tadong, Gangtok,East Sikkim",737 102,Sikkim,2(f),http://www.spu.ac
+Private,Sikkim Sardar Patel University,"Jorethang Road, Namchi,",7377126,Sikkim,2(f),https://www.spusikkim.edu.in
+Private,Sikkim Skill University,"Namthang,Namthang Bazaar,South Sikkim,",737137,Sikkim,2(f),https://www.sikkimskilluniversity.ac.in
+Private,Silicon University,"Silicon Hills, Patia, District- Khorda, Bhubaneswar",751024,Odisha,2(f),https://silicon.ac.in
+Private,Silver Oak University,"Nr. Bhavik Publications, Opp. Bhagwat Vidhyapith, S.G. Highway, Gota,Ahmedabad Gota,Ahmedabad",382481,Gujarat,2(f),https://www.silveroakuni.ac.in
+Private,Singhania University,Pacheri BariDistrict Jhunjhunu,333515,Rajasthan,2(f),http://www.singhaniauniversity.co.in
+Private,Sir Padmapat Singhania University,"Bhatewar, Udiapur",313 601,Rajasthan,2(f),http://www.spsu.ac.in
+Private,Sister Nivedita University,"DG-1/2, ACTION AREA-I, NEWTOWN, KOLKATARajarhatKolkata",700156,West Bengal,2(f),https://snuniv.ac.in
+Private,SKIPS University,"Plot No. 411, Sanavad, Kalol, Gandhinagar",382721,Gujarat,2(f),https://www.ugc.gov.in/universitydetails/Private_university_other?id=1178
+Private,Smt. Manjira Devi University,"Hitanu Dhanari, Dunda, Uttarkashi",249151,Uttarakhand,2(f),https://www.smdu.edu.in
+Private,Somaiya Vidyavihar University,"Office of the Registrar, 101, AryaBhat Building, Somaiya Vidyavihar UniversityVidyavihar (East), Mumbai",400077,Maharashtra,2(f),https://www.somaiya.edu/en
+Private,Sona Devi University,"Kitadih, PO & PS Ghatsila North Maubhandar, East Singhbhum",832303,Jharkhand,2(f),https://sonadeviuniversity.com
+Private,Sparsh Himalaya University,"Headquarter Fatehpur Tanda, Jeevanwala, Via Doiwala, Dehradun",248140,Uttarakhand,2(f),https://himalayiyauniversity.in
+Private,Spicer Adventist University,"Aundh Road,Ganeshkhind Post,Pune",411007,Maharashtra,2(f),http://www.sau.edu.in
+Private,Sreenidhi University,"Yamnampet (Village), Ghatkesar (Mandal), Medchal-Malkajgiri District, Hyderabad",501301,Telangana,2(f),https://suh.edu.in
+Private,Sri Aurobindo University,"SAIMS Campus,Indore-Ujjain State Highway,Near MR-10 Crossing, Sanwer Road, Indore",453555,Madhya Pradesh,2(f),https://www.sriaurobindouniversity.edu.in
+Private,"Sri Balaji University, Pune","SNo.55/2-7,Tathawade, off Mumbai-Banglore BypassPune",411033,Maharashtra,2(f),https://www.sbup.edu.in
+Private,Sri Guru Granth Sahib World University,Fatehgarh Sahib,140 406,Punjab,2(f),http://www.sggswu.edu.in
+Private,Sri Guru Ram Das University of Health Sciences,"Sri Guru Ram Das University of Health Sciences, Mehta Road, VallahSri Amritsar",143501,Punjab,2(f),https://www.sgrduhs.in
+Private,Sri Jagadhguru Murugarajendra University,"SJM Camus,Chitradurga",577502,Karnataka,2(f),https://www.ugc.gov.in/universitydetails/Private_university_other?id=1171
+Private,Sri Sai University,"Sungal, P.O.: TaragarhPalampur",176081,Himachal Pradesh,2(f),http://www.srisaiuniversity.org
+Private,Sri Sathya Sai University for Human Excellence,"Sri Sathya Sai Vidyaniketanam Campus,Navanihala, Post-Okali,Taluk-Kamalpur, Dist- Kalburagi",585313,Karnataka,2(f),https://www.ugc.gov.in/universitydetails/Private_university_other?id=1032
+Private,Sri Satya Sai University of Technology & Medical Sciences,"Bhopal-Indore Road, Opposite Pachama Oil Fed Plant, Pachama Sehore",466001,Madhya Pradesh,2(f) & 12(B),http://sssutms.co.in
+Private,Sri Sri University,"Ward No – 3, Sandhapur, Godi Sahi, Cuttack Vidhayadharpur, Odisha 754006Godi Sahi, Ward No. 3 Cuttack Odisha.",754006,Odisha,2(f) & 12(B),http://srisriuniversity.edu.in
+Private,Sri Venkateshwara University,"Village & PO Machong, District Pakyong, East Sikkim",737131,Sikkim,2(f),https://svus.edu.in
+Private,Sri Venkateswaraa University,"Ettayapuram, Thoothukudi District,",628902,Tamil Nadu,2(f),https://svuniversity.ac.in
+Private,Srinath University,"Dindli, AdityapurJamshedpur",831013,Jharkhand,2(f),https://www.ugc.gov.in/universitydetails/Private_university_other?id=1144
+Private,Srinivas University,"Srinivas Nagar, Mukka, MangaloreCampus, Srinivas Nagar, Mukka, SurathkalMangalore",574146,Karnataka,2(f),https://www.ugc.gov.in/universitydetails/www.srinivasuniversity.edu.in
+Private,SRM University,"Plot No - 39, Rajiv Gandhi Education City, Post office - P.SRai,Sonepat",131029,Haryana,2(f) & 12(B) Category-II,http://www.srmuniversity.ac.in
+Private,SRM University,"Neerukonda Post, Mangalagiri Mandal, Gantur District",522240,Andhra Pradesh,2(f),https://srmap.edu.in
+Private,St. Joseph University,"Virgin Town, Khekiho-Zhimomi RoadIkishe Model Village,Ps- Diphupar, Dimapur",797115,Nagaland,2(f),https://www.stjosephuniv.edu.in
+Private,St. Joseph University,"Keezhathanur Village, Tindivanam Taluk, Villupuram",604305,Tamil Nadu,2(f),https://sju.ac.in
+Private,St. Joseph's University,"P O Box 27094, #36, Lalbagh RoadBengaluru",560027,Karnataka,2(f),https://www.ugc.gov.in/universitydetails/sju.edu.in
+Private,"St. Xavier's University, Kolkata","Action Area III-B, Newtown, Kolkata, West BengalAction Area IIIB,P.S. New Town, Kolkata",700160,West Bengal,2(f),https://sxuk.edu.in/default.htm
+Private,Starex University,"NH-8, Vill., Binola, P.O. Bhorakalan, Gurugram",122413,Haryana,2(f),https://www.starexuniversity.com
+Private,Sunrise University,"Bagad Rajput Tech. Ramgarh, Alwar Rajasthan",,Rajasthan,2(f),https://www.ugc.gov.in/universitydetails/Private_university_other?id=624
+Private,Surajmal University,"Sirauli, Kichha,Udham Singh Nagar",263148,Uttarakhand,2(f),https://www.ugc.gov.in/universitydetails/Private_university_other?id=1147
+Private,Surendranagar University,"Shree Pandit Nathulalji Vyas Technical CampusSurendranagar- Ahmedabad HighwayNear Kothariya Village,At Wadhwan",363030,Gujarat,2(f),http://suni.ac.in
+Private,Suresh Gyan Vihar University,"MAHAL, JAGATPURA, JAIPURJaipur",302017,Rajasthan,2(f),http://www.gyanvihar.org
+Private,Sushant University (Formerly Ansal University),"Sec 55 Golf Course Road GurugramSector 55, Golf Course Road,Gurugram",122003,Haryana,2(f),https://sushantuniversity.edu.in
+Private,Swami Rama Himalayan University,"Swami Ram Nagar, Jolly Grant,  Dehradun,  Uttarakhand, PO-Doiwala, Dehradun",248016,Uttarakhand,2(f),https://www.srhu.edu.in
+Private,Swami Vivekanand University,"N.H.26, Narsingpur Road, SironjaSagar",470 228,Madhya Pradesh,2(f),https://www.ugc.gov.in/universitydetails/www.svnuniversity.co.in
+Private,Swami Vivekanand University,"IT Park, Kumguri, Kokrajhar,",783370,Assam,2(f),https://svu.org.in
+Private,Swami Vivekananda Subharti University,"Subhartipuram, NH-58, Delhi-Haridwar Bypass Road, Meerut, Uttar PradeshBypass Road, Meerut",250005,Uttar Pradesh,2(f),https://subharti.org
+Private,Swami Vivekananda University,"Sewli, Telinipara, Bara Kanthalia, Barasat - Barrackpore Rd., Kolkata, West BengalNorth 24 Paraganas, Barrackpore, Kolkata",700121,West Bengal,2(f),http://www.swamivivekanandauniversity.ac.in
+Private,Swaminarayan University,"Shree Swaminarayan Vishvamangal GurukulAhmedabad-Nehsana HighwayAT & PO- Saij, Tehsil -Kalol, Dist.:,Gandhinagar",382725,Gujarat,2(f),https://www.ugc.gov.in/universitydetails/Private_university_other?id=1175
+Private,Swarnim Startup & Innovation University,"Bhoyan Rathod, GandhinagarOpp. IFFCO,Adalaj-Sertha Road, Gandhinagar",382420,Gujarat,2(f),https://www.swarrnim.edu.in
+Private,Symbiosis Skills and Professional University (Formerly Symbiosis Skill and Open University),"Kiwale, Adjoining Pune Mumbai Expressway, Pune - 412 101Adjoining Pune Mumbai Expressway,Tal- Havely, Pune",412101,Maharashtra,2(f),https://www.sspu.ac.in
+Private,Symbiosis University of Applied Sciences (SUAS),"Symbiosis University of Applied Sciences, Bada Bangarda, Super Corridor, Near Airport, IndoreSuper Corridor,Indore",453112,Madhya Pradesh,2(f),http://www.suas.ac.in
+Private,T. S. Mishra University,"17/9, Windsor Place, Behind Yojna Bhawan, Lucknow",226008,Uttar Pradesh,2(f),https://tsm.edu.in
+Private,Takshashila University,"Ongur (Post), Tindivanam Taluk, Villupuram District",604305,Tamil Nadu,2(f),https://takshashilauniv.ac.in
+Private,Tantia University,Near RIICO Bus StandHanumangarh RoadSri Ganganagar,335002,Rajasthan,2(f),http://tantiauniversity.com
+Private,Team Lease Skills University,"Tarsali-Vadodara RoadTarsali Bypass, Vadodara",390 009,Gujarat,2(f),https://www.ugc.gov.in/universitydetails/Private_university_other?id=738
+Private,Techno Global University,Lateri RoadSirouj (Near Gosala)Distt. Vidisha,464228,Madhya Pradesh,2(f),https://www.ugc.gov.in/universitydetails/Private_university_other?id=688
+Private,Techno India University,"EM 4, Sector V, Salt Lake, Kolkata-700091Salt LakeKolkata",700091,West Bengal,2(f),https://technoindiauniversity.ac.in
+Private,Techno India University,"Maheshkhola, Village Anandanagar, PS- Amtali, dist-West Tripura,",799004,Tripura,2(f),https://www.tiut.ac.in
+Private,Teerthanker Mahaveer University,"N.H.-24, Delhi Road, Moradabad - 244001, Uttar Pradesh",244001,Uttar Pradesh,2(f) & 12(B),http://www.tmu.ac.in
+Private,The Apollo University,"The Apollo Knoledge City, Saketa, Murukambattu, Chittoor",517127,Andhra Pradesh,2(f),https://apollouniversity.edu.in
+Private,The Aryavart International University,"Tilthal, Dharmanagar, North Tripura",799260,Tripura,2(f),https://aiuniversity.edu.in
+Private,The Assam Kaziranga University,"Jorhat, Assam",785006,Assam,2(f),https://kazirangauniversity.in
+Private,The Assam Royal Global University,"Betkuchi, Opp Tirupati Balaji Temple, Guwahati",781035,Assam,2(f),https://www.rgu.ac
+Private,The Charutar Vidya Mandal(CVM) University,"Besides BVM College, Vallabh Vidyanagar, Distt.- Anand",388120,Gujarat,2(f),http://www.cvmu.edu.in
+Private,The Dhamma Dipa International Buddhist University,"P.O. Bishnupur, Manu Bankul, Sabroom, South Tripura",799145,Tripura,2(f),https://www.ddibu.in
+Private,The Global Open University,"Sodzulhou Village, PO-ARTC, NH-39, Dimapur, NagalandSodzulhou Village, PO-ARTCNH-29, Dimapur",797115,Nagaland,2(f),http://nagaland.net.in
+Private,The Global University,"Model Village,  Naharlagun, Itanagar",791111,Arunachal Pradesh,2(f),http://www.theglobaluniversity.edu.in
+Private,The Glocal University,"Delhi Yamunotri Marg, State Highway 57, Mirzapur Pole, District Saharanpur, Uttar PradeshMirzapur Pole, SaharanpurUttar Pradesh",247121,Uttar Pradesh,2(f) & 12(B),https://www.ugc.gov.in/universitydetails/Private_university_other?id=678
+Private,The ICFAI University,"The ICFAI University, Dehradun Rajawala Road, Central Hope Town, Selaqui, Dehradun , UttarakhandSelaqui,Dehradun",248011,Uttarakhand,2(f),http://www.iudehradun.edu.in
+Private,The ICFAI University,"Agartala -Simna Road,PO: Kamalghat,West Tripura",799210,Tripura,2(f),https://www.iutripura.edu.in
+Private,The ICFAI University Sikkim,"(ICFAI), Sikkim, Ranka Road, Lower Sichey, Gangtok",737101,Sikkim,2(f),https://www.iusikkim.edu.in
+Private,The Institute of Chartered Financial Analysts of India University,"Phawa Ville, Dhankheti Circular Rd,Tura BazarShillong",793001,Meghalaya,2(f),http://www.iumeghalaya.edu.in
+Private,The Institute of Chartered Financial Analysts of India University,"Plot No. 2065, Daladali Chowk, Simalia, Near Ring Road, Ranchi-835222, JharkhandRanchi",835222,Jharkhand,2(f),http://www.iujharkhand.edu.in
+Private,The Institute of Chartered Financial Analysts of India University,"Durtlang North, AizawlMizoram",796015,Mizoram,2(f),https://www.ugc.gov.in/universitydetails/www.iumizoram.edu.in
+Private,The Neotia University,"Jhinga, Sarisa,D.H.Road24 Parganas(S)",743368,West Bengal,2(f),https://www.ugc.gov.in/universitydetails/www.tnu.in
+Private,The Northcap University ( Formerly ITM University),"The NothCap University, Sector 23A, Gurugram",122017,Haryana,2(f) & 12(B),http://ncuindia.edu
+Private,The SVKM NMIMS Global University,"S.No. 499/1 to 4-A/1 and 499/1 to 4-A/2, Behind Gurudwara, Mumbai-Agra Highway, Taluka Dhule, District-Dhule",424001,Maharashtra,2(f),https://www.svkmnmimsgu.ac.in
+Private,The University of North West Himalayas,"Village-Sungaon/Dharkot, Tehsil-Doiwala, Distt.- Dehradun",248143,Uttarakhand,2(f),https://unwh.edu.in
+Private,The University of Trans-Disciplinary Health Sciences and Technology,"74/2, Jarakabande Kaval,Yelahanka, Via Attur PostBanglore",560064,Karnataka,2(f),https://www.tdu.edu.in
+Private,Transstadia University,Opposite Kankaria Gate No.-3KankariaAhmedabad,380022,Gujarat,2(f),https://www.ugc.gov.in/universitydetails/Private_university_other?id=1181
+Private,UKA Tarsadia University,"Maliba Campus, Gopal Vidyanagar Baroli-Mahuva Road Dist. Surat, Gujarat",394 350,Gujarat,2(f),http://utu.ac.in
+Private,United University,"Rawatpur, Prayagraj",211012,Uttar Pradesh,2(f),https://uniteduniversity.edu.in
+Private,Universal Ai University,"Village Kushival, Kushinili, Taluka Karjat",410021,Maharashtra,2(f),https://www.universalai.in
+Private,Universal SkillTech University,"Vasai, Near punyadham, Kaman Bhiwani Road, Vasai",401208,Maharashtra,2(f),https://universalskilltechuniversity.edu.in
+Private,University of Engineering & Management,"Jaipur, Rajasthan",,Rajasthan,2(f),https://www.jaipur.uem.edu.in
+Private,University of Engineering and Management,"UNIVERSITY AREA, PLOT NO. III – B/5, NEW TOWN, ACTION AREA – III, KOLKATA – 700 160, KOLKATA, KOLKATA, West Bengal, 700160Main Arterial Road (East-West),New town, Action Area-III, Kolkata",700160,West Bengal,2(f),https://uem.edu.in/uem-kolkata
+Private,University of Patanjali,"Mahrish Dayanad Gram,Delhi HaridwarNational Highway, Near BahadrabadHaridwar",,Uttarakhand,2(f),http://patanjaliuniversity.com
+Private,University of Petroleum and Energy Studies,"Energy Acres Bidholi Via Prem Nagar, Dehradun, UttarakhandDehradun",248007,Uttarakhand,2(f),http://www.upes.ac.in
+Private,"University of Science & Technology, Meghalaya","Techno City,Kling Road 9th Mile, BariduaDist. Ri-Bhoi",793101,Meghalaya,2(f),https://www.ugc.gov.in/universitydetails/www.ustm.ac.in
+Private,University of Technology,"Vatika,Tehsil-Sanganer,Jaipur",,Rajasthan,2(f),https://www.uot.edu.in
+Private,UPL University of Sustainable Technology,"Block No. 402, At & PO, Vataria,  Taluka Valia, District Bharuch",393135,Gujarat,2(f),https://www.upluniversity.ac.in
+Private,Usha Martin University,"Ranchi Purulia Road, Vill.- Narayan Soso, Nera Angara Block Office, Anagar, Ranchi, JharkhandRanchi Khunti Road,NH-75, Ranchi",835103,Jharkhand,2(f),https://www.umu.ac.in
+Private,Uttaranchal University,"Arcadia GrantP.O. ChandanwariPrem Nagar, Dehradun",248007,Uttarakhand,2(f) & 12(B),https://www.uudoon.in
+Private,Vanita Vishram Women's University,"Jawaharlal Nehru Marg,  Athwa Gate, Surat",395001,Gujarat,2(f),http://vvwusurat.ac.in
+Private,Varun Arjun University,"NH-24, Banthra, Dist. Shahjahanpur",242307,Uttar Pradesh,2(f),https://www.vau.edu.in
+Private,Vasireddy Venkatadri International Technological University,"Nambur, Guntur",522508,Andhra Pradesh,2(f),https://vvitu.ac.in
+Private,Veltech University,"No. 22, 9th ward, Amaravathi Nagar, M.R. Palli Panchyat, Tripati",517501,Andhra Pradesh,2(f),https://veltechrsap.edu.in
+Private,Venkateshwara Open University,"Lekhi Village, Naharlagun, Distt. Papum Pare",791110,Arunachal Pradesh,2(f),http://www.vou.ac.in
+Private,Vidhyadeep University,"Anita (Kim), Tal Olpad, District Surat",394110,Gujarat,2(f),https://www.vidhyadeepuni.ac.in
+Private,Vidya University,"Vidya Knowledge Park, Baghpat Road, Meerut NCR",250002,Uttar Pradesh,2(f),https://vidya.edu.in
+Private,Vidyashilp University,"No. 125, Bettenahalli,Kundana Hobli, Chapparkallu Road,Bengaluru",562110,Karnataka,2(f),https://vidyashilp.edu.in
+Private,Vijaybhoomi University,"CAMPUS : VILLAGE JAMRUNG, TEHSIL KARJAT, DISTRICT RAIGAD, MAHARASHTRATaluka Karjat,Dist Raigad",410201,Maharashtra,2(f),https://vijaybhoomi.edu.in
+Private,Vikrant University,"Village- Ratwai,Chitora RoadBada GaonMorar",474009,Madhya Pradesh,2(f),https://www.ugc.gov.in/universitydetails/Private_university_other?id=1188
+Private,Vishwakarma University,"Survey No 2,3,4 Laxminagar, Kondhwa (Bk.) Pune Laxmi NagarKondhwa Budruk, Pune",411048,Maharashtra,2(f),https://www.vupune.ac.in
+Private,VIT Bhopal University,"Bhopal-Indore Highway, Kothrikalan, SehoreKothrikalan, Sehore,Bhopal",466114,Madhya Pradesh,2(f),https://vitbhopal.ac.in
+Private,VIT-AP University,"Ainavolu Village, Thullur Mandalam, Amaravati, Guntur",522237,Andhra Pradesh,2(f),http://vitap.ac.in
+Private,Vivek University,"Moradabad Road, Bijnor UP",246701,Uttar Pradesh,2(f),https://www.vivekuniversity.ac.in
+Private,Vivekananda Global University,"Sector 36, Sisyawas, NRI RoadJagatpura Jaipur",303 012,Rajasthan,2(f),http://www.vgu.ac.in
+Private,William Carey University,"Nongmensong, Umkdait, Near Border Roads Organisatio, Shillong - 793019, Meghalaya - IndiaUmkdait,Shillong",793019,Meghalaya,2(f),http://www.williamcareyuniversity.ac.in
+Private,World University Of Design,"Plot no 1, Rajiv Gandhi Education City, Rai, Sonepat, Haryana",131029,Haryana,2(f),https://worlduniversityofdesign.ac.in
+Private,Woxsen University,"Woxsen Campus,Kamkole,Sadasivpet, Medak District",,Telangana,2(f),https://woxsen.edu.in
+Private,"Xavier University, Digha Ghat","Digha Ghat, Patna",800011,Bihar,2(f),https://xup.ac.in
+Private,XIM university,"Plot No:12(A) Nijigada Kurki,   Harirajpur,   Dist-Puri",752050,Odisha,2(f) & 12(B),https://xub.edu.in
+Private,YBN University,"Rajaulatu, Namkum, Ranchi-10 Ranchi",834010,Jharkhand,2(f),https://ybnu.ac.in

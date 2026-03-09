@@ -1,4 +1,4 @@
-# Scrapy settings for admission_scraper project
+# Scrapy settings for scraper project
 #
 # For simplicity, this file contains only settings considered important or
 # commonly used. You can find more settings consulting the documentation:
@@ -7,10 +7,10 @@
 #     https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 #     https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 
-BOT_NAME = "admission_scraper"
+BOT_NAME = "scraper"
 
-SPIDER_MODULES = ["admission_scraper.spiders"]
-NEWSPIDER_MODULE = "admission_scraper.spiders"
+SPIDER_MODULES = ["scraper.spiders"]
+NEWSPIDER_MODULE = "scraper.spiders"
 LOG_LEVEL = "ERROR"
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
@@ -54,13 +54,13 @@ DOWNLOAD_TIMEOUT = 15
 # Enable or disable spider middlewares
 # See https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 # SPIDER_MIDDLEWARES = {
-#    "admission_scraper.middlewares.AdmissionScraperSpiderMiddleware": 543,
+#    "scraper.middlewares.AdmissionScraperSpiderMiddleware": 543,
 # }
 
 # Enable or disable downloader middlewares
 # See https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 # DOWNLOADER_MIDDLEWARES = {
-#    "admission_scraper.middlewares.AdmissionScraperDownloaderMiddleware": 543,
+#    "scraper.middlewares.AdmissionScraperDownloaderMiddleware": 543,
 # }
 
 # Enable or disable extensions
@@ -72,8 +72,8 @@ DOWNLOAD_TIMEOUT = 15
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
-    "admission_scraper.pipelines.SpiderSpecificOutputPipeline": 800,
-    # "admission_scraper.pipelines.DebugOutputPipeline": 400,
+    "scraper.pipelines.SpiderSpecificOutputPipeline": 800,
+    # "scraper.pipelines.DebugOutputPipeline": 400,
 }
 
 # Enable and configure the AutoThrottle extension (disabled by default)

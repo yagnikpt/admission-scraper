@@ -1,0 +1,57 @@
+type,name_of_the_university,address,zip,state,status,url
+Central,Aligarh Muslim University,"Zainul Abidin Road,Aligarh",202001,Uttar Pradesh,2(f) & 12(B),http://www.amu.ac.in
+Central,Assam University,"Silchar, Dargakona, Cachar",788001,Assam,2(f) & 12(B),http://www.aus.ac.in
+Central,Babasaheb Bhimrao Ambedkar University,"Vidya Vihar,Rae Bareily Road,Lucknow",226025,Uttar Pradesh,2(f) & 12(B),http://www.bbau.ac.in
+Central,Banaras Hindu University,Varanasi,221005,Uttar Pradesh,2(f) & 12(B),http://www.bhu.ac.in
+Central,Central Agricultural University,"Lamphelpat,Imphal West,",795004,Manipur,2(f) & 12(B),https://cau.ac.in
+Central,Central Sanskrit University,"56-57 Institutional Area,Janakpuri",110058,Delhi,2(f) & 12(B),http://www.sanskrit.nic.in
+Central,Central Tribal University of Andhra Pradesh,"Kondakarakam (PO), Cantonment (SPO), Vizianagaram",535003,Andhra Pradesh,2(f) & 12(B),https://www.ugc.gov.in/universitydetails/target=%22_blank%22
+Central,Central University of Gujarat,"Near Jalaram Temple,Sector – 29,Gandhinagar,",382030,Gujarat,2(f) & 12(B),https://www.cug.ac.in
+Central,Central University of Haryana,"Jant-Pali,Mahendergarh",123029,Haryana,2(f) & 12(B),http://www.cuh.ac.in
+Central,Central University of Himachal Pradesh,"PO Box No. 21,Distt - Kangra,Dharamashala",176215,Himachal Pradesh,2(f) & 12(B),http://www.cuhimachal.ac.in
+Central,Central University of Jammu,"Rahya-Suchani (Bagla),District Samba,Jammu",181143,Jammu and Kashmir,2(f) & 12(B),http://www.cujammu.ac.in
+Central,Central University of Jharkhand,"Vill- Cheri Manatu, P.O- Kamre,P.S- Kanke, Brambe, Ranchi",835222,Jharkhand,2(f) & 12(B),http://www.cuj.ac.in
+Central,Central University of Karnataka,"Kadaganchi, Aland Road,Aland Taluk,Gulbarga",585311,Karnataka,2(f) & 12(B),http://www.cuk.ac.in
+Central,Central University of Kashmir,"Green Campus,Duderhama Ganderbal,Kashmir",191201,Jammu and Kashmir,2(f) & 12(B),http://www.cukashmir.ac.in
+Central,Central University of Kerala,"Tejaswini Hills,Periye (PO),Kasaragod (DT)",671316,Kerala,2(f) & 12(B),https://www.cukerala.ac.in
+Central,Central University of Odisha,"Sunabeda, Post: NAD, Dist. Koraput",763004,Odisha,2(f) & 12(B),http://cuo.ac.in
+Central,Central University of Punjab,"VPO-Ghudda,Distt. Bathinda",151401,Punjab,2(f) & 12(B),http://www.cup.ac.in
+Central,Central University of Rajasthan,"NH-8, Bandar Sindri, Kishangarh Dist-Ajmer",305801,Rajasthan,2(f) & 12(B),http://www.curaj.ac.in
+Central,Central University of South Bihar,"SH-7, Gaya-Panchanpur Road,Village–Karhara, Post- Fatehpur, P.S. –Tekari,District-Gaya",824236,Bihar,2(f) & 12(B),https://www.cusb.ac.in
+Central,Central University of Tamil Nadu,"Neelakudi,Tiruvarur",610005,Tamil Nadu,2(f) & 12(B),https://cutn.ac.in
+Central,Dr. Harisingh Gour Vishwavidyalaya,"Sagar,Gour Nagar,Patharia Hills",470003,Madhya Pradesh,2(f) & 12(B),https://dhsgsu.edu.in
+Central,Dr. Rajendra Prasad Central Agricultural University,"Pusa, Samastipur",848125,Bihar,2(f) & 12(B),https://www.rpcau.ac.in
+Central,English & Foreign Languages University,"Near Tarnaka,Hyderabad",500007,Telangana,2(f) & 12(B),https://www.efluniversity.ac.in
+Central,Gati Shakti Vishwavidyalaya,"Gati Shakti Vishwavidyalaya,Lalbaug,Vadodara",390004,Gujarat,2(f) & 12(B),https://gsv.ac.in
+Central,Guru Ghasidas Vishwavidyalaya,"Main Campus,Koni,Bilaspur",495009,Chhattisgarh,2(f) & 12(B),http://www.ggu.ac.in
+Central,Hemvati Nandan Bahuguna Garhwal University,"Madhi Chauras,Srinagar,Garhwal",246174,Uttarakhand,2(f) & 12(B),http://www.hnbgu.ac.in
+Central,Indian Maritime University,"East Coast Road,Semmencherry,Chennai",600119,Tamil Nadu,2(f) & 12(B),https://www.imu.edu.in
+Central,Indira Gandhi National Open University,"Maidan Garhi,New Delhi",110068,Delhi,2(f) & 12(B),http://www.ignou.ac.in
+Central,Jamia Millia Islamia,"Maulana Mohammad Ali Jauhar Marg,Jamia Nagar",110025,Delhi,2(f) & 12(B),http://www.jmi.nic.in
+Central,Jawaharlal Nehru University,"New Mehrauli Road,New Delhi",110067,Delhi,2(f) & 12(B),http://www.jnu.ac.in
+Central,Mahatma Gandhi Antarrashtriya Hindi Vishwavidyalaya,"Gandhi Hills, Post- Hindi Vishwavidyalaya,Wardha",442001,Maharashtra,2(f) & 12(B),https://hindivishwa.org
+Central,Mahatma Gandhi Central University,"Camp Office : Opposite Circuit House,Motihari,Distt: East Champaran",845401,Bihar,2(f) & 12(B),http://www.mgcub.ac.in
+Central,Manipur University,"Canchipur, Imphal, Manipur",795003,Manipur,2(f) & 12(B),https://www.manipuruniv.ac.in
+Central,Maulana Azad National Urdu University,"Gachibowli,Hyderabad",500032,Telangana,2(f) & 12(B),https://manuu.edu.in
+Central,Mizoram University,"Post Box No. 190,Aizwal",796009,Mizoram,2(f) & 12(B),https://mzu.edu.in
+Central,Nagaland University,"HQ Campus: Lumami, Zunheboto,Kohima Campus: Meriema",798627,Nagaland,2(f) & 12(B),https://nagalanduniversity.ac.in
+Central,Nalanda University,"chabila road,Rajgir,Nalanda",803116,Bihar,2(f) & 12(B),https://nalandauniv.edu.in
+Central,National Sanskrit University( previously Rashtriya Sanskrit Vidyapeeth),"Near Balaji Colony, Tirupati",517507,Andhra Pradesh,2(f) & 12(B),http://nsktu.ac.in
+Central,National Sports University,"2nd floor, Olympic Bhawan,Khuman Lampak Sports Complex,Imphal",795001,Manipur,2(f) & 12(B),https://www.nsu.ac.in
+Central,North Eastern Hill University,"NEHU Campus,Shillong,Mawlai",793022,Meghalaya,2(f) & 12(B),https://www.nehu.ac.in
+Central,Pondicherry University,"R Venkat Raman Nagar, Kalapet,Puducherry",605014,Puducherry,2(f) & 12(B),http://www.pondiuni.edu.in
+Central,Rajiv Gandhi National Aviation University,"Near Fursatganj Airfield,Fursatganj,Dstt. Raebareli",229302,Uttar Pradesh,2(f) & 12(B),https://www.rgnau.ac.in
+Central,Rajiv Gandhi University,"Rono Hills, P.O. Doimukh, Itanagar",791112,Arunachal Pradesh,2(f) & 12(B),https://www.rgu.ac.in
+Central,Rani Lakshmi Bai Central Agricultural University,"NH-75, Near Pahuj,Dam, Gwalier Road,Jhansi",284003,Uttar Pradesh,2(f) & 12(B),https://rlbcau.ac.in
+Central,Sammakka Sarakka Central Tribal University,"Jakaram Village, Mulugu District, Hyderabad",500046,Telangana,2(f) & 12(B),https://ssctu.ac.in
+Central,Shri Lal Bahadur Shastri National Sanskrit University,"Katwaria Sarai,New Mehrauli Road,New Delhi",110016,Delhi,2(f) & 12(B),http://www.slbsrsv.ac.in
+Central,Sikkim University,"6th Mile, SamdurP.O. Tadong,Gangtok",737102,Sikkim,2(f) & 12(B),https://cus.ac.in
+Central,Sindhu Central University,"Melongthang Leh-Ladakh,Near FRL",194101,Ladakh,2(f) & 12(B),https://sindhucu.ac.in
+Central,South Asian University,"Rajpur Road, Maidan Garhi, New Delhi",110068,Delhi,2(f) & 12(B),https://sau.int
+Central,Tezpur University,"P.O. -Napaam, Tezpur, Dist. Sonitpur",784028,Assam,2(f) & 12(B),http://www.tezu.ernet.in
+Central,The Indira Gandhi National Tribal University,"Makal Sadan,Amarkantak, Village-Lalpur,Dist-Anuppur",484887,Madhya Pradesh,2(f) & 12(B),https://www.igntu.ac.in
+Central,Tripura University,"NH8, University RdSuryamani Nagar,Agartala",799130,Tripura,2(f) & 12(B),https://tripurauniv.ac.in
+Central,University of Allahabad,"Senate House,University Road,Old Katra, Prayagraj",211002,Uttar Pradesh,2(f) & 12(B),https://allduniv.ac.in
+Central,University of Delhi,"North Delhi Campus,Near Mall Road",110007,Delhi,2(f) & 12(B),http://www.du.ac.in
+Central,University of Hyderabad,"P.O. Central University Campus, PROFESSOR C.R. RAO RAOD, GACHIBOWLI,Hyderabad",500046,Telangana,2(f) & 12(B),http://www.uohyd.ac.in
+Central,Visva Bharati,"PO : Santiniketan,Birbhum",731235,West Bengal,2(f) & 12(B),https://visvabharati.ac.in
