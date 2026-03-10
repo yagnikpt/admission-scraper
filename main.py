@@ -4,7 +4,6 @@ from scrapy.crawler import CrawlerProcess
 from scrapy.utils.project import get_project_settings
 
 from cleanup import remove_data_older_than
-from db.data import get_all_scraped_pages
 from db.session import get_db
 from llm.process import content_changed, process_page
 from scraper.spiders.pages import PagesSpider
@@ -46,18 +45,8 @@ def main(cleanup, skip_scraping, skip_push):
                 for url, group in df.groupby("url")
             ]
 
-            scraped_pages = get_all_scraped_pages(db)
-            scraped_urls = (
-                [page.url for page in scraped_pages]
-                if scraped_pages is not None
-                else []
-            )
-
             for i, row in enumerate(result):
                 print("\nProcessing group", i + 1, "of", len(result))
-                if row["url"] in scraped_urls:
-                    print(f"Skipping {row['url']}")
-                    continue
 
                 merged_content = " ".join(
                     [
@@ -69,7 +58,7 @@ def main(cleanup, skip_scraping, skip_push):
                 if not content_changed(db, row["url"], merged_content):
                     print(f"Skipping unchanged content for {row['url']}")
                     continue
-                process_page(db, row["url"], row["items"][0]["site"], row["items"])
+                process_page(db, row["url"], row["items"][0]["site"], merged_content)
                 print(f"Processed group {i + 1} - {row['url']}")
         except Exception as e:
             print(f"Error processing group: {e}")

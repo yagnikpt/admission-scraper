@@ -1,8 +1,10 @@
 from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
-from db.models import ScrapedPage, Announcement
-from db.session import get_db
+
 from sqlalchemy.orm import Session
+
+from db.models import Announcement, ScrapedPage
+from db.session import get_db
 
 
 def remove_data_older_than(db: Session, days: int):

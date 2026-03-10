@@ -1,16 +1,17 @@
+from datetime import datetime
+
 from sqlalchemy import (
+    CHAR,
+    DATE,
+    TIMESTAMP,
     Column,
+    ForeignKey,
     Integer,
     String,
     Text,
     Uuid,
-    TIMESTAMP,
-    CHAR,
-    DATE,
-    ForeignKey,
 )
 from sqlalchemy.ext.declarative import declarative_base
-from datetime import datetime
 from sqlalchemy.orm import relationship
 
 Base = declarative_base()
@@ -72,7 +73,7 @@ class Announcement(Base):
     state_id = Column(Uuid, nullable=False)
     scraped_page_id = Column(
         Uuid,
-        ForeignKey("scraped_pages.scraped_page_id", ondelete="SET NULL"),
+        ForeignKey("scraped_pages.scraped_page_id", ondelete="CASCADE"),
         nullable=False,
     )
     published_date = Column(DATE, nullable=True)

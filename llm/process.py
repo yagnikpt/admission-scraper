@@ -3,6 +3,7 @@ import logging
 from datetime import datetime
 from zoneinfo import ZoneInfo
 
+from rapidfuzz import fuzz
 from sqlalchemy import update
 from sqlalchemy.exc import IntegrityError, OperationalError
 from sqlalchemy.orm import Session
@@ -21,6 +22,8 @@ logging.basicConfig(
     level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s"
 )
 logger = logging.getLogger(__name__)
+
+SIMILARITY_THRESHOLD = 75
 
 # Don't create a global db session - we'll create sessions as needed
 # Cached data can be loaded when needed
@@ -65,11 +68,42 @@ def content_changed(db: Session, url, content):
     except Exception as e:
         logger.error(f"Error checking content changed: {e}")
         return True
-    finally:
-        db.close()
 
 
-def process_page(db: Session, url: str, site: str, items: list[dict[str, str]]):
+def is_duplicate_announcement(db: Session, institution_id, new_title: str) -> bool:
+    """Check if a semantically similar announcement already exists for this institution.
+
+    Uses rapidfuzz WRatio (weighted ratio) to compare the new title against existing
+    announcements for the same institution. WRatio handles length differences and
+    token reordering well. Returns True if any existing announcement title has a
+    similarity score >= SIMILARITY_THRESHOLD.
+    """
+    existing_announcements = (
+        db.query(Announcement.title)
+        .filter(Announcement.institution_id == institution_id)
+        .all()
+    )
+
+    for (existing_title,) in existing_announcements:
+        score = fuzz.WRatio(new_title.lower(), existing_title.lower())
+        if score >= SIMILARITY_THRESHOLD:
+            logger.info(
+                f"Duplicate detected (score={score:.1f}): '{new_title}' ~ '{existing_title}'"
+            )
+            return True
+
+    return False
+
+
+def process_page(db: Session, url: str, site: str, merged_content: str):
+    """Process a page by sending merged content to the LLM and storing results.
+
+    Args:
+        db: Database session
+        url: The page URL
+        site: The institution website URL
+        merged_content: All text chunks for this URL merged into a single string
+    """
     try:
         # Get reference data if not already loaded
         global db_tags, db_programs
@@ -84,16 +118,11 @@ def process_page(db: Session, url: str, site: str, items: list[dict[str, str]]):
                 for announcement in related_announcements:
                     db.delete(announcement)
 
-        # Process items with transaction per item
-        for item in items:
-            extract_and_store_data(db, url, item)
-            # process_single_item(url, site, item)
+        # Single LLM call with all merged content for this URL
+        extract_and_store_data(db, url, site, merged_content)
 
-        # Update scraped page record in its own transaction
+        # Update scraped page record
         try:
-            merged_content = " ".join(
-                [item["context"] for item in items if item["context"] is not None]
-            )
             content_hash = hashlib.sha256(merged_content.encode()).hexdigest()
 
             if scraped_info is not None:
@@ -127,7 +156,6 @@ def process_page(db: Session, url: str, site: str, items: list[dict[str, str]]):
 
     except OperationalError as e:
         logger.error(f"Database connection error in process_page: {e}")
-        # Don't need to rollback as session will be closed
     except Exception as e:
         logger.error(f"Unexpected error in process_page for {url}: {e}")
         if db:
@@ -137,12 +165,29 @@ def process_page(db: Session, url: str, site: str, items: list[dict[str, str]]):
             db.close()
 
 
-def extract_and_store_data(db: Session, url: str, item: dict[str, str]):
+def extract_and_store_data(db: Session, url: str, site: str, content: str):
+    """Extract announcements from content via LLM and store non-duplicate ones.
+
+    Args:
+        db: Database session
+        url: The page URL
+        site: The institution website URL
+        content: The merged text content to send to the LLM
+    """
     llm = get_llm()
-    extracted_data = llm.extract_announcements(item["context"], url)
+    extracted_data = llm.extract_announcements(content, url)
     for announcement in extracted_data.announcements:
-        institute = get_institute_from_website(db, item["site"])
+        institute = get_institute_from_website(db, site)
         if institute:
+            # Check for semantic duplicates before inserting
+            if is_duplicate_announcement(
+                db, institute.institution_id, announcement.title
+            ):
+                logger.info(
+                    f"Skipping duplicate announcement: '{announcement.title}' for {institute.name}"
+                )
+                continue
+
             programs = announcement.programs_courses
             tags = announcement.tags
 
@@ -189,4 +234,4 @@ def extract_and_store_data(db: Session, url: str, item: dict[str, str]):
                         )
             db.commit()
         else:
-            logger.warning(f"No matching institute found for URL: {item['site']}")
+            logger.warning(f"No matching institute found for URL: {site}")
