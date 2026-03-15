@@ -13,62 +13,6 @@ from scraper.utils import (
 from scraper.utils.page import clean_body_content, extract_context
 from scraper.utils.pdf import extract_text_from_pdf_bytes
 
-
-def getUrls() -> list[str]:
-    try:
-        # Check if file exists first
-        if not os.path.exists("uni.jsonl"):
-            print("Warning: uni.jsonl file not found")
-            return []
-
-        # Open the file and use StringIO to avoid FutureWarning
-        with open("uni.jsonl", "r", encoding="utf-8") as f:
-            content = f.read()
-
-        # Process only if file has content
-        if content.strip():
-            df = pd.read_json(io.StringIO(content), lines=True)
-            urls = df["matched_links"].tolist()
-            urls = [url for sublist in urls for url in sublist]
-            urls = list(set(urls))
-            random.shuffle(urls)
-            return urls
-        else:
-            print("uni.jsonl file is empty")
-            return []
-    except Exception as e:
-        # More detailed error handling
-        print(f"Error reading uni.jsonl: {e}")
-        return []
-
-
-def get_site_from_link(link):
-    try:
-        # Check if file exists first
-        if not os.path.exists("uni.jsonl"):
-            print("Warning: uni.jsonl file not found in get_site_from_link")
-            return None
-
-        # Open the file and use StringIO to avoid FutureWarning
-        with open("uni.jsonl", "r", encoding="utf-8") as f:
-            content = f.read()
-
-        if not content.strip():
-            print("uni.jsonl file is empty in get_site_from_link")
-            return None
-
-        data = pd.read_json(io.StringIO(content), lines=True)
-
-        for _, row in data.iterrows():
-            if link in row["matched_links"]:
-                return row["site"]
-
-        return None
-    except Exception as e:
-        print(f"Error finding site for link {link}: {e}")
-        return None
-
-
 admission_terms = r"(?:admission|apply|application|deadline|enroll|registration|enrollment|notice|notification|admit)"
 date_pattern = (
     r"(?:\b(?:\d{1,2}[-./]\d{1,2}[-./](?:\d{4}|\d{2}))\b|"
@@ -87,9 +31,36 @@ class PagesSpider(scrapy.Spider):
     def __init__(self, *args, **kwargs):
         super(PagesSpider, self).__init__(*args, **kwargs)
         self.counter = 0
+        if not os.path.exists("uni.jsonl"):
+            raise FileNotFoundError("uni.jsonl file not found")
+
+        with open("uni.jsonl", "r", encoding="utf-8") as f:
+            content = f.read()
+
+        if not content.strip():
+            raise ValueError("uni.jsonl file is empty")
+
+        data = pd.read_json(io.StringIO(content), lines=True)
+        self.uni_rows = data.to_dict(orient="records")
+
+    def _get_urls(self):
+        urls = []
+        for uni in self.uni_rows:
+            urls.extend(uni["matched_links"])
+
+        urls = list(set(urls))
+        random.shuffle(urls)
+        return urls
+
+    def _get_site_from_link(self, original_url) -> str | None:
+        for uni in self.uni_rows:
+            if original_url in uni["matched_links"]:
+                return uni["site"]
+        return None
 
     def start_requests(self):
-        self.urls = getUrls()
+        self.urls = self._get_urls()
+        # self.urls = []
 
         for url in self.urls:
             yield scrapy.Request(
@@ -116,7 +87,9 @@ class PagesSpider(scrapy.Spider):
                             word_pattern, date_match["context"], re.IGNORECASE
                         )
                         if word_matches:
-                            site = get_site_from_link(response.meta.get("original_url"))
+                            site = self._get_site_from_link(
+                                response.meta.get("original_url")
+                            )
                             yield {
                                 "url": remove_trailing_slash(response.url),
                                 "site": site,
@@ -165,7 +138,9 @@ class PagesSpider(scrapy.Spider):
                         word_pattern, date_match["context"], re.IGNORECASE
                     )
                     if word_matches:
-                        site = get_site_from_link(response.meta.get("original_url"))
+                        site = self._get_site_from_link(
+                            response.meta.get("original_url")
+                        )
                         yield {
                             "url": remove_trailing_slash(response.url),
                             "site": site,
