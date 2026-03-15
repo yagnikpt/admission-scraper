@@ -67,12 +67,12 @@ def main(
 
         process = CrawlerProcess(process_settings)
 
-        # deferred = process.crawl(UniSpider, db=db)
-        # deferred.addCallbacks(
-        #     lambda _: db.close() if skip_push else lambda _: None,
-        #     lambda _: process.crawl(PagesSpider),
-        # )
-        deferred = process.crawl(PagesSpider, resume_mode=pages_resume)
+        deferred = process.crawl(UniSpider, db=db)
+        deferred.addCallbacks(
+            lambda _: db.close() if skip_push else lambda _: None,
+            lambda _: process.crawl(PagesSpider, resume_mode=pages_resume),
+        )
+        # deferred = process.crawl(PagesSpider, resume_mode=pages_resume)
         process.start()
 
     if not skip_push:
