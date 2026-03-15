@@ -8,3 +8,4 @@
 .vscode
 /temp_scripts
 .ruff_cache
+.checkpoints/

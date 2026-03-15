@@ -6,6 +6,7 @@ import re
 import pandas as pd
 import scrapy
 from bs4 import BeautifulSoup
+from scrapy.http import TextResponse
 
 from scraper.utils import (
     remove_trailing_slash,
@@ -29,6 +30,7 @@ class PagesSpider(scrapy.Spider):
     }
 
     def __init__(self, *args, **kwargs):
+        self.resume_mode = kwargs.pop("resume_mode", False)
         super(PagesSpider, self).__init__(*args, **kwargs)
         self.counter = 0
         if not os.path.exists("uni.jsonl"):
@@ -48,8 +50,9 @@ class PagesSpider(scrapy.Spider):
         for uni in self.uni_rows:
             urls.extend(uni["matched_links"])
 
-        urls = list(set(urls))
-        random.shuffle(urls)
+        urls = list(dict.fromkeys(urls))
+        if not self.resume_mode:
+            random.shuffle(urls)
         return urls
 
     def _get_site_from_link(self, original_url) -> str | None:
@@ -68,10 +71,17 @@ class PagesSpider(scrapy.Spider):
             )
 
     def parse(self, response):
-        if response.url.lower().endswith(
-            ".pdf"
-        ) or "application/pdf" in response.headers.get("Content-Type", b"").decode(
+        content_type = response.headers.get("Content-Type", b"").decode(
             "utf-8", "ignore"
+        )
+        content_disposition = response.headers.get("Content-Disposition", b"").decode(
+            "utf-8", "ignore"
+        )
+
+        if (
+            response.url.lower().endswith(".pdf")
+            or "application/pdf" in content_type
+            or ".pdf" in content_disposition.lower()
         ):
             print(f"\nProcessing PDF: {response.url}\n")
             pdf_text = extract_text_from_pdf_bytes(response.body)
@@ -103,6 +113,10 @@ class PagesSpider(scrapy.Spider):
             return
 
         self.counter += 1
+
+        if not isinstance(response, TextResponse):
+            return
+
         pdf_link_tags = response.css("a[href$='.pdf']").getall()
         for link_tag in pdf_link_tags:
             soup = BeautifulSoup(link_tag, "html.parser")
@@ -114,7 +128,7 @@ class PagesSpider(scrapy.Spider):
             url_matches = re.findall(word_pattern, str(link_href), re.IGNORECASE)
             word_matches = [*text_matches, *url_matches]
             if word_matches:
-                yield scrapy.Request(
+                yield response.follow(
                     url=str(link_href),
                     callback=self.parse,
                     meta={

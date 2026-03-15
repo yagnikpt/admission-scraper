@@ -21,8 +21,8 @@ class SpiderSpecificOutputPipeline:
         self.file_name = self.output_files.get(spider.name)
 
         if self.file_name:
-            # Open the file in write mode (overwriting previous content)
-            self.file = open(self.file_name, "w", encoding="utf-8")
+            write_mode = "a" if getattr(spider, "resume_mode", False) else "w"
+            self.file = open(self.file_name, write_mode, encoding="utf-8")
 
             # If the file is empty, make sure it exists with proper permissions
             if not os.path.exists(self.file_name):

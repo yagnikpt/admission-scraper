@@ -1,3 +1,6 @@
+import os
+import shutil
+
 import click
 import pandas as pd
 from scrapy.crawler import CrawlerProcess
@@ -7,7 +10,6 @@ from cleanup import remove_data_older_than
 from db.session import get_db
 from llm.process import content_changed, process_page
 from scraper.spiders.pages import PagesSpider
-from scraper.spiders.uni import UniSpider
 
 settings = get_project_settings()
 
@@ -18,7 +20,30 @@ settings = get_project_settings()
 @click.option(
     "--skip-push", is_flag=True, help="Skip processing and pushing data to db."
 )
-def main(cleanup, skip_scraping, skip_push):
+@click.option(
+    "--pages-resume",
+    is_flag=True,
+    help="Enable checkpoint/resume mode for pages spider.",
+)
+@click.option(
+    "--pages-jobdir",
+    default=".checkpoints/pages",
+    show_default=True,
+    help="Checkpoint directory used by Scrapy JOBDIR in pages resume mode.",
+)
+@click.option(
+    "--pages-reset-checkpoint",
+    is_flag=True,
+    help="Reset pages checkpoint directory before crawling (requires --pages-resume).",
+)
+def main(
+    cleanup,
+    skip_scraping,
+    skip_push,
+    pages_resume,
+    pages_jobdir,
+    pages_reset_checkpoint,
+):
     db = next(get_db())
 
     if cleanup:
@@ -27,14 +52,27 @@ def main(cleanup, skip_scraping, skip_push):
         print("Cleanup completed.")
 
     if not skip_scraping:
-        process = CrawlerProcess(settings)
+        process_settings = settings.copy()
 
-        deferred = process.crawl(UniSpider, db=db)
-        deferred.addCallbacks(
-            lambda _: db.close() if skip_push else lambda _: None,
-            lambda _: process.crawl(PagesSpider),
-        )
-        # deferred = process.crawl(PagesSpider)
+        if pages_resume:
+            if pages_reset_checkpoint and os.path.isdir(pages_jobdir):
+                shutil.rmtree(pages_jobdir)
+
+            process_settings.set("JOBDIR", pages_jobdir, priority="cmdline")
+            process_settings.set(
+                "FEEDS",
+                {"pages.jsonl": {"format": "jsonlines", "overwrite": False}},
+                priority="cmdline",
+            )
+
+        process = CrawlerProcess(process_settings)
+
+        # deferred = process.crawl(UniSpider, db=db)
+        # deferred.addCallbacks(
+        #     lambda _: db.close() if skip_push else lambda _: None,
+        #     lambda _: process.crawl(PagesSpider),
+        # )
+        deferred = process.crawl(PagesSpider, resume_mode=pages_resume)
         process.start()
 
     if not skip_push:
