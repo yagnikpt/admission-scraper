@@ -19,11 +19,11 @@ class State(Base):
     name = Column(String, nullable=False, unique=True)
     abbreviation = Column(String(2), nullable=False, unique=True)
 
-    institutions = relationship("Institution", back_populates="state")
+    institutions = relationship("Institute", back_populates="state")
     announcements = relationship("Announcement", back_populates="state")
 
 
-class Institution(Base):
+class Institute(Base):
     """Database model for institutions."""
 
     __tablename__ = "institutions"
@@ -102,7 +102,7 @@ class Announcement(Base):
     programs = relationship(
         "Program", secondary="program_announcements", back_populates="announcements"
     )
-    institution = relationship("Institution", back_populates="announcements")
+    institution = relationship("Institute", back_populates="announcements")
     state = relationship("State", back_populates="announcements")
     tags = relationship(
         "Tag", secondary="announcement_tags", back_populates="announcements"

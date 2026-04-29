@@ -63,11 +63,12 @@ def main(
 
             process_settings.set("JOBDIR", pages_jobdir, priority="cmdline")
 
-            process_settings.set(
-                "FEEDS",
-                {"pages.jsonl": {"format": "jsonlines", "overwrite": False}},
-                priority="cmdline",
-            )
+            # Output is handled by SpiderSpecificOutputPipeline.
+            # process_settings.set(
+            #     "FEEDS",
+            #     {"pages.jsonl": {"format": "jsonlines", "overwrite": False}},
+            #     priority="cmdline",
+            # )
 
         spider_resume = pages_resume and not pages_reset_checkpoint
         process = CrawlerProcess(process_settings)

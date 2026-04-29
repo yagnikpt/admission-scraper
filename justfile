@@ -10,6 +10,10 @@ install:
 clean:
     uv run cleanup.py
 
+# seed data into db
+seed:
+    uv run python -m db.seed
+
 # process the scraped content and push to db
 process_only:
     uv run main.py --skip-scraping

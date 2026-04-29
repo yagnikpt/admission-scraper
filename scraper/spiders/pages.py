@@ -25,9 +25,10 @@ word_pattern = rf"\b{admission_terms}s?\b"
 
 class PagesSpider(scrapy.Spider):
     name = "pages"
-    custom_settings = {
-        "FEEDS": {"pages.jsonl": {"format": "jsonlines", "overwrite": True}}
-    }
+    # Output is handled by SpiderSpecificOutputPipeline.
+    # custom_settings = {
+    #     "FEEDS": {"pages.jsonl": {"format": "jsonlines", "overwrite": True}}
+    # }
 
     def __init__(self, *args, **kwargs):
         self.resume_mode = kwargs.pop("resume_mode", False)

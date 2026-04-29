@@ -97,7 +97,43 @@ def seed_institutes(db: Session):
         f"Processed {len(data_with_state_id)} out of {len(data)} sites with valid state IDs"
     )
 
-    spiltted_data = split_content(data_with_state_id)
+    unique_data = []
+    seen_urls = set()
+    duplicate_urls = set()
+
+    for site in data_with_state_id:
+        url = str(site["url"]).strip()
+        if url in seen_urls:
+            duplicate_urls.add(url)
+            continue
+
+        site_with_clean_url = site.copy()
+        site_with_clean_url["url"] = url
+        seen_urls.add(url)
+        unique_data.append(site_with_clean_url)
+
+    if duplicate_urls:
+        logger.warning(
+            f"Skipping {len(data_with_state_id) - len(unique_data)} duplicate institute URLs: "
+            f"{', '.join(sorted(duplicate_urls))}"
+        )
+
+    existing_websites = set()
+    if unique_data:
+        existing_websites = {
+            website
+            for (website,) in db.query(Institute.website)
+            .filter(Institute.website.in_([site["url"] for site in unique_data]))
+            .all()
+        }
+
+    if existing_websites:
+        logger.info(
+            f"Skipping {len(existing_websites)} institutes that already exist in the database"
+        )
+
+    new_data = [site for site in unique_data if site["url"] not in existing_websites]
+    spiltted_data = split_content(new_data)
 
     try:
         for batch in spiltted_data:
@@ -111,9 +147,7 @@ def seed_institutes(db: Session):
                 sites.append(website)
             db.add_all(sites)
         db.commit()
-        logger.info(
-            f"Successfully added {len(data_with_state_id)} institutes to the database"
-        )
+        logger.info(f"Successfully added {len(new_data)} institutes to the database")
 
     except IntegrityError as e:
         db.rollback()
@@ -127,17 +161,33 @@ def seed_institutes(db: Session):
 
 
 def seed_states(db: Session):
-    states = pd.read_json("seed_data\\states.json")
+    states = pd.read_json("seed_data/states.json")
     states = states.to_dict(orient="records")
 
     try:
+        existing_states = {
+            value
+            for row in db.query(State.name, State.abbreviation).all()
+            for value in row
+        }
+        added_count = 0
+
         for state in states:
+            if (
+                state["name"] in existing_states
+                or state["abbreviation"] in existing_states
+            ):
+                continue
+
             state_instance = State(
                 name=state["name"],
                 abbreviation=state["abbreviation"],
             )
             db.add(state_instance)
+            existing_states.update((state["name"], state["abbreviation"]))
+            added_count += 1
         db.commit()
+        logger.info(f"Successfully added {added_count} states to the database")
     except IntegrityError as e:
         db.rollback()
         logger.error(f"Integrity error creating state: {str(e)}")
@@ -149,11 +199,17 @@ def seed_states(db: Session):
 
 
 def seed_programs(db: Session):
-    programs = pd.read_json("seed_data\\programs.json")
+    programs = pd.read_json("seed_data/programs.json")
     programs = programs.to_dict(orient="records")
 
     try:
+        existing_program_names = {name for (name,) in db.query(Program.name).all()}
+        added_count = 0
+
         for program in programs:
+            if program["name"] in existing_program_names:
+                continue
+
             program_instance = Program(
                 name=program["name"],
                 description=program["description"],
@@ -161,7 +217,10 @@ def seed_programs(db: Session):
                 duration_months=program["duration_months"],
             )
             db.add(program_instance)
+            existing_program_names.add(program["name"])
+            added_count += 1
         db.commit()
+        logger.info(f"Successfully added {added_count} programs to the database")
     except IntegrityError as e:
         db.rollback()
         logger.error(f"Integrity error creating program: {str(e)}")
@@ -173,14 +232,23 @@ def seed_programs(db: Session):
 
 
 def seed_tags(db: Session):
-    tags = pd.read_json("seed_data\\tags.json")
+    tags = pd.read_json("seed_data/tags.json")
     tags = tags.to_dict(orient="records")
 
     try:
+        existing_tag_names = {name for (name,) in db.query(Tag.name).all()}
+        added_count = 0
+
         for tag in tags:
+            if tag["name"] in existing_tag_names:
+                continue
+
             tag_instance = Tag(name=tag["name"])
             db.add(tag_instance)
+            existing_tag_names.add(tag["name"])
+            added_count += 1
         db.commit()
+        logger.info(f"Successfully added {added_count} tags to the database")
     except IntegrityError as e:
         db.rollback()
         logger.error(f"Integrity error creating tag: {str(e)}")
@@ -193,8 +261,8 @@ def seed_tags(db: Session):
 
 if __name__ == "__main__":
     db = next(get_db())
-    # seed_states(db)
-    # seed_programs(db)
-    # seed_tags(db)
+    seed_states(db)
+    seed_programs(db)
+    seed_tags(db)
     seed_institutes(db)
     pass

@@ -23,9 +23,10 @@ class UniSpider(scrapy.Spider):
     link_extractor = LxmlLinkExtractor(
         canonicalize=True, unique=True, allow=word_pattern
     )
-    custom_settings = {
-        "FEEDS": {"uni.jsonl": {"format": "jsonlines", "overwrite": True}}
-    }
+    # Output is handled by SpiderSpecificOutputPipeline.
+    # custom_settings = {
+    #     "FEEDS": {"uni.jsonl": {"format": "jsonlines", "overwrite": True}}
+    # }
 
     def __init__(self, *args, **kwargs):
         super(UniSpider, self).__init__(*args, **kwargs)
