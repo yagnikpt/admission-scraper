@@ -10,6 +10,7 @@ from cleanup import remove_data_older_than
 from db.session import get_db
 from llm.process import content_changed, process_page
 from scraper.spiders.pages import PagesSpider
+from scraper.spiders.uni import UniSpider
 
 settings = get_project_settings()
 
@@ -74,12 +75,12 @@ def main(
         process = CrawlerProcess(process_settings)
 
         # deferred = process.crawl(UniSpider, db=db)
-        # deferred.addCallbacks(
-        #     lambda _: process.crawl(PagesSpider, resume_mode=spider_resume),
-        # )
-        # deferred.addCallbacks(
-        #     lambda _: db.close() if skip_push else lambda _: None,
-        # )
+        # # deferred.addCallbacks(
+        # #     lambda _: process.crawl(PagesSpider, resume_mode=spider_resume),
+        # # )
+        # # deferred.addCallbacks(
+        # #     lambda _: db.close() if skip_push else lambda _: None,
+        # # )
 
         process.crawl(PagesSpider, resume_mode=spider_resume)
         process.start()
@@ -95,7 +96,7 @@ def main(
             for i, row in enumerate(result):
                 print("\nProcessing group", i + 1, "of", len(result))
 
-                merged_content = " ".join(
+                merged_content = "\n---\n".join(
                     [
                         item["context"]
                         for item in row["items"]

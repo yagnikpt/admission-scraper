@@ -16,10 +16,11 @@ def seed_institutes(db: Session):
     # Load sites data
     # Load data from multiple CSV files
     csv_files = [
-        "data/central_uni.csv",
-        "data/state_uni.csv",
-        "data/private_uni.csv",
+        # "data/central_uni.csv",
+        # "data/state_uni.csv",
+        # "data/private_uni.csv",
         # "data/deemed_to_be.csv",
+        "data/gujarat_uni.csv"
     ]
 
     # Combine all CSV files into a single DataFrame

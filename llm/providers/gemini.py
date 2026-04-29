@@ -1,3 +1,5 @@
+from datetime import datetime
+
 from google import genai
 
 from config import settings
@@ -33,7 +35,9 @@ class GeminiExtractor(BaseLLM[ResponseModel]):
                 loaded_prompt = file.read().strip()
 
             if loaded_prompt:
-                self.base_prompt = loaded_prompt
+                self.base_prompt = loaded_prompt.format(
+                    current_year=datetime.now().year
+                )
         except FileNotFoundError:
             self.base_prompt = ""
 

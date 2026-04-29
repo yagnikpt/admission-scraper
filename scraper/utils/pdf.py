@@ -31,7 +31,7 @@ def extract_text_from_pdf_bytes(pdf_bytes):
                 doc = pymupdf.Document(stream=pdf_bytes, filetype="pdf")
                 md_text = pymupdf4llm.to_markdown(doc)
                 if md_text:
-                    return md_text
+                    return md_text.__str__()
             except Exception as e:
                 print(f"pymupdf4llm extraction failed, falling back to pdfplumber: {e}")
             # If pymupdf4llm returns empty text, fall back to pdfplumber

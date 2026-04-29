@@ -22,6 +22,12 @@ date_pattern = (
 )
 word_pattern = rf"\b{admission_terms}s?\b"
 
+# Extraction mode: "full_page" sends entire cleaned page text to LLM.
+# "context_window" uses the legacy fragment-based approach with a wider window.
+EXTRACTION_MODE = "full_page"
+# Context window size (tokens before/after) when using "context_window" mode
+CONTEXT_WINDOW_SIZE = 250
+
 
 class PagesSpider(scrapy.Spider):
     name = "pages"
@@ -89,26 +95,22 @@ class PagesSpider(scrapy.Spider):
             if not pdf_text:
                 return
 
-            date_matches = extract_context(pdf_text, date_pattern)
+            site = self._get_site_from_link(response.meta.get("original_url"))
 
-            if len(date_matches) != 0:
-                for date_match in date_matches:
-                    if not is_likely_phone_number(date_match["match"]):
-                        word_matches = re.findall(
-                            word_pattern, date_match["context"], re.IGNORECASE
-                        )
-                        if word_matches:
-                            site = self._get_site_from_link(
-                                response.meta.get("original_url")
-                            )
-                            yield {
-                                "url": remove_trailing_slash(response.url),
-                                "site": site,
-                                "date": date_match["match"],
-                                "context": date_match["context"],
-                                "related_dates": date_match.get("related_dates", []),
-                                "source_type": "pdf",
-                            }
+            if EXTRACTION_MODE == "full_page":
+                # Full page mode: yield entire PDF text if it contains admission keywords
+                if re.search(word_pattern, pdf_text, re.IGNORECASE):
+                    yield {
+                        "url": remove_trailing_slash(response.url),
+                        "site": site,
+                        "context": pdf_text,
+                        "source_type": "pdf",
+                    }
+            else:
+                # Context window mode: extract date-anchored fragments
+                yield from self._extract_context_window_items(
+                    pdf_text, response.url, site, "pdf"
+                )
 
             print(f"processed PDF: {response.url}")
             return
@@ -118,25 +120,23 @@ class PagesSpider(scrapy.Spider):
         if not isinstance(response, TextResponse):
             return
 
+        # Follow ALL PDFs on admission-relevant pages.
+        # These pages were already filtered by UniSpider's URL matching,
+        # so PDFs here are likely admission-relevant regardless of anchor text.
         pdf_link_tags = response.css("a[href$='.pdf']").getall()
         for link_tag in pdf_link_tags:
             soup = BeautifulSoup(link_tag, "html.parser")
             link_href = soup.a.get("href") if soup.a else ""
-            text = soup.a.get_text() if soup.a else ""
             if not link_href:
                 continue
-            text_matches = re.findall(word_pattern, text, re.IGNORECASE)
-            url_matches = re.findall(word_pattern, str(link_href), re.IGNORECASE)
-            word_matches = [*text_matches, *url_matches]
-            if word_matches:
-                yield response.follow(
-                    url=str(link_href),
-                    callback=self.parse,
-                    meta={
-                        "original_url": response.meta.get("original_url"),
-                        "is_pdf": True,
-                    },
-                )
+            yield response.follow(
+                url=str(link_href),
+                callback=self.parse,
+                meta={
+                    "original_url": response.meta.get("original_url"),
+                    "is_pdf": True,
+                },
+            )
 
         body_content = response.css("body").get()
         if not body_content:
@@ -144,7 +144,35 @@ class PagesSpider(scrapy.Spider):
 
         cleaned_body_content = clean_body_content(body_content)
 
-        date_matches = extract_context(cleaned_body_content, date_pattern)
+        site = self._get_site_from_link(response.meta.get("original_url"))
+
+        if EXTRACTION_MODE == "full_page":
+            # Full page mode: yield entire cleaned page text if it contains admission keywords
+            if re.search(word_pattern, cleaned_body_content, re.IGNORECASE):
+                yield {
+                    "url": remove_trailing_slash(response.url),
+                    "site": site,
+                    "context": cleaned_body_content,
+                    "source_type": "html",
+                }
+        else:
+            # Context window mode: extract date-anchored fragments with wider window
+            yield from self._extract_context_window_items(
+                cleaned_body_content, response.url, site, "html"
+            )
+
+        print("processed", self.counter, "from", len(self.urls), "urls")
+
+    def _extract_context_window_items(self, text, url, site, source_type):
+        """Extract date-anchored context windows with admission keyword matching.
+
+        This is the legacy fragment-based approach, kept for interchangeability.
+        Uses a wider context window (CONTEXT_WINDOW_SIZE tokens) than the original
+        50-token window to capture more surrounding context.
+        """
+        date_matches = extract_context(
+            text, date_pattern, before=CONTEXT_WINDOW_SIZE, after=CONTEXT_WINDOW_SIZE
+        )
 
         if len(date_matches) != 0:
             for date_match in date_matches:
@@ -153,39 +181,44 @@ class PagesSpider(scrapy.Spider):
                         word_pattern, date_match["context"], re.IGNORECASE
                     )
                     if word_matches:
-                        site = self._get_site_from_link(
-                            response.meta.get("original_url")
-                        )
                         yield {
-                            "url": remove_trailing_slash(response.url),
+                            "url": remove_trailing_slash(url),
                             "site": site,
                             "date": date_match["match"],
                             "context": date_match["context"],
                             "related_dates": date_match.get("related_dates", []),
-                            "source_type": "html",
+                            "source_type": source_type,
                         }
-
-        print("processed", self.counter, "from", len(self.urls), "urls")
 
 
 def is_likely_phone_number(text):
+    """Check if a date-like string is actually a phone number.
+
+    Checks date indicators first (short-circuit) before testing phone patterns.
+    This avoids false positives where ISO dates like '2026-01-15' were
+    incorrectly classified as phone numbers.
+    """
+    # If it contains a month name, it's clearly a date
+    month_names = r"Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec"
+    if re.search(rf"\b({month_names})\b", text, re.IGNORECASE):
+        return False
+
+    # ISO date format: YYYY-MM-DD
+    if re.match(r"^\d{4}-\d{2}-\d{2}$", text.strip()):
+        return False
+
+    # Contains a plausible 4-digit year (19xx or 20xx) → likely a date
+    if re.search(r"\b(19|20)\d{2}\b", text):
+        return False
+
     phone_patterns = [
         r"\d+/\d+/\d+/\d+",  # Pattern like 8200/1/2/3
-        r"\d+-\d+-\d+",  # Pattern like 91-72-820
-        r"\d{4}-\d{2,3}-\d{2,4}",  # Common phone format with hyphens
-        r"\d{10,}",  # Any sequence of 10+ digits (most dates won't have this many)
+        r"\d{10,}",  # Any sequence of 10+ consecutive digits
+        r"(?<!\d)\d{3,5}-\d{3,5}-\d{3,5}(?!\d)",  # Phone-like hyphenated segments
     ]
 
-    # Date-specific validation
-    month_names = r"Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec"
-    looks_like_date = bool(
-        re.search(rf"\b({month_names})\b", text, re.IGNORECASE)
-        or re.search(r"\b\d{4}\b", text)
-    )  # Has a 4-digit year
-
-    # Check against phone patterns
     for pattern in phone_patterns:
         if re.search(pattern, text):
             return True
 
-    return not looks_like_date
+    return False

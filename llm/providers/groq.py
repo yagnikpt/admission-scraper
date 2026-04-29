@@ -1,3 +1,5 @@
+from datetime import datetime
+
 from groq import Groq
 
 from config import settings
@@ -31,7 +33,9 @@ class GroqExtractor(BaseLLM[ResponseModel]):
                 loaded_prompt = file.read().strip()
 
             if loaded_prompt:
-                self.base_prompt = loaded_prompt
+                self.base_prompt = loaded_prompt.format(
+                    current_year=datetime.now().year
+                )
         except FileNotFoundError:
             self.base_prompt = ""
 

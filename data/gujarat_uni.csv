@@ -1,0 +1,111 @@
+type,name_of_the_university,address,zip,state,status,url
+IIIT,"Indian Institute of Information Technology, Vadodara",Vadodara,,Gujarat,Active,https://iiitvadodara.ac.in
+IIIT,"Indian Institute of Information Technology, Surat",Surat,,Gujarat,Active,https://iiitsurat.ac.in
+NIT,"Sardar Vallabhbhai National Institute of Technology, Surat",Surat,,Gujarat,Active,https://www.svnit.ac.in
+IIM,Indian Institute of Management Ahmedabad,Ahmedabad,,Gujarat,Active,https://www.iima.ac.in
+IIT,Indian Institute of Technology Gandhinagar,Gandhinagar,,Gujarat,Active,https://www.iitgn.ac.in
+NIPER,"National Institute of Pharmaceutical Education and Research, Ahmedabad",Ahmedabad,,Gujarat,Active,https://niperahm.ac.in
+NID,"National Institute of Design, Ahmedabad",Ahmedabad,,Gujarat,Active,https://nid.edu
+NFSU,National Forensic Sciences University,Gandhinagar,,Gujarat,Active,https://www.nfsu.ac.in
+RRU,Rashtriya Raksha University,Gandhinagar,,Gujarat,Active,https://rru.ac.in
+ITRA,Institute of Teaching and Research in Ayurveda,Jamnagar,,Gujarat,Active,https://itra.ac.in
+State,Kaushalya,"Mahatma Gandhi Labour Institute (MGLI), Drive-in Road, Memnagar, Ahmedabad",380052.0,Gujarat,2(f),https://kaushalyaskilluniversity.ac.in
+Private,Adani University,"Shantigram Township, Near Vaishnodevi Circle, Ahmedabad",382421.0,Gujarat,2(f),https://www.adaniuni.ac.in
+Private,Ahmedabad University,"Ahmedabad University, Commerce Six Roads, Navrangpura, Ahmedabad, GujaratAhmedabad",380009.0,Gujarat,2(f) & 12(B),http://www.ahduni.edu.in
+State,Anand Agricultural University,"University Bhavan, Anand",388001.0,Gujarat,2(f),http://www.aau.in
+Private,Anant National University,Sanskardham CampusBhopal-Ghuma-Sanand RoadAhmedabad,380015.0,Gujarat,2(f),http://www.anu.edu.in
+Private,Atmiya University,"Yogidham Gurukul, Kalawad Road, RajkotKalawad Road Rajkot",360005.0,Gujarat,2(f),https://atmiyauni.ac.in
+Private,"AURO University, Surat","Earthspace, Hazira RoadOpposite ONGC, Surat, Gujarat.",394510.0,Gujarat,2(f),http://aurouniversity.edu.in
+Private,Bhagwan Mahavir University,"VIP Road, Vesu, SuratVesu, Surat",395007.0,Gujarat,2(f),https://www.bmusurat.ac.in
+Private,Bhaikaka University,"Gokal Nagar, Karamsad – 388325 Gujarat, India Karamsad",388325.0,Gujarat,2(f),http://www.bhaikakauniv.edu.in
+State,Bhakta Kavi Narsinh Mehta University,"Govt. Polytechnic College, Bilkha Road, Khadiya, Junagadh",362640.0,Gujarat,2(f) & 12(B),https://www.bknmu.edu.in
+State,Birsa Munda Tribal University,"Vocational Training Centre (VTC), Vavdi Road, Distt.- Narmada",393145.0,Gujarat,2(f),https://bmtu.ac.in
+Private,C. U. Shah University,"Surendranagar- Ahmedabad HighwayNr. Kothariya Village, Wadhwan CitySurendranagar",363030.0,Gujarat,2(f),http://www.cushahuniversity.ac.in
+Central,Central University of Gujarat,"Near Jalaram Temple,Sector – 29,Gandhinagar,",382030.0,Gujarat,2(f) & 12(B),https://www.cug.ac.in
+Private,CEPT University (Formerly Centre for Environmental Planning and Technology University),"University Road, Navrangpura, Ahmedabad",380009.0,Gujarat,2(f),http://www.cept.ac.in
+Private,Charotar University of Science & Technology,"Off Nadiad-Petlad Highway Road, Changa",388415.0,Gujarat,2(f),http://www.charusat.ac.in
+State,Children's University,"Subhash Chandra Bose Shikshan Sankul, Sector-20, Gandhinagar",382021.0,Gujarat,2(f) & 12(B),https://www.cugujarat.ac.in
+Private,Darshan University,"Rajkot-Morbi Highway, Distt. Rajkot",363650.0,Gujarat,2(f),https://www.darshan.ac.in
+State,Dharmsinh Desai University,"P.Box No. 35 College Road, Nadiad",387001.0,Gujarat,2(f) & 12(B),https://www.ddu.ac.in
+Private,"Dhirubhai Ambani University (Formerly Dhirubhai Ambani Institute of Information and Communication Technology, Gandhinagar)","DAIICT, Near Indroda Circle, Gandhinagar",382007.0,Gujarat,2(f),https://www.daiict.ac.in
+State,Dr. Babasaheb Ambedkar Open University,"Jyotirmay' Parisar, Dr Babasaheb Ambedkar Open University Marg,Sarkhej Gandhinagar Highway, Chharodi, Ahmedabad",382481.0,Gujarat,2(f) & 12(B),http://www.baou.edu.in
+Private,Dr. Subhash University,"Dr. Subhash Road, Junagadh,",362001.0,Gujarat,2(f),https://www.ugc.gov.in/universitydetails/Private_university_other?id=1191
+Private,Drs. Kiran & Pallavi Patel Global University (KPGU),"Krishna Edu Campus, Varnama, Vadodara",391243.0,Gujarat,2(f),https://kpgu.ac.in
+Private,G.L.S. University,"GLS Campus, Opp. Law Garden, Ellisbridge, AhmedabadOpp. Law GardenEllisbridge, Ahmedabad",380006.0,Gujarat,2(f) & Category-II,https://www.glsuniversity.ac.in
+Private,Gandhinagar University,"Village: Moti Bhoyan, Khatraj-Kalol Road, Gandhinagar",382721.0,Gujarat,2(f),https://www.gandhinagaruni.ac.in
+Private,Ganpat University,"Campus: Ganpat Vidyanagar, Mehsana, Goazaria Highway, District Mehsana, Off-Campus: Ganesh Meridian, Block-A, Opp. Kargil Petrol pump, Sola, S. G. Highway, Ahmedabad-380060",382711.0,Gujarat,2(f),http://www.ganpatuniversity.ac.in
+Central,Gati Shakti Vishwavidyalaya,"Gati Shakti Vishwavidyalaya,Lalbaug,Vadodara",390004.0,Gujarat,2(f) & 12(B),https://gsv.ac.in
+Private,Gokul Global University,"GOKUL GLOBAL UNIVERSITY,NEAR SUJANPUR PATIA,OPPOSITE IOC DEPOT,STATE HIGHWAY-41,SIDDHPUR-384151Near G. R. S. L., Sujanpur PatiaSidhpur, Dist- Patan",384151.0,Gujarat,2(f),https://www.gokuluniversity.ac.in
+Private,GSFC University,Vigyan BhavanPO FertilizernagarDist. Vadodara,391750.0,Gujarat,2(f),http://www.gsfcuni.edu.in
+State,Gujarat Ayurveda University,"Gujarat Ayurved University, Opp. B Division Police Station, Guru Dwara Road, Jamnagar-361008Jamnagar-361 008",361008.0,Gujarat,2(f) & 12(B),http://www.ayurveduniversity.edu.in
+State,Gujarat Biotechnology University,"C/o Gujarat State Biotechnology Mission,Block 11, 9th Floor, Udyog Bhawan,Gandhinagar",382011.0,Gujarat,2(f),https://gbu.gujarat.gov.in/Announcements.php
+Private,Gujarat Maritime University,"Sagar Bhavan, Ground Floor,Sector-10-A,Opp. Air Force Centre,CHH Road, Gandhinagar",382010.0,Gujarat,2(f),https://gmu.edu.in
+State,Gujarat National Law University,"ATTALIKA AVENUE, KNOWLEDGE CORRIDOR, KOBA, SUB P.O. KOBA, GANDHINAGAR, GUJARATKoba (Sub P.O)Gandhinagar,",382426.0,Gujarat,2(f) & 12(B),http://www.gnlu.ac.in
+State,Gujarat Natural Farming and Organic Agricultural University,"ATIC Building, Borsad Chokdi,Anad,",388001.0,Gujarat,2(f),https://www.ugc.gov.in/universitydetails/target=%22_blank%22
+State,Gujarat Technological University,"Nr.Vishwakarma Government Engineering College Nr.Visat Three Roads, Visat - Gandhinagar Highway Chandkheda, Ahmedabad Nr.Visat Three Roads, Visat - Gandhinagar HighwayChandkheda, Ahmedabad",382424.0,Gujarat,2(f) & 12(B),http://www.gtu.ac.in
+State,Gujarat University,"P.B.No.4010, Navrangpura,Ahmedabad",380.0,Gujarat,2(f) & 12(B),https://www.gujaratuniversity.ac.in
+State,Gujarat University of Transplantation Sciences,"IKDRC-ITS Premises, Civil Hospital - Medicity Campus, Asarwa, Ahmedabad – 380 016, Gujarat, India. Civil Hospital Campus,Asarwa, Ahmedabad",380016.0,Gujarat,2(f),http://www.guts.education
+Deemed to be Universities,Gujarat Vidyapith,"Ashram Road, Ahmedabad",380014.0,Gujarat,Section-III & 12(B),http://www.gujaratvidyapith.org
+Private,Gyanmanjari Innovative University,"Survey No. 30, Sidsar Road, Bhavnagar,",364060.0,Gujarat,2(f),https://gmiu.edu.in/gmiu/website
+State,Hemchandracharya North Gujarat University,"Hemchandracharya North Gujarat University, Patan Patan- 384 265. (GUJARAT)",384265.0,Gujarat,2(f) & 12(B),http://www.ngu.ac.in
+Private,Indian Institute of Public Health,"Opposite Air-Force Headquarters GandhinagarNear Lekawada Bus Stop, Gandhinagar-Chiloda roadCRPF, P. O. Lekawada, Gandhinagar",382042.0,Gujarat,2(f),https://www.ugc.gov.in/universitydetails/www.iiphg.edu.in
+State,Indian Institute of Teacher Education,"Kh Road, Sector 15, Nr. Mahatma Mandir, G-4, Sector-15, Gandhinagar",382016.0,Gujarat,2(f) & 12(B),https://www.iite.ac.in
+Private,Indrashil University,"ON Ahmedabad-Mahesana Highway, Take Left from Kalapi Hotel, Near Chhatral,Kadi,GIDC, Rajpur, Taluka:Kadi, Dist.-Mehsana",382715.0,Gujarat,2(f),http://indrashiluniversity.edu.in
+Private,Indus University,"Vill. Rancharda, Via: Shilaj, AhmedabadRancharda, Via-ThaltejAhmedabad",382115.0,Gujarat,2(f),http://indusuni.ac.in
+Private,Institute of Advanced Research,"nstitute of Advanced Research, Koba Institutional Area, GandhinagarKoba,Gandhinagar",382426.0,Gujarat,2(f),https://www.iar.ac.in
+State,Institute of Infrastructure Technology Research and Management,"Near Khokhra Circle, Maninagar (East), Ahmedabad-380 026, Gujarat, IndiaManinagar (East), Ahmedabad, Gujarat",380026.0,Gujarat,2(f),http://iitram.ac.in
+Private,ITM (SLS) Baroda University,"VILLAGE PALDI, NEAR JAROD, VADODARA HALOL HIGHWAY TAL WAGHODIA, DIST: VADODARANear Jarod,Vododara-Halol Highwary, Vadodara",391510.0,Gujarat,2(f),https://www.itmbu.ac.in
+Private,ITM Vocational University,"Plot 6512, Ajwa Nimeta Road, Raval, Taluka, Vagodia, District - Vadodara, Gujarat.Nimeta Road, Raaval TalukaWaghodia, Vadodara",391760.0,Gujarat,2(f),https://www.itm.ac.in
+Private,J.G. University,"Uvarsad,Distt- Gandhinagar",,Gujarat,2(f),http://jguni.in
+State,Junagarh Agricultural University,Junagarh,362.0,Gujarat,2(f),http://www.jau.in
+Private,K. N. University,"Smt. K. N. Patel International School, Near KNPIS Circle, Vodafone Tower Lane, Gota, Ahmedabad",382481.0,Gujarat,2(f),https://knu.edu.in
+Private,Kadi Sarva Vishwavidyalaya,"LDRPITR Campus, Near Kh 5 Circle, Sector 15, GandhinagarSector 15/23, Gandhinagar",382016.0,Gujarat,2(f),http://ksvuniversity.org.in
+State,Kamdhenu University,"B-1 Wing, 4th Floor, Karmayogi Bhavan, Sector 10A Gandhinagar GujaratSector 10 A, Block B,Podium Level, Gandhinagar",382410.0,Gujarat,2(f),https://www.kamdhenuuni.edu.in
+Private,Karnavati University,"907/A, UvarsadGhandhinagar,",382422.0,Gujarat,2(f),http://www.karnavatiuniversity.com
+State,Krantiguru Shyamji Krishna Verma Kachchh University,"Mundra road bhuj kachchhBhuj-Kachchh, Gujarat",370001.0,Gujarat,2(f) & 12(B),http://kskvku.digitaluniversity.ac
+Private,Lakulish Yoga University,"Lotus View, Opp. Nirma University,S.G. Highway, Chharodi,Ahmedabad",382481.0,Gujarat,2(f),https://lyu.ac.in/governance
+Private,Lok Jagruti Kendra University,"FP No. 74,100+113, TPS No. 86,(Sarkhej-okaf-Fatewadi, Makrba), Dist. Ahmedabad",,Gujarat,2(f),http://www.ljku.edu.in
+Private,Lokbharti University for Rural Innovation,"At. Sanosara, Ta. SihorDist.- Bhavnagar",364230.0,Gujarat,2(f),https://www.ugc.gov.in/universitydetails/Private_university_other?id=1177
+Private,M. K. University,"Hanumanpura, Matarvadi Patan",384265.0,Gujarat,2(f),https://mkuniversity.edu.in
+Private,Maganbhai Adenwala Mahagujarat University,"I.S. Ayurved Mahavidyalaya, College Road, Nadiad",387001.0,Gujarat,2(f),https://mamuni.edu.in
+State,Maharaja Krishnakumarsinji Bhavnagar University,"S.V. Patel Campus, Gaurishanker Lake Road, Bhavnagar",364001.0,Gujarat,2(f) & 12(B),https://www.mkbhavuni.edu.in/mkbhavuniweb
+State,Maharaja Sayajirao University of Baroda,"Head Office, Maharaja Fatehsinghrao Gaekwad Road,Fatehgunj,Vadodara",390002.0,Gujarat,2(f) & 12(B),https://www.msubaroda.ac.in
+Private,Marwadi University,"Rajkot- Morbi HIghway, Near Gauridad,RajkotRajkot",360003.0,Gujarat,2(f),https://www.marwadiuniversity.ac.in
+Private,Monark University,"At & Post Vahelal, Naroda-Dahegam Road, Ahmedabad",382330.0,Gujarat,2(f),https://monarkuni.ac.in
+Private,Navrachana University,"Vasna Bhayli Road, Vadodara -391 410 Gujarat, IndiaVadodaraGujarat",391410.0,Gujarat,2(f),https://www.nuv.ac.in
+State,Navsari Agriculture University,"Navsari Agricultural University, Eru Char Rasta, Dandi Road, Navsari – 396 450 (Gujarat) INDIA",396450.0,Gujarat,2(f),https://nau.in
+Private,Nirma University,"Nirma University, S. G. Highway, Ahmedabad, GujaratVillage - ChharodiAhmedabad",382481.0,Gujarat,2(f),http://www.nirmauni.ac.in
+Private,Noble University,"Noble Group of Institutions, Parth Vatika, Bhesan Road, Ta. & Distt., Junagadh",362310.0,Gujarat,2(f),https://nobleuniversity.ac.in
+Private,P. P. Savani University,"NH 8, GETCO, Near BiltechVillage: Dhamdod, Kosamba,Ta.: Mangrol, Dist.: Surat",394125.0,Gujarat,2(f),https://www.ppsu.ac.in
+Private,Pandit Deendayal Energy University (Formerly Pandit Deendayal Petroleum University),"Knowledge Corridor, Raisan Village, Gandhinagar",382007.0,Gujarat,2(f) & Category-I,http://www.pdpu.ac.in
+Private,Parul University,"P.O.Limda, Tal - Waghodia, Dist. Vadodara",391760.0,Gujarat,2(f) & Category-I,http://www.paruluniversity.ac.in
+Private,Plastindia International University,"Dungra, GIDC,Vapi, Dist-Valsad",396195.0,Gujarat,2(f),http://www.plastindia.edu.in
+Private,Rai University,"Saroda, Dholka Taluka, Ahmedabad, GujaratAhmedabad, Gujarat",382260.0,Gujarat,2(f),http://www.raiuniversity.edu
+Private,Rajju Shroff Rofel University (RSRU),"Survey No. 78-79, ROFEL Campus, Namdha-Vapi, Valsad",396191.0,Gujarat,2(f),http://rsru.edu.in
+Private,RK University,"RK University, Bhavnagar Highway, Kasturbadham, Rajkot - 360020, Gujarat, India.Rajkot",360020.0,Gujarat,2(f),http://www.rku.ac.in
+Private,Sabarmati University (formerly Calorx Teachers' University),"Greenwood, Nr, Vaishnodevi CircleSardar patel Ring Road, OganjPO. Chandlodia, Ahmedabad",382481.0,Gujarat,2(f),https://www.sabarmatiuniversity.edu.in
+Private,Sankalchand Patel University,"Sankalchand Patel Vidyadham Ambaji-Gandhinagar State Highway, Visnagar-384315. Dist: Mehsana, Gujarat (INDIA)Visnagar-384315Gujarat",384315.0,Gujarat,2(f),http://www.spu.ac.in
+State,Sardar Krushinagar Dantiwada Agricultural University,"Sardarkrushinagar, District: Banaskantha",385506.0,Gujarat,2(f) & 12(B),http://www.sdau.edu.in
+State,Sardar Patel University,"Near Saheed Chowk, Nana Bazar, Vallabh Vidyanagar, Anand, GujaratAnand-388 120. (GUJARAT)",388120.0,Gujarat,2(f) & 12(B),http://www.spuvvn.edu
+Private,Sardar Vallabhbhai Global University,"Chimanbhai Patel Institute Campus, Opp, Karnavati Club, Ahmedabad",380015.0,Gujarat,2(f),https://svgu.ac.in
+Private,Sarvajanik University,"M.T.B. College Campus, Opposite Chowpati Athwalines, Surat",395001.0,Gujarat,2(f),https://sarvajanikuniversity.ac.in
+State,Saurashtra University,Kalavad RoadRajkot Gujarat,360.0,Gujarat,2(f) & 12(B),http://www.saurashtrauniversity.edu
+State,Shree Somnath Sanskrit University,Ta: VeravalDistrict Junagarh,,Gujarat,2(f) & 12(B),https://sssu.ac.in
+Private,Shreyarth University,"C/o Gujarat Samachar Bhavan,Khanpur,Ahmedabad",380001.0,Gujarat,2(f),https://shreyarthuni.ac.in
+State,Shri Govind Guru University,"Government Polytechnic Campus, RTO Road, Gadukpur, Godhra, Dist. Panchmahal (Gujarat)-389001 Gadukpur,Godhra,Dist. Panchmahals",389001.0,Gujarat,2(f),https://sggu.ac.in
+Private,Sigma University,"Bakrol, Ajwa-Nimeta Road, Waghodiya, Vadodara",390019.0,Gujarat,2(f),https://sigmauniversity.ac.in
+Private,Silver Oak University,"Nr. Bhavik Publications, Opp. Bhagwat Vidhyapith, S.G. Highway, Gota,Ahmedabad Gota,Ahmedabad",382481.0,Gujarat,2(f),https://www.silveroakuni.ac.in
+Private,SKIPS University,"Plot No. 411, Sanavad, Kalol, Gandhinagar",382721.0,Gujarat,2(f),https://www.ugc.gov.in/universitydetails/Private_university_other?id=1178
+Deemed to be Universities,Sumandeep Vidyapeeth,"Post Piparia, Takula Waghodiya, Dist. Vadodara",391760.0,Gujarat,Section-III & 12(B),http://www.sumandeepvidyapeethdu.edu.in
+Private,Surendranagar University,"Shree Pandit Nathulalji Vyas Technical CampusSurendranagar- Ahmedabad HighwayNear Kothariya Village,At Wadhwan",363030.0,Gujarat,2(f),http://suni.ac.in
+Private,Swaminarayan University,"Shree Swaminarayan Vishvamangal GurukulAhmedabad-Nehsana HighwayAT & PO- Saij, Tehsil -Kalol, Dist.:,Gandhinagar",382725.0,Gujarat,2(f),https://www.ugc.gov.in/universitydetails/Private_university_other?id=1175
+State,Swarnim Gujarat Sports University,"Commerce College Campus, Opp Youth Hostel, Sector 15, Gandhinagar, Gujarat PTC Building Campus, Gandhinagar",382016.0,Gujarat,2(f),https://sgsu.gujarat.gov.in
+Private,Swarnim Startup & Innovation University,"Bhoyan Rathod, GandhinagarOpp. IFFCO,Adalaj-Sertha Road, Gandhinagar",382420.0,Gujarat,2(f),https://www.swarrnim.edu.in
+Private,Team Lease Skills University,"Tarsali-Vadodara RoadTarsali Bypass, Vadodara",390.0,Gujarat,2(f),https://www.ugc.gov.in/universitydetails/Private_university_other?id=738
+Private,The Charutar Vidya Mandal(CVM) University,"Besides BVM College, Vallabh Vidyanagar, Distt.- Anand",388120.0,Gujarat,2(f),http://www.cvmu.edu.in
+Private,Transstadia University,Opposite Kankaria Gate No.-3KankariaAhmedabad,380022.0,Gujarat,2(f),https://www.ugc.gov.in/universitydetails/Private_university_other?id=1181
+Private,UKA Tarsadia University,"Maliba Campus, Gopal Vidyanagar Baroli-Mahuva Road Dist. Surat, Gujarat",394.0,Gujarat,2(f),http://utu.ac.in
+Private,UPL University of Sustainable Technology,"Block No. 402, At & PO, Vataria, Taluka Valia, District Bharuch",393135.0,Gujarat,2(f),https://www.upluniversity.ac.in
+Private,Vanita Vishram Women's University,"Jawaharlal Nehru Marg, Athwa Gate, Surat",395001.0,Gujarat,2(f),http://vvwusurat.ac.in
+State,Veer Narmad South Gujarat University,"Udhna-Magdalla Road, Surat",395007.0,Gujarat,2(f) & 12(B),http://www.vnsgu.ac.in
+Private,Vidhyadeep University,"Anita (Kim), Tal Olpad, District Surat",394110.0,Gujarat,2(f),https://www.vidhyadeepuni.ac.in

@@ -4,7 +4,7 @@ You are a data extraction system for college admissions content. Extract ONLY st
 
 **Announcements**: Identify each distinct student-relevant announcement as a separate object. If nothing relevant exists, return an empty list.
 
-**Dates**: Normalize to YYYY-MM-DD. Infer missing years from context (default: 2026). Use null for vague or missing dates.
+**Dates**: Normalize to YYYY-MM-DD. Infer missing years from context (default: {current_year}). Use null for vague or missing dates.
 
 **programs_courses**: Include programs explicitly mentioned AND those implied by the source URL path (e.g. /admissions/engineering/electrical/ → "Electrical Engineering").
 

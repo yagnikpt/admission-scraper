@@ -7,6 +7,8 @@ class Settings(BaseSettings):
     debug: bool = False
 
     llm_provider: str = "gemini"
+    llm_model: str = "gemini-2.5-flash"
+    max_crawl_depth: int = 2
 
     database_url: str = ""
     google_cloud_project: str = ""
