@@ -160,9 +160,6 @@ def process_page(db: Session, url: str, site: str, merged_content: str):
         logger.error(f"Unexpected error in process_page for {url}: {e}")
         if db:
             db.rollback()
-    finally:
-        if db:
-            db.close()
 
 
 def extract_and_store_data(db: Session, url: str, site: str, content: str):
@@ -226,6 +223,7 @@ def extract_and_store_data(db: Session, url: str, site: str, content: str):
                             tag_id=tag_instance.tag_id,
                         )
                         db.add(announcement_tags)
+                        db.flush()
                     except IntegrityError:
                         # Log and skip duplicate tags instead of failing
                         db.rollback()

@@ -4,7 +4,6 @@
 # See: https://docs.scrapy.org/en/latest/topics/item-pipeline.html
 
 import json
-import os
 
 
 class SpiderSpecificOutputPipeline:
@@ -23,11 +22,6 @@ class SpiderSpecificOutputPipeline:
         if self.file_name:
             write_mode = "a" if getattr(spider, "resume_mode", False) else "w"
             self.file = open(self.file_name, write_mode, encoding="utf-8")
-
-            # If the file is empty, make sure it exists with proper permissions
-            if not os.path.exists(self.file_name):
-                with open(self.file_name, "w") as f:
-                    pass
 
     def close_spider(self, spider):
         if hasattr(self, "file") and self.file:

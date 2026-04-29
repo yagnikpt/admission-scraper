@@ -55,24 +55,32 @@ def main(
         process_settings = settings.copy()
 
         if pages_resume:
-            if pages_reset_checkpoint and os.path.isdir(pages_jobdir):
-                shutil.rmtree(pages_jobdir)
+            if pages_reset_checkpoint:
+                if os.path.isdir(pages_jobdir):
+                    shutil.rmtree(pages_jobdir)
+                if os.path.exists("pages.jsonl"):
+                    os.remove("pages.jsonl")
 
             process_settings.set("JOBDIR", pages_jobdir, priority="cmdline")
+
             process_settings.set(
                 "FEEDS",
                 {"pages.jsonl": {"format": "jsonlines", "overwrite": False}},
                 priority="cmdline",
             )
 
+        spider_resume = pages_resume and not pages_reset_checkpoint
         process = CrawlerProcess(process_settings)
 
-        deferred = process.crawl(UniSpider, db=db)
-        deferred.addCallbacks(
-            lambda _: db.close() if skip_push else lambda _: None,
-            lambda _: process.crawl(PagesSpider, resume_mode=pages_resume),
-        )
-        # deferred = process.crawl(PagesSpider, resume_mode=pages_resume)
+        # deferred = process.crawl(UniSpider, db=db)
+        # deferred.addCallbacks(
+        #     lambda _: process.crawl(PagesSpider, resume_mode=spider_resume),
+        # )
+        # deferred.addCallbacks(
+        #     lambda _: db.close() if skip_push else lambda _: None,
+        # )
+
+        process.crawl(PagesSpider, resume_mode=spider_resume)
         process.start()
 
     if not skip_push:

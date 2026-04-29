@@ -20,11 +20,7 @@ scrape_only:
 
 # run pages scraper in resume mode only
 scrape_resume:
-    if [ ! -s pages.jsonl ]; then \
-        uv run main.py --skip-push --pages-resume --pages-reset-checkpoint; \
-    else \
-        uv run main.py --skip-push --pages-resume; \
-    fi
+    uv run main.py --skip-push --pages-resume
 
 # run pages scraper in resume mode and reset checkpoint
 scrape_resume_reset:
