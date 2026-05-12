@@ -10,7 +10,7 @@ This project automates the collection, processing, and storage of university adm
 
 The project is organized into several components:
 
-- **Web Scraping (`scraper/`)**: Runs spiders (`UniSpider`, `PagesSpider`) to collect HTML/PDF content and relevant text snippets from university websites. Supports checkpoint-based resume mode for long-running crawls.
+- **Web Scraping (`scraper/`)**: `PagesSpider` collects HTML/PDF content and relevant text snippets from university websites using `uni.jsonl` as its input. `UniSpider` is used to generate that link set, and the pages crawl supports checkpoint-based resume mode for long-running runs.
 - **Orchestration (`main.py`)**: Manages spider execution, reads scraped data, checks for content changes against the database, and triggers LLM processing via CLI flags.
 - **LLM Processing (`llm/`)**: Pluggable provider system with an abstract base class (`llm/base.py`) and concrete implementations for Gemini (`llm/providers/gemini.py`) and Groq (`llm/providers/groq.py`). Dynamically selected via the `LLM_PROVIDER` config. Includes duplicate announcement detection using fuzzy string matching (rapidfuzz).
 - **Configuration (`config.py`)**: Centralized settings management using Pydantic's `BaseSettings`, loading from `.env` file. Controls LLM provider selection, database URL, and cloud credentials.

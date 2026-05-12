@@ -9,6 +9,7 @@ class Settings(BaseSettings):
     llm_provider: str = "gemini"
     llm_model: str = "gemini-2.5-flash"
     max_crawl_depth: int = 2
+    recent_years_window: int = 1
 
     database_url: str = ""
     google_cloud_project: str = ""

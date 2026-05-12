@@ -58,12 +58,12 @@ class GeminiExtractor(BaseLLM[ResponseModel]):
         )
 
         result_json = self.response_model.model_validate_json(response.text or "")
-        for announcement in result_json.announcements:
-            if (
-                announcement.announcement_type == AnnouncementType.admission_dates
-                and announcement.application_deadline is None
-            ):
-                announcement.announcement_type = AnnouncementType.general
+        # for announcement in result_json.announcements:
+        #     if (
+        #         announcement.announcement_type == AnnouncementType.admission_dates
+        #         and announcement.application_deadline is None
+        #     ):
+        #         announcement.announcement_type = AnnouncementType.general
         return result_json
 
     @staticmethod

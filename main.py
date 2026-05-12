@@ -94,7 +94,14 @@ def main(
             ]
 
             for i, row in enumerate(result):
-                print("\nProcessing group", i + 1, "of", len(result))
+                print(
+                    "\nProcessing group",
+                    i + 1,
+                    "of",
+                    len(result),
+                    "with len of items",
+                    len(row["items"]),
+                )
 
                 merged_content = "\n---\n".join(
                     [

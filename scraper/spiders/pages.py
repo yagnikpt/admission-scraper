@@ -2,12 +2,14 @@ import io
 import os
 import random
 import re
+from datetime import datetime
 
 import pandas as pd
 import scrapy
 from bs4 import BeautifulSoup
 from scrapy.http import TextResponse
 
+from config import settings
 from scraper.utils import (
     remove_trailing_slash,
 )
@@ -24,7 +26,7 @@ word_pattern = rf"\b{admission_terms}s?\b"
 
 # Extraction mode: "full_page" sends entire cleaned page text to LLM.
 # "context_window" uses the legacy fragment-based approach with a wider window.
-EXTRACTION_MODE = "full_page"
+EXTRACTION_MODE = "context_window"
 # Context window size (tokens before/after) when using "context_window" mode
 CONTEXT_WINDOW_SIZE = 250
 
@@ -40,6 +42,8 @@ class PagesSpider(scrapy.Spider):
         self.resume_mode = kwargs.pop("resume_mode", False)
         super(PagesSpider, self).__init__(*args, **kwargs)
         self.counter = 0
+        self.recent_years_window = settings.recent_years_window
+        self.min_acceptable_year = datetime.now().year - self.recent_years_window
         if not os.path.exists("uni.jsonl"):
             raise FileNotFoundError("uni.jsonl file not found")
 
@@ -163,6 +167,39 @@ class PagesSpider(scrapy.Spider):
 
         print("processed", self.counter, "from", len(self.urls), "urls")
 
+    def _extract_year_from_date_text(self, date_text: str) -> int | None:
+        """Extract a plausible year from a date-like string."""
+        if not date_text:
+            return None
+
+        cleaned = date_text.strip()
+
+        # Prefer explicit 4-digit years (e.g. 2026-01-15, 15 Jan 2025).
+        four_digit = re.search(r"\b(19|20)\d{2}\b", cleaned)
+        if four_digit:
+            return int(four_digit.group(0))
+
+        # Handle common 2-digit year forms (e.g. 12/05/24, 12 Jan 24).
+        two_digit = re.search(r"(?:[-./\s])(\d{2})\b", cleaned)
+        if not two_digit:
+            return None
+
+        yy = int(two_digit.group(1))
+        current_yy = datetime.now().year % 100
+        # Admission dates are almost always contemporary/future;
+        # map near-current 2-digit years to 20xx and larger values to 19xx.
+        if yy <= current_yy + 2:
+            return 2000 + yy
+        return 1900 + yy
+
+    def _is_recent_date(self, date_text: str) -> bool:
+        """Return True when a date is within the configured recency window."""
+        year = self._extract_year_from_date_text(date_text)
+        # If parsing fails, keep the item to avoid accidental false negatives.
+        if year is None:
+            return True
+        return year >= self.min_acceptable_year
+
     def _extract_context_window_items(self, text, url, site, source_type):
         """Extract date-anchored context windows with admission keyword matching.
 
@@ -177,6 +214,13 @@ class PagesSpider(scrapy.Spider):
         if len(date_matches) != 0:
             for date_match in date_matches:
                 if not is_likely_phone_number(date_match["match"]):
+                    related_dates = date_match.get("related_dates", [])
+                    dates_to_check = [date_match["match"], *related_dates]
+
+                    # Skip stale fragments where all detected dates are too old.
+                    if not any(self._is_recent_date(d) for d in dates_to_check):
+                        continue
+
                     word_matches = re.findall(
                         word_pattern, date_match["context"], re.IGNORECASE
                     )
@@ -186,7 +230,7 @@ class PagesSpider(scrapy.Spider):
                             "site": site,
                             "date": date_match["match"],
                             "context": date_match["context"],
-                            "related_dates": date_match.get("related_dates", []),
+                            "related_dates": related_dates,
                             "source_type": source_type,
                         }
 

@@ -9,7 +9,7 @@ You are a data extraction system for college admissions content. Extract ONLY st
 **programs_courses**: Include programs explicitly mentioned AND those implied by the source URL path (e.g. /admissions/engineering/electrical/ → "Electrical Engineering").
 
 **announcement_type**: Pick the single best fit:
-- `admission_dates` — primary focus is application open/close dates
+- `admission_dates` — announcement mentions ANY application date: open date, close date, deadline, or extension. A deadline is NOT required — "Applications open from January 1" qualifies.
 - `exam_info` — entrance exam details, admit cards
 - `result_info` — merit lists, selection outcomes
 - `contact_info` — primary purpose is directing students to a contact channel
